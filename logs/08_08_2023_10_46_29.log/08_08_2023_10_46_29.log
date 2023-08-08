@@ -1,0 +1,207 @@
+[ 2023-08-08 10:46:34,109 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-08 10:46:39,582 ] 14 root - INFO - File CV_Abdelaziz_Brahem.pdf loaded successfully
+[ 2023-08-08 10:46:39,582 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:39,614 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 10:46:39,615 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 10:46:39,615 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:39,724 ] 14 root - INFO - File CV_Ahlem_Marzougui.pdf loaded successfully
+[ 2023-08-08 10:46:39,724 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:39,802 ] 14 root - INFO - File CV_Ahmed_Amamou.pdf loaded successfully
+[ 2023-08-08 10:46:39,803 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:39,871 ] 14 root - INFO - File CV_Ahmed_Dziri.pdf loaded successfully
+[ 2023-08-08 10:46:39,871 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,124 ] 14 root - INFO - File CV_Ahmed_Farhat.pdf loaded successfully
+[ 2023-08-08 10:46:40,124 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,203 ] 14 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-08 10:46:40,203 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,249 ] 14 root - INFO - File CV_Amine_Ghedira.pdf loaded successfully
+[ 2023-08-08 10:46:40,249 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,302 ] 14 root - INFO - File CV_Anwer_Boubaker.pdf loaded successfully
+[ 2023-08-08 10:46:40,303 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,342 ] 14 root - INFO - File CV_Asma_Chakroun.pdf loaded successfully
+[ 2023-08-08 10:46:40,342 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,390 ] 14 root - INFO - File CV_Aya_Benjazia.pdf loaded successfully
+[ 2023-08-08 10:46:40,390 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,432 ] 14 root - INFO - File CV_Aymen_Ghnia.pdf loaded successfully
+[ 2023-08-08 10:46:40,432 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,467 ] 14 root - INFO - File CV_Ayoub_Ben_Latifa.pdf loaded successfully
+[ 2023-08-08 10:46:40,467 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,520 ] 14 root - INFO - File CV_Ben_Chaaben_Yassin.pdf loaded successfully
+[ 2023-08-08 10:46:40,520 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,707 ] 14 root - INFO - File CV_Chedy_Sakly.pdf loaded successfully
+[ 2023-08-08 10:46:40,708 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,757 ] 14 root - INFO - File CV_Donia_Chaouch.pdf loaded successfully
+[ 2023-08-08 10:46:40,757 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,831 ] 14 root - INFO - File CV_Eya_Rejeb.pdf loaded successfully
+[ 2023-08-08 10:46:40,831 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,866 ] 14 root - INFO - File CV_EYA_Sekma.pdf loaded successfully
+[ 2023-08-08 10:46:40,866 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,912 ] 14 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-08 10:46:40,912 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:40,962 ] 14 root - INFO - File CV_Fatma_Bouzgarrou.pdf loaded successfully
+[ 2023-08-08 10:46:40,962 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,010 ] 14 root - INFO - File CV_Hana_Zrafi.pdf loaded successfully
+[ 2023-08-08 10:46:41,010 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,042 ] 14 root - INFO - File CV_Houssem_Hassani.pdf loaded successfully
+[ 2023-08-08 10:46:41,042 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,112 ] 14 root - INFO - File CV_Houssem_Kraiem.pdf loaded successfully
+[ 2023-08-08 10:46:41,113 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,158 ] 14 root - INFO - File CV_Ibrahim_Youssef.pdf loaded successfully
+[ 2023-08-08 10:46:41,158 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,208 ] 14 root - INFO - File CV_Ibtihel_Khdhaouria.pdf loaded successfully
+[ 2023-08-08 10:46:41,208 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,246 ] 14 root - INFO - File CV_Iheb_Alouane.pdf loaded successfully
+[ 2023-08-08 10:46:41,246 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,284 ] 14 root - INFO - File CV_Isra_Dakhlaoui.pdf loaded successfully
+[ 2023-08-08 10:46:41,284 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,338 ] 14 root - INFO - File CV_Khaled_Chtioui.pdf loaded successfully
+[ 2023-08-08 10:46:41,339 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,383 ] 14 root - INFO - File CV_khawla_belkacem.pdf loaded successfully
+[ 2023-08-08 10:46:41,383 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,419 ] 14 root - INFO - File CV_Lina_Ounaies.pdf loaded successfully
+[ 2023-08-08 10:46:41,419 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,446 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 10:46:41,446 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 10:46:41,446 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,501 ] 14 root - INFO - File CV_Med_Houssem_Beltifa.pdf loaded successfully
+[ 2023-08-08 10:46:41,501 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,540 ] 14 root - INFO - File CV_Med_Neji_Benzarti.pdf loaded successfully
+[ 2023-08-08 10:46:41,540 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,574 ] 14 root - INFO - File CV_Med_Nour_Chouchene.pdf loaded successfully
+[ 2023-08-08 10:46:41,574 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,634 ] 14 root - INFO - File CV_Med_Oussema_Zaier.pdf loaded successfully
+[ 2023-08-08 10:46:41,634 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,682 ] 14 root - INFO - File CV_Mejdi_Belhadj_Youssef.pdf loaded successfully
+[ 2023-08-08 10:46:41,682 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,720 ] 14 root - INFO - File CV_Mihed_Hassine.pdf loaded successfully
+[ 2023-08-08 10:46:41,720 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,742 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 10:46:41,742 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 10:46:41,743 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,797 ] 14 root - INFO - File CV_Mohamed_Fawzi_Stambouli.pdf loaded successfully
+[ 2023-08-08 10:46:41,797 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,818 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 10:46:41,819 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 10:46:41,819 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,861 ] 14 root - INFO - File CV_Nour_Mabrouk.pdf loaded successfully
+[ 2023-08-08 10:46:41,861 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,907 ] 14 root - INFO - File CV_Ons_Ben_Hadj_Sghaier.pdf loaded successfully
+[ 2023-08-08 10:46:41,907 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,941 ] 14 root - INFO - File CV_Oumaima_Ben_Saad.pdf loaded successfully
+[ 2023-08-08 10:46:41,942 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:41,982 ] 14 root - INFO - File CV_Oumeima_Zaddem.pdf loaded successfully
+[ 2023-08-08 10:46:41,982 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,028 ] 14 root - INFO - File CV_Oussema_Mili.pdf loaded successfully
+[ 2023-08-08 10:46:42,029 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,066 ] 14 root - INFO - File CV_Rahma_Hamrouni.pdf loaded successfully
+[ 2023-08-08 10:46:42,066 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,090 ] 14 root - INFO - File CV_Rania_Slimene.pdf loaded successfully
+[ 2023-08-08 10:46:42,090 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,138 ] 14 root - INFO - File CV_Rayen_Ben_Fathallah.pdf loaded successfully
+[ 2023-08-08 10:46:42,138 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,182 ] 14 root - INFO - File CV_Rima_Jerbi.pdf loaded successfully
+[ 2023-08-08 10:46:42,182 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,204 ] 14 root - INFO - File CV_Rim_Thabet.pdf loaded successfully
+[ 2023-08-08 10:46:42,204 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,235 ] 14 root - INFO - File CV_Saber_ben slama.pdf loaded successfully
+[ 2023-08-08 10:46:42,236 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,270 ] 14 root - INFO - File CV_Sanda_Dhouib.pdf loaded successfully
+[ 2023-08-08 10:46:42,270 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,302 ] 14 root - INFO - File CV_Sarra_Bannour.pdf loaded successfully
+[ 2023-08-08 10:46:42,302 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,326 ] 14 root - INFO - File CV_Sarra_Laribi.pdf loaded successfully
+[ 2023-08-08 10:46:42,326 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,361 ] 14 root - INFO - File CV_Souheyl_Gouadria.pdf loaded successfully
+[ 2023-08-08 10:46:42,361 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,386 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 10:46:42,387 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 10:46:42,387 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,438 ] 14 root - INFO - File CV_Teyssir_Taieb.pdf loaded successfully
+[ 2023-08-08 10:46:42,438 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,480 ] 14 root - INFO - File CV_Wael_Antar.pdf loaded successfully
+[ 2023-08-08 10:46:42,480 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,507 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 10:46:42,507 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 10:46:42,507 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,551 ] 14 root - INFO - File CV_Wajdi_Zayane.pdf loaded successfully
+[ 2023-08-08 10:46:42,551 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,583 ] 14 root - INFO - File CV_Wissem_Boujlida.pdf loaded successfully
+[ 2023-08-08 10:46:42,583 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,607 ] 14 root - INFO - File CV_Yasmine_Bizid.pdf loaded successfully
+[ 2023-08-08 10:46:42,607 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,639 ] 14 root - INFO - File CV_Yassine_Afsa.pdf loaded successfully
+[ 2023-08-08 10:46:42,639 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,721 ] 14 root - INFO - File CV_Yessine_Miled.pdf loaded successfully
+[ 2023-08-08 10:46:42,722 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,773 ] 14 root - INFO - File CV_Zaddem_Raslèn.pdf loaded successfully
+[ 2023-08-08 10:46:42,773 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,814 ] 14 root - INFO - File CV_Zeineb_Bachouch.pdf loaded successfully
+[ 2023-08-08 10:46:42,814 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,855 ] 14 root - INFO - File Dziri Ahmed - Resume (1).pdf loaded successfully
+[ 2023-08-08 10:46:42,855 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,898 ] 14 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-08-08 10:46:42,898 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 10:46:42,903 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:46:48,111 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:46:53,823 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:47:01,416 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:47:11,601 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:47:17,223 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:47:23,432 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:47:29,966 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:47:39,039 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:47:47,691 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:47:56,784 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:48:06,531 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:48:12,070 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:48:19,891 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:48:29,055 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:48:34,792 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:48:46,368 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:48:52,376 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:48:58,704 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:49:04,725 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:49:13,345 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:49:20,392 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:49:26,705 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:49:34,095 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:49:50,145 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:49:56,566 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:50:06,149 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:50:13,929 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:50:22,028 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:50:29,680 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:50:38,268 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:50:45,516 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:50:51,609 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:51:20,763 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:51:27,678 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:51:38,351 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:51:48,852 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:51:56,572 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:52:08,751 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:52:16,668 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:52:22,143 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:52:27,260 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:52:32,399 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:52:36,859 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:52:45,318 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:52:50,298 ] 145 root - ERROR - Error while Extracting the skillls: list index out of range
+[ 2023-08-08 10:52:50,321 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:52:55,463 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:53:03,487 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:53:10,454 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:53:15,987 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:53:20,902 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:53:26,548 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:53:36,775 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:53:41,863 ] 145 root - ERROR - Error while Extracting the skillls: list index out of range
+[ 2023-08-08 10:53:41,886 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:53:48,959 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:53:55,608 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:54:01,004 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:54:07,226 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:54:13,531 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:54:20,229 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:54:25,887 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 10:54:35,867 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'

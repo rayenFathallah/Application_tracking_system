@@ -1,0 +1,21 @@
+[ 2023-08-08 11:06:43,947 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-08 11:06:49,312 ] 14 root - INFO - File CV_Houssem_Hassani.pdf loaded successfully
+[ 2023-08-08 11:06:49,312 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:06:49,453 ] 14 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-08 11:06:49,453 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:06:49,453 ] 33 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\data\\CV_Fatma_Bouzagarrou.pdf'
+[ 2023-08-08 11:06:49,453 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:06:49,453 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:06:49,455 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 11:06:54,010 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 11:06:58,769 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:06:58,770 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:06:58,772 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:07:03,279 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:07:03,300 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:07:03,300 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:07:03,302 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:07:07,924 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:07:07,947 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:07:07,947 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:07:07,949 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'

@@ -1,0 +1,56 @@
+[ 2023-08-08 11:04:06,665 ] 14 root - INFO - File CV_Houssem_Hassani.pdf loaded successfully
+[ 2023-08-08 11:04:06,666 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:04:06,707 ] 14 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-08 11:04:06,708 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:04:06,708 ] 33 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\data\\CV_Fatma_Bouzagarrou.pdf'
+[ 2023-08-08 11:04:06,708 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:04:06,708 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:04:06,709 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 11:04:11,802 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 11:04:16,514 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:04:16,514 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:04:16,516 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:04:21,222 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:04:21,250 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:04:21,250 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:04:21,253 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:04:26,140 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:04:26,162 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:04:26,162 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:04:26,164 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:04:30,749 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:04:30,768 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:04:30,768 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:04:30,770 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:04:35,572 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:04:35,595 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:04:35,595 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:04:35,597 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:04:42,037 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:04:42,074 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:04:42,075 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:04:42,077 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:04:49,740 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:04:49,759 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:04:49,759 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:04:49,760 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:04:54,385 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:04:54,405 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:04:54,405 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:04:54,407 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:05:01,494 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:05:01,521 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:05:01,521 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:05:01,523 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:05:06,486 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:05:06,511 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:05:06,511 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:05:06,512 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:05:11,256 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:05:11,286 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:05:11,287 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:05:11,290 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-08-08 11:05:16,717 ] 145 root - ERROR - Error while Extracting the skillls: 'dict' object has no attribute 'replace'
+[ 2023-08-08 11:05:16,746 ] 56 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object
+[ 2023-08-08 11:05:16,746 ] 73 root - ERROR - Error while Extracting the email: expected string or bytes-like object
+[ 2023-08-08 11:05:16,748 ] 108 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'

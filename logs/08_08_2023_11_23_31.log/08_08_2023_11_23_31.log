@@ -1,0 +1,146 @@
+[ 2023-08-08 11:23:33,897 ] 14 root - INFO - File cleaned_data.json loaded successfully
+[ 2023-08-08 11:23:33,897 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:34,109 ] 14 root - INFO - File CV_Abdelaziz_Brahem.pdf loaded successfully
+[ 2023-08-08 11:23:34,109 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:34,180 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 11:23:34,180 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:23:34,180 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:34,331 ] 14 root - INFO - File CV_Ahlem_Marzougui.pdf loaded successfully
+[ 2023-08-08 11:23:34,332 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:34,452 ] 14 root - INFO - File CV_Ahmed_Amamou.pdf loaded successfully
+[ 2023-08-08 11:23:34,452 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:34,620 ] 14 root - INFO - File CV_Ahmed_Dziri.pdf loaded successfully
+[ 2023-08-08 11:23:34,620 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:35,258 ] 14 root - INFO - File CV_Ahmed_Farhat.pdf loaded successfully
+[ 2023-08-08 11:23:35,258 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:35,420 ] 14 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-08 11:23:35,420 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:35,501 ] 14 root - INFO - File CV_Amine_Ghedira.pdf loaded successfully
+[ 2023-08-08 11:23:35,501 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:35,587 ] 14 root - INFO - File CV_Anwer_Boubaker.pdf loaded successfully
+[ 2023-08-08 11:23:35,587 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:35,637 ] 14 root - INFO - File CV_Asma_Chakroun.pdf loaded successfully
+[ 2023-08-08 11:23:35,637 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:35,710 ] 14 root - INFO - File CV_Aya_Benjazia.pdf loaded successfully
+[ 2023-08-08 11:23:35,710 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:35,902 ] 14 root - INFO - File CV_Aymen_Ghnia.pdf loaded successfully
+[ 2023-08-08 11:23:35,902 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,012 ] 14 root - INFO - File CV_Ayoub_Ben_Latifa.pdf loaded successfully
+[ 2023-08-08 11:23:36,012 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,082 ] 14 root - INFO - File CV_Ben_Chaaben_Yassin.pdf loaded successfully
+[ 2023-08-08 11:23:36,082 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,373 ] 14 root - INFO - File CV_Chedy_Sakly.pdf loaded successfully
+[ 2023-08-08 11:23:36,373 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,441 ] 14 root - INFO - File CV_Donia_Chaouch.pdf loaded successfully
+[ 2023-08-08 11:23:36,441 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,532 ] 14 root - INFO - File CV_Eya_Rejeb.pdf loaded successfully
+[ 2023-08-08 11:23:36,532 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,570 ] 14 root - INFO - File CV_EYA_Sekma.pdf loaded successfully
+[ 2023-08-08 11:23:36,570 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,596 ] 14 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-08 11:23:36,596 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,652 ] 14 root - INFO - File CV_Fatma_Bouzgarrou.pdf loaded successfully
+[ 2023-08-08 11:23:36,652 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,704 ] 14 root - INFO - File CV_Hana_Zrafi.pdf loaded successfully
+[ 2023-08-08 11:23:36,704 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,718 ] 14 root - INFO - File CV_Houssem_Hassani.pdf loaded successfully
+[ 2023-08-08 11:23:36,719 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,777 ] 14 root - INFO - File CV_Houssem_Kraiem.pdf loaded successfully
+[ 2023-08-08 11:23:36,777 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,869 ] 14 root - INFO - File CV_Ibrahim_Youssef.pdf loaded successfully
+[ 2023-08-08 11:23:36,870 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:36,948 ] 14 root - INFO - File CV_Ibtihel_Khdhaouria.pdf loaded successfully
+[ 2023-08-08 11:23:36,949 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,029 ] 14 root - INFO - File CV_Iheb_Alouane.pdf loaded successfully
+[ 2023-08-08 11:23:37,029 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,080 ] 14 root - INFO - File CV_Isra_Dakhlaoui.pdf loaded successfully
+[ 2023-08-08 11:23:37,080 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,137 ] 14 root - INFO - File CV_Khaled_Chtioui.pdf loaded successfully
+[ 2023-08-08 11:23:37,137 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,194 ] 14 root - INFO - File CV_khawla_belkacem.pdf loaded successfully
+[ 2023-08-08 11:23:37,194 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,275 ] 14 root - INFO - File CV_Lina_Ounaies.pdf loaded successfully
+[ 2023-08-08 11:23:37,275 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,323 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 11:23:37,323 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:23:37,323 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,387 ] 14 root - INFO - File CV_Med_Houssem_Beltifa.pdf loaded successfully
+[ 2023-08-08 11:23:37,388 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,435 ] 14 root - INFO - File CV_Med_Neji_Benzarti.pdf loaded successfully
+[ 2023-08-08 11:23:37,435 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,520 ] 14 root - INFO - File CV_Med_Nour_Chouchene.pdf loaded successfully
+[ 2023-08-08 11:23:37,520 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,592 ] 14 root - INFO - File CV_Med_Oussema_Zaier.pdf loaded successfully
+[ 2023-08-08 11:23:37,593 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,659 ] 14 root - INFO - File CV_Mejdi_Belhadj_Youssef.pdf loaded successfully
+[ 2023-08-08 11:23:37,660 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,715 ] 14 root - INFO - File CV_Mihed_Hassine.pdf loaded successfully
+[ 2023-08-08 11:23:37,716 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,786 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 11:23:37,786 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:23:37,786 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,905 ] 14 root - INFO - File CV_Mohamed_Fawzi_Stambouli.pdf loaded successfully
+[ 2023-08-08 11:23:37,905 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:37,959 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 11:23:37,959 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:23:37,959 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,046 ] 14 root - INFO - File CV_Nour_Mabrouk.pdf loaded successfully
+[ 2023-08-08 11:23:38,046 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,104 ] 14 root - INFO - File CV_Ons_Ben_Hadj_Sghaier.pdf loaded successfully
+[ 2023-08-08 11:23:38,104 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,155 ] 14 root - INFO - File CV_Oumaima_Ben_Saad.pdf loaded successfully
+[ 2023-08-08 11:23:38,155 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,218 ] 14 root - INFO - File CV_Oumeima_Zaddem.pdf loaded successfully
+[ 2023-08-08 11:23:38,218 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,300 ] 14 root - INFO - File CV_Oussema_Mili.pdf loaded successfully
+[ 2023-08-08 11:23:38,300 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,375 ] 14 root - INFO - File CV_Rahma_Hamrouni.pdf loaded successfully
+[ 2023-08-08 11:23:38,375 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,435 ] 14 root - INFO - File CV_Rania_Slimene.pdf loaded successfully
+[ 2023-08-08 11:23:38,435 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,489 ] 14 root - INFO - File CV_Rayen_Ben_Fathallah.pdf loaded successfully
+[ 2023-08-08 11:23:38,489 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,563 ] 14 root - INFO - File CV_Rima_Jerbi.pdf loaded successfully
+[ 2023-08-08 11:23:38,563 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,626 ] 14 root - INFO - File CV_Rim_Thabet.pdf loaded successfully
+[ 2023-08-08 11:23:38,626 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,669 ] 14 root - INFO - File CV_Saber_ben slama.pdf loaded successfully
+[ 2023-08-08 11:23:38,669 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,745 ] 14 root - INFO - File CV_Sanda_Dhouib.pdf loaded successfully
+[ 2023-08-08 11:23:38,745 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,813 ] 14 root - INFO - File CV_Sarra_Bannour.pdf loaded successfully
+[ 2023-08-08 11:23:38,814 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,846 ] 14 root - INFO - File CV_Sarra_Laribi.pdf loaded successfully
+[ 2023-08-08 11:23:38,846 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,872 ] 14 root - INFO - File CV_Souheyl_Gouadria.pdf loaded successfully
+[ 2023-08-08 11:23:38,872 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:38,975 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 11:23:38,975 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:23:38,975 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,051 ] 14 root - INFO - File CV_Teyssir_Taieb.pdf loaded successfully
+[ 2023-08-08 11:23:39,051 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,131 ] 14 root - INFO - File CV_Wael_Antar.pdf loaded successfully
+[ 2023-08-08 11:23:39,131 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,173 ] 33 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-08 11:23:39,173 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:23:39,173 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,232 ] 14 root - INFO - File CV_Wajdi_Zayane.pdf loaded successfully
+[ 2023-08-08 11:23:39,232 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,287 ] 14 root - INFO - File CV_Wissem_Boujlida.pdf loaded successfully
+[ 2023-08-08 11:23:39,288 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,368 ] 14 root - INFO - File CV_Yasmine_Bizid.pdf loaded successfully
+[ 2023-08-08 11:23:39,368 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,415 ] 14 root - INFO - File CV_Yassine_Afsa.pdf loaded successfully
+[ 2023-08-08 11:23:39,416 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,516 ] 14 root - INFO - File CV_Yessine_Miled.pdf loaded successfully
+[ 2023-08-08 11:23:39,516 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,599 ] 14 root - INFO - File CV_Zaddem_Raslèn.pdf loaded successfully
+[ 2023-08-08 11:23:39,599 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,665 ] 14 root - INFO - File CV_Zeineb_Bachouch.pdf loaded successfully
+[ 2023-08-08 11:23:39,665 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,744 ] 14 root - INFO - File Dziri Ahmed - Resume (1).pdf loaded successfully
+[ 2023-08-08 11:23:39,744 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:23:39,816 ] 14 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-08-08 11:23:39,817 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:28:53,536 ] 145 root - ERROR - Error while Extracting the skillls: list index out of range
+[ 2023-08-08 11:29:46,408 ] 145 root - ERROR - Error while Extracting the skillls: list index out of range

@@ -1,0 +1,9 @@
+[ 2023-08-08 11:14:59,477 ] 14 root - INFO - File CV_Houssem_Hassani.pdf loaded successfully
+[ 2023-08-08 11:14:59,478 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:14:59,561 ] 14 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-08 11:14:59,562 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:14:59,562 ] 33 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\data\\CV_Fatma_Bouzagarrou.pdf'
+[ 2023-08-08 11:14:59,562 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:14:59,562 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:14:59,563 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'
+[ 2023-08-08 11:15:04,318 ] 73 root - ERROR - Error while Extracting the email: '>' not supported between instances of 'list' and 'int'

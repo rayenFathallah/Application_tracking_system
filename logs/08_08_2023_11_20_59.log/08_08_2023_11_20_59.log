@@ -1,0 +1,7 @@
+[ 2023-08-08 11:21:01,513 ] 14 root - INFO - File CV_Houssem_Hassani.pdf loaded successfully
+[ 2023-08-08 11:21:01,513 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:21:01,590 ] 14 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-08 11:21:01,591 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-08 11:21:01,591 ] 33 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\data\\CV_Fatma_Bouzagarrou.pdf'
+[ 2023-08-08 11:21:01,591 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-08 11:21:01,591 ] 22 root - INFO - Files transformed succesfully

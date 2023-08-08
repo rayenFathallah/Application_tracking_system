@@ -1,0 +1,8 @@
+tika
+skillNer
+langdetect
+deep_translator 
+pandas
+spacy
+nltk 
+ipython

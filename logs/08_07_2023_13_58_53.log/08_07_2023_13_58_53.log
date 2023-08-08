@@ -1,0 +1,15 @@
+[ 2023-08-07 13:58:55,447 ] 669 tika.tika - ERROR - Unable to run java; is it installed?
+[ 2023-08-07 13:58:55,447 ] 601 tika.tika - ERROR - Failed to receive startup confirmation from startServer.
+[ 2023-08-07 13:58:55,448 ] 33 root - ERROR - Error while reading the file: Unable to start Tika server.
+[ 2023-08-07 13:58:55,448 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:58:55,448 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:58:57,592 ] 669 tika.tika - ERROR - Unable to run java; is it installed?
+[ 2023-08-07 13:58:57,593 ] 601 tika.tika - ERROR - Failed to receive startup confirmation from startServer.
+[ 2023-08-07 13:58:57,593 ] 33 root - ERROR - Error while reading the file: Unable to start Tika server.
+[ 2023-08-07 13:58:57,593 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:58:57,593 ] 22 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:58:59,728 ] 669 tika.tika - ERROR - Unable to run java; is it installed?
+[ 2023-08-07 13:58:59,729 ] 601 tika.tika - ERROR - Failed to receive startup confirmation from startServer.
+[ 2023-08-07 13:58:59,729 ] 33 root - ERROR - Error while reading the file: Unable to start Tika server.
+[ 2023-08-07 13:58:59,729 ] 21 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:58:59,730 ] 22 root - INFO - Files transformed succesfully

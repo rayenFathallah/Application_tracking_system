@@ -1,0 +1,3 @@
+[ 2023-08-08 12:47:28,701 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-08 12:47:34,214 ] 16 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-08 12:47:34,214 ] 24 root - INFO - Files transformed succesfully

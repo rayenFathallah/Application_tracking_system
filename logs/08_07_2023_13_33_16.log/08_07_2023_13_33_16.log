@@ -1,0 +1,204 @@
+[ 2023-08-07 13:33:16,703 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Abdelaziz_Brahem.pdf'
+[ 2023-08-07 13:33:16,703 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,704 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,704 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_ABED_Yasmine.pdf'
+[ 2023-08-07 13:33:16,704 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,704 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,704 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Ahlem_Marzougui.pdf'
+[ 2023-08-07 13:33:16,705 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,705 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,705 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Ahmed_Amamou.pdf'
+[ 2023-08-07 13:33:16,705 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,705 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,705 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Ahmed_Dziri.pdf'
+[ 2023-08-07 13:33:16,705 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,705 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,705 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Ahmed_Farhat.pdf'
+[ 2023-08-07 13:33:16,705 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,705 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,706 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Amine_Gafsi.pdf'
+[ 2023-08-07 13:33:16,706 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,706 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,706 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Amine_Ghedira.pdf'
+[ 2023-08-07 13:33:16,706 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,706 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,706 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Anwer_Boubaker.pdf'
+[ 2023-08-07 13:33:16,706 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,706 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,706 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Asma_Chakroun.pdf'
+[ 2023-08-07 13:33:16,706 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,706 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,707 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Aya_Benjazia.pdf'
+[ 2023-08-07 13:33:16,707 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,707 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,707 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Aymen_Ghnia.pdf'
+[ 2023-08-07 13:33:16,707 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,707 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,707 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Ayoub_Ben_Latifa.pdf'
+[ 2023-08-07 13:33:16,707 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,707 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,708 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Ben_Chaaben_Yassin.pdf'
+[ 2023-08-07 13:33:16,708 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,708 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,708 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Chedy_Sakly.pdf'
+[ 2023-08-07 13:33:16,708 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,708 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,708 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Donia_Chaouch.pdf'
+[ 2023-08-07 13:33:16,708 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,708 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,708 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Eya_Rejeb.pdf'
+[ 2023-08-07 13:33:16,708 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,708 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,708 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_EYA_Sekma.pdf'
+[ 2023-08-07 13:33:16,708 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,708 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,709 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Fadi_Zaafrane.pdf'
+[ 2023-08-07 13:33:16,709 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,709 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,709 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Fatma_Bouzgarrou.pdf'
+[ 2023-08-07 13:33:16,709 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,709 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,709 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Hana_Zrafi.pdf'
+[ 2023-08-07 13:33:16,709 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,709 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,709 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Houssem_Hassani.pdf'
+[ 2023-08-07 13:33:16,709 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,709 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,709 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Houssem_Kraiem.pdf'
+[ 2023-08-07 13:33:16,709 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,710 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,710 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Ibrahim_Youssef.pdf'
+[ 2023-08-07 13:33:16,710 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,710 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,710 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Ibtihel_Khdhaouria.pdf'
+[ 2023-08-07 13:33:16,710 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,710 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,710 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Iheb_Alouane.pdf'
+[ 2023-08-07 13:33:16,710 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,710 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,710 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Isra_Dakhlaoui.pdf'
+[ 2023-08-07 13:33:16,710 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,710 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,710 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Khaled_Chtioui.pdf'
+[ 2023-08-07 13:33:16,710 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,710 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,711 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_khawla_belkacem.pdf'
+[ 2023-08-07 13:33:16,711 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,711 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,711 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Lina_Ounaies.pdf'
+[ 2023-08-07 13:33:16,711 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,711 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,711 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Med_Amine_Mansour.pdf'
+[ 2023-08-07 13:33:16,711 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,711 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,711 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Med_Houssem_Beltifa.pdf'
+[ 2023-08-07 13:33:16,711 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,711 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,711 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Med_Neji_Benzarti.pdf'
+[ 2023-08-07 13:33:16,711 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,711 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,711 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Med_Nour_Chouchene.pdf'
+[ 2023-08-07 13:33:16,712 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,712 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,712 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Med_Oussema_Zaier.pdf'
+[ 2023-08-07 13:33:16,712 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,712 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,712 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Mejdi_Belhadj_Youssef.pdf'
+[ 2023-08-07 13:33:16,712 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,712 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,712 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Mihed_Hassine.pdf'
+[ 2023-08-07 13:33:16,712 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,712 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,712 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Mohamed_Amine_Chakroun.pdf'
+[ 2023-08-07 13:33:16,712 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,712 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,713 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Mohamed_Fawzi_Stambouli.pdf'
+[ 2023-08-07 13:33:16,713 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,713 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,713 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Montaha_Sakly.pdf'
+[ 2023-08-07 13:33:16,713 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,713 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,713 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Nour_Mabrouk.pdf'
+[ 2023-08-07 13:33:16,713 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,713 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,713 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Ons_Ben_Hadj_Sghaier.pdf'
+[ 2023-08-07 13:33:16,713 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,713 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,713 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Oumaima_Ben_Saad.pdf'
+[ 2023-08-07 13:33:16,713 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,713 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,713 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Oumeima_Zaddem.pdf'
+[ 2023-08-07 13:33:16,714 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,714 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,714 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Oussema_Mili.pdf'
+[ 2023-08-07 13:33:16,714 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,714 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,714 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Rahma_Hamrouni.pdf'
+[ 2023-08-07 13:33:16,714 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,714 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,714 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Rania_Slimene.pdf'
+[ 2023-08-07 13:33:16,714 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,714 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,714 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Rayen_Ben_Fathallah.pdf'
+[ 2023-08-07 13:33:16,714 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,714 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,715 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Rima_Jerbi.pdf'
+[ 2023-08-07 13:33:16,715 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,715 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,715 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Rim_Thabet.pdf'
+[ 2023-08-07 13:33:16,715 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,715 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,715 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Saber_ben slama.pdf'
+[ 2023-08-07 13:33:16,715 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,715 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,715 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Sanda_Dhouib.pdf'
+[ 2023-08-07 13:33:16,715 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,715 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,716 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Sarra_Bannour.pdf'
+[ 2023-08-07 13:33:16,716 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,716 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,716 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Sarra_Laribi.pdf'
+[ 2023-08-07 13:33:16,716 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,716 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,716 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Souheyl_Gouadria.pdf'
+[ 2023-08-07 13:33:16,716 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,716 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,716 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Souleimen_Tamboura.pdf'
+[ 2023-08-07 13:33:16,716 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,716 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,716 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Teyssir_Taieb.pdf'
+[ 2023-08-07 13:33:16,716 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,717 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,717 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Wael_Antar.pdf'
+[ 2023-08-07 13:33:16,717 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,717 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,717 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Wael_Kraiem.pdf'
+[ 2023-08-07 13:33:16,717 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,717 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,717 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Wajdi_Zayane.pdf'
+[ 2023-08-07 13:33:16,717 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,717 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,717 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Wissem_Boujlida.pdf'
+[ 2023-08-07 13:33:16,717 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,717 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,717 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Yasmine_Bizid.pdf'
+[ 2023-08-07 13:33:16,717 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,718 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,718 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Yassine_Afsa.pdf'
+[ 2023-08-07 13:33:16,718 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,718 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,718 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Yessine_Miled.pdf'
+[ 2023-08-07 13:33:16,718 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,718 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,718 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Zaddem_Raslèn.pdf'
+[ 2023-08-07 13:33:16,718 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,718 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,718 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\CV_Zeineb_Bachouch.pdf'
+[ 2023-08-07 13:33:16,718 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,718 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,718 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\Dziri Ahmed - Resume (1).pdf'
+[ 2023-08-07 13:33:16,718 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,718 ] 21 root - INFO - Files transformed succesfully
+[ 2023-08-07 13:33:16,719 ] 32 root - ERROR - Error while reading the file: [Errno 2] No such file or directory: 'D:\\programming\\ats\\yessine Meddeb_cv.pdf'
+[ 2023-08-07 13:33:16,719 ] 20 root - ERROR - Error while reading the file: local variable 'e' referenced before assignment
+[ 2023-08-07 13:33:16,719 ] 21 root - INFO - Files transformed succesfully
