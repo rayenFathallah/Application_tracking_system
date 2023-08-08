@@ -12,11 +12,11 @@ To setup the environment, run these commands:
 - python -m nltk.downloader punkt 
 ## Project architecture 
 ### Data 
-** raw_data ** : resumes before preprocessing 
-** jobs_data ** : Dataset of job descriptions 
-** clean_data ** : resumes and job_descriptions after pre-processing 
-** data_fact ** : Files that contain all the names of public and private colleges In tunisia In french, english, and their abbreveation 
+#### raw_data : resumes before preprocessing 
+#### jobs_data  : Dataset of job descriptions 
+#### clean_data : resumes and job_descriptions after pre-processing 
+####  data_fact : Files that contain all the names of public and private colleges In tunisia In french, english, and their abbreveation 
 ### src 
-** data_ingestion ** : Contains script for importing and exporting data 
-** data_preprocessing ** : Script for data preprocessing 
-** main.py ** To run the application, run this file 
+#### data_ingestion : Contains script for importing and exporting data 
+#### data_preprocessing : Script for data preprocessing 
+#### main.py  To run the application, run this file 
