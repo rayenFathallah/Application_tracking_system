@@ -6,3 +6,4 @@ pandas
 spacy
 nltk 
 ipython
+fuzzywuzzy

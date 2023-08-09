@@ -7,7 +7,7 @@ from src.exception import CustomException
 from src.logger import logging
 import spacy
 from spacy.matcher import PhraseMatcher
-
+from fuzzywuzzy import fuzz
 # load default skills data base
 from skillNer.general_params import SKILL_DB
 # import skill extractor
@@ -72,6 +72,17 @@ def extract_email(resume_text) :
       # Catch any other exceptions and log error message
       logging.error("Error while Extracting the email: " + str(e))
       return ''
+def find_closest_faculty(input_text, faculty_list):
+  closest_similarity = 0
+  closest_faculty = None
+
+  for faculty in faculty_list:
+      similarity = fuzz.partial_ratio(input_text, faculty)
+      if similarity > closest_similarity:
+          closest_similarity = similarity
+          closest_faculty = faculty
+
+  return closest_faculty
 def extract_education(text):
     facultes = pd.read_csv('data/data_facs/abbrev_names.csv')
     list_facultes = [elem.lower() for elem in facultes['Ecole'].to_list()]
@@ -101,7 +112,8 @@ def extract_education(text):
         institute_names = ['{}{}'.format(match[0].replace('\n', ' '), match[1].replace('\n', ' ').strip()) for match in institute_matches]
 
         programmes = ['{}{}'.format(match[0].replace('\n',' '), match[1].strip().replace('\n',' ')) for match in program_matches]
-
+        if(len(exact_institut) <1) : 
+           exact_institut.append(find_closest_faculty(text,list_facultes))
         return {'programs': programmes, 'institut_plus_info': institute_names,'exact_institute' : exact_institut}
     except Exception as e:
       # Catch any other exceptions and log error message
@@ -110,12 +122,12 @@ def extract_education(text):
 
 # init params of skill extractor
 
-def annot_skills(resume_text) :
+def annot_skills(resume_text,skill_extractor) :
    #Extracts skills from resume text, returns annotated text
    # init params of skill extractor
-    nlp = spacy.load("en_core_web_lg")
+    #nlp = spacy.load("en_core_web_lg")
     # init skill extractor
-    skill_extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher)
+    #skill_extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher)
     annotation = skill_extractor.annotate(resume_text)
     return annotation
 def get_skills(annoted_results) :
@@ -134,10 +146,10 @@ def check_constraints(expression):
     if (min_length(word) and no_com(word) and no_tunis(word) and no_special_characters(word)) :
       final_results.add(word)
   return list(final_results)
-def extract_skills(resume_text) : 
+def extract_skills(resume_text,skill_extractor) : 
     final_skills = []
     try : 
-        annot = annot_skills(resume_text)
+        annot = annot_skills(resume_text,skill_extractor)
         skills = get_skills(annot)
         final_skills = check_constraints(skills)
         return final_skills
@@ -145,13 +157,47 @@ def extract_skills(resume_text) :
       # Catch any other exceptions and log error message
         logging.error("Error while Extracting the skillls: " + str(e))
         return final_skills
-def extract_all_info(resume_text) : 
+def remove_accents(input_string):
+    accents = {'é': 'e', 'è': 'e', 'ê': 'e', 'ë': 'e', 'É': 'E', 'È': 'E', 'Ê': 'E', 'Ë': 'E'}  # Add more mappings as needed
+    
+    for accent, replacement in accents.items():
+        input_string = input_string.replace(accent, replacement)
+    
+    return input_string
+def extract_years_of_experience(text):
+    text2=remove_accents(text)
+    years_of_experience = 0
+    # Regular expressions to match various formats of years of experience
+    patterns = [
+        r'(\d+)\s*(?:year|ann[ee]e|ans)\s*(?:of\s*experience|d[\'e]xperience)?',
+        r'(\+\d+)\s*(?:year|ans)\s*experience',
+        r'with\s*(\d+)\s*\+\s*years\s*(?:of\s*)?experience',
+        r'(\d+)\s*(?:year|ans)\s*(?:in|of)?\s*experience'
+        r'(\d+)\s*(?:year|ans)\s*(?:in|of)?\s*(?:experience)?\s*(?:in|of)?\s*',
+        r'years\s*of\s*experience\s*:\s*(\d+)',
+        r'experience\s*:\s*(\d+)',
+        r'annees\s*d\'experience\s*:\s*(\d+)',
+        r'ans\s*d\'experience\s*:\s*(\d+)',
+    ]
+    years_of_experience = None
+
+    for pattern in patterns:
+        match = re.search(pattern, text2, re.IGNORECASE)
+        if match:
+            years_of_experience = match.group(1)
+            break
+    
+    return years_of_experience
+
+
+def extract_all_info(resume_text,skill_extractor) : 
     infos = dict() 
     try : 
         infos['number'] = extract_number(resume_text) 
         infos['email'] = extract_email(resume_text) 
         infos['education'] = extract_education(resume_text) 
-        infos['skills'] = extract_skills(resume_text)
+        infos['skills'] = extract_skills(resume_text,skill_extractor)
+        infos['year_of_experience'] = extract_years_of_experience(resume_text)
         return infos 
     except Exception as e:
         # Catch any other exceptions and log error message
