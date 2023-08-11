@@ -87,10 +87,11 @@ def extract_education(text):
     facultes = pd.read_csv('data/data_facs/abbrev_names.csv')
     list_facultes = [elem.lower() for elem in facultes['Ecole'].to_list()]
     keywords = ['ecole ', 'institut ', 'faculté ', 'lycée ', 'école ','faculty ','institute ',] + list_facultes
-    programs = ['licence ', 'cycle ', 'ingénieurie ', 'master ', 'mastère ', 'diplôme ','phd','doctorat ','engineering ','engineer ','bachelor ','B.E ','graduate ', 'post-graduate ','pre-engineering ','préparatoire ']
+    programs = ['licence ', 'cycle ingenieur ', 'ingenieurie en ', 'master ', 'mastère ', 'diplôme ','phd','diplome','doctorat ','engineering ','engineer ','bachelor ','B.E ','graduate ', 'post-graduate ','pre-engineering ','préparatoire ']
     exact_institut=[]
     institute_names=[]
     programmes =[]
+    matching_niveau=[]
     try : 
         text = text.lower()  # Convert the whole text to lowercase
         exact_names = pd.read_csv('data/data_facs/full_exact_names.csv',sep=';')
@@ -112,13 +113,16 @@ def extract_education(text):
         institute_names = ['{}{}'.format(match[0].replace('\n', ' '), match[1].replace('\n', ' ').strip()) for match in institute_matches]
 
         programmes = ['{}{}'.format(match[0].replace('\n',' '), match[1].strip().replace('\n',' ')) for match in program_matches]
+        pattern_niveau = r'\b(?:' + '|'.join(re.escape(word) for word in programs) + r')\b'
+        # Use the regular expression to find all matching words in the text
+        matching_niveau = re.findall(pattern_niveau, text, re.IGNORECASE)
         if(len(exact_institut) <1) : 
            exact_institut.append(find_closest_faculty(text,list_facultes))
-        return {'programs': programmes, 'institut_plus_info': institute_names,'exact_institute' : exact_institut}
+        return {'programs': programmes, 'institut_plus_info': institute_names,'exact_institute' : exact_institut,'niveau_exacte': matching_niveau}
     except Exception as e:
       # Catch any other exceptions and log error message
         logging.error("Error while Extracting the education: " + str(e))
-        return {'programs': programmes, 'institut_plus_info': institute_names,'exact_institute' : exact_institut}
+        return {'programs': programmes, 'institut_plus_info': institute_names,'exact_institute' : exact_institut,'niveau_exacte':matching_niveau}
 
 # init params of skill extractor
 
@@ -157,6 +161,22 @@ def extract_skills(resume_text,skill_extractor) :
       # Catch any other exceptions and log error message
         logging.error("Error while Extracting the skillls: " + str(e))
         return final_skills
+def extract_skills2(resume_text,jd_model): 
+    label_list_jd=list()
+    text_list_jd = list()
+    dic_jd = {}
+
+    doc_jd = jd_model(resume_text)
+    for ent in doc_jd.ents:
+        label_list_jd.append(ent.label_)
+        text_list_jd.append(ent.text)
+    for index in range(len(label_list_jd)) : 
+        if label_list_jd[index] in dic_jd.keys() : 
+            dic_jd[label_list_jd[index]].append(text_list_jd[index])
+        else : 
+            dic_jd[label_list_jd[index]] = [text_list_jd[index]]
+    return dic_jd['SKILLS']
+
 def remove_accents(input_string):
     accents = {'é': 'e', 'è': 'e', 'ê': 'e', 'ë': 'e', 'É': 'E', 'È': 'E', 'Ê': 'E', 'Ë': 'E'}  # Add more mappings as needed
     
@@ -178,6 +198,8 @@ def extract_years_of_experience(text):
         r'experience\s*:\s*(\d+)',
         r'annees\s*d\'experience\s*:\s*(\d+)',
         r'ans\s*d\'experience\s*:\s*(\d+)',
+        r"bac +?\d+" 
+        r"baccalaureat +?\d+"
     ]
     years_of_experience = None
 
@@ -190,16 +212,22 @@ def extract_years_of_experience(text):
     return years_of_experience
 
 
-def extract_all_info(resume_text,skill_extractor) : 
+def extract_all_info(resume_text,jd_model) : 
     infos = dict() 
     try : 
         infos['number'] = extract_number(resume_text) 
         infos['email'] = extract_email(resume_text) 
         infos['education'] = extract_education(resume_text) 
-        infos['skills'] = extract_skills(resume_text,skill_extractor)
+        infos['skills'] = extract_skills2(resume_text,jd_model)
         infos['year_of_experience'] = extract_years_of_experience(resume_text)
         return infos 
     except Exception as e:
         # Catch any other exceptions and log error message
         logging.error("Error while Extracting the informations: " + str(e))
         return infos
+def detect_niveau_similarity(program) : 
+   '''
+   Associate level of experience or after high school studies to a degree. 
+   I.g : bac +5 => Ingenieurie 
+   I.g : minimum bac +3 => licence, master, ingenieurie 
+   '''

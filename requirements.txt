@@ -3,7 +3,8 @@ skillNer
 langdetect
 deep_translator 
 pandas
-spacy
+spacy==3.5.0
 nltk 
 ipython
 fuzzywuzzy
+python-Levenshtein==0.21.1

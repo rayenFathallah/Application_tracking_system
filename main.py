@@ -15,10 +15,10 @@ tika.initVM()
 file_names = os.listdir('./data/raw_data')
 path = 'data/raw_data'
 start_time = time.time()
-#resumes_list = read_files(file_names,path)
+resumes_list = read_files(file_names,path)
 infos_results_final = list()
 #print(len(resumes_list))
-resumes_list = read_files(['CV_Fadi_Zaafrane.pdf',"experience.pdf"],path)
+#resumes_list = read_files(['CV_Fadi_Zaafrane.pdf',"experience.pdf"],path)
 nlp = spacy.load("en_core_web_lg")
     # init skill extractor
 skill_extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher)
