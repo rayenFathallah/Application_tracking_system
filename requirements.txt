@@ -8,3 +8,5 @@ nltk
 ipython
 fuzzywuzzy
 python-Levenshtein==0.21.1
+numpy
+scikit-learn

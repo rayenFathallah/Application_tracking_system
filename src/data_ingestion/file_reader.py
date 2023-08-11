@@ -3,7 +3,7 @@ sys.path.append('..')
 from src.exception import CustomException
 from src.logger import logging
 from tika import parser
-from src.data_preprocessing.resume_preprocessing import remove_first_lines 
+from src.data_preprocessing.resume_preprocessing import remove_first_lines,remove_accents
 def read_files(file_list,path):
   
   """Reads a list of files and ignores the files that throw exceptions."""
@@ -28,8 +28,8 @@ def read_file(file,path):
   """Reads a file and returns the content."""
   try:
     parsed_pdf = parser.from_file(path+'/'+file)
-    
-    return remove_first_lines(parsed_pdf['content'].lower()) 
+    non_accent = remove_accents(parsed_pdf['content'].lower())
+    return remove_first_lines(non_accent) 
   except Exception as e:
     # Catch any other exceptions and log error message
     logging.error("Error while reading the file: " + str(e))
