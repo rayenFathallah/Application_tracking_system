@@ -157,6 +157,7 @@ def check_constraints(expression):
   return list(final_results)
 def extract_skills(resume_text,skill_extractor) : 
     final_skills = []
+    resume_text = resume_text.replace(',',' ')
     try : 
         annot = annot_skills(resume_text,skill_extractor)
         skills = get_skills(annot)
@@ -214,12 +215,12 @@ def extract_years_of_experience(text):
         r'annees\s*d\'experience\s*:\s*(\d+)',
         r'ans\s*d\'experience\s*:\s*(\d+)'
     ]
-    years_of_experience = None
+    years_of_experience = 0
 
     for pattern in patterns:
         match = re.search(pattern, text2, re.IGNORECASE)
         if match:
-            years_of_experience = match.group(1)
+            years_of_experience = int(match.group(1))
             break
     
     return years_of_experience
@@ -231,7 +232,7 @@ def extract_all_info(resume_text,jd_model) :
         infos['number'] = extract_number(resume_text) 
         infos['email'] = extract_email(resume_text) 
         infos['education'] = extract_education(resume_text) 
-        infos['skills'] = extract_skills2(resume_text,jd_model)
+        infos['skills'] = extract_skills(resume_text,jd_model)
         infos['year_of_experience'] = extract_years_of_experience(resume_text)
         return infos 
     except Exception as e:

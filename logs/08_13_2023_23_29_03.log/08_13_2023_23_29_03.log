@@ -1,0 +1,3 @@
+[ 2023-08-13 23:29:11,099 ] 802 tika.tika - INFO - Retrieving http://search.maven.org/remotecontent?filepath=org/apache/tika/tika-server-standard/2.6.0/tika-server-standard-2.6.0.jar to C:\Users\rayen\AppData\Local\Temp\tika-server.jar.
+[ 2023-08-13 23:29:45,068 ] 802 tika.tika - INFO - Retrieving http://search.maven.org/remotecontent?filepath=org/apache/tika/tika-server-standard/2.6.0/tika-server-standard-2.6.0.jar.md5 to C:\Users\rayen\AppData\Local\Temp\tika-server.jar.md5.
+[ 2023-08-13 23:29:45,876 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...

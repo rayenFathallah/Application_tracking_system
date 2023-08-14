@@ -6,12 +6,15 @@ from src.data_preprocessing.resume_preprocessing import extract_skills2,extract_
 from src.data_ingestion.data_exporter import export_data_json
 from src.data_preprocessing.job_description_preprocessing import get_jd_info
 import tika 
-from src.similarity import match_profile
+from src.similarity import match_profile,overall_similarity
 import time
+from spacy.matcher import PhraseMatcher
+from skillNer.general_params import SKILL_DB
+from skillNer.skill_extractor_class import SkillExtractor
 import os  
 start_time = time.time()
 tika.initVM()
-jd_model = spacy.load('src/jdModel/output/model-best')
+jd_model = spacy.load('src/model-best')
 
 ''' 
 file_names = os.listdir('./data/raw_data')
@@ -31,10 +34,17 @@ end_time = time.time()
 print("Execution time: {} seconds".format(end_time - start_time))
 
 ''' 
+nlp = spacy.load("en_core_web_lg")
+    # init skill extractor
+skill_extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher)
 path = 'data/raw_data'
-text2="OVERALL SUMMARY As a Data Scientist on the Data Science Solutions team, this individual will be responsible for building advance data science and analytical solutions that help HBO better understand and grow its best in class television and film library. bac +5 required The data products this individual develops will have a wide impact across the business, from helping HBO audiences discover new content to finding new hit television shows. The Data Scientist will work closely with engineering teams to ensure that their products and insights are properly moved into a production environment, where they can be used by the wider analytics team to drive business strategies. PRIMARY RESPONSIBILITIES Lead the development of data science solutions that help HBO make smarter content decisions across development, scheduling, marketing, and digital platforms (including HBO NOW, HBO GO and HBO.com) Mine HBO and other third party data to better understand how consumers make their entertainment choices Work with engineering teams to transfer knowledge and processes into production environment REQUIREMENTS Bachelor Degree or MS in quantitative field of study (statistics, operations research etc.) from an accredited institution or extensive work experience Experience applying machine learning in a professional environment. Experience with neural networks, computer vision, or deep learning is a plus Strong background in analytic programming (R, Python) Strong desire to continue to learn and develop as a data scientist Proven technical abilities, but excellent written and verbal communication and presentation skills Proven success when partnering with engineering and business teams Logical thinking ability Capability to work on multiple projects simultaneously with limited supervision 4+ years of relevant experience"
-
-scrum_file = read_file('rayen_data.pdf',path)
-resume_info=extract_all_info(scrum_file,jd_model)
-jd_info = get_jd_info(text2,jd_model)
-match_profile(jd_info,resume_info)
+jd="We are searching for a Laravel developer to build web applications for our company. In this role, you will design and create projects using Laravel framework and PHP, and assist the team in delivering high-quality web applications, services, and tools for our business. To ensure success as a Laravel developer you should be adept at utilizing Laravel's GUI and be able to design a PHP application from start to finish. A top-notch Laravel developer will be able to leverage their expertise and experience of the framework to independently produce complete solutions in a short turnaround time. Laravel Developer Responsibilities: Discussing project aims with the client and development team. Designing and building web applications using Laravel. Troubleshooting issues in the implementation and debug builds. Working with front-end and back-end developers on projects. Testing functionality for users and the backend. Ensuring that integrations run smoothly. Scaling projects based on client feedback. Recording and reporting on work done in Laravel. Maintaining web-based applications. Presenting work in meetings with clients and management. Laravel Developer Requirements: A degree in programming, computer science, or a related field. Experience working with PHP, performing unit testing, and managing APIs such as REST. A solid understanding of application design using Laravel. Knowledge of database design and querying using SQL. Proficiency in HTML and JavaScript. Practical experience using the MVC architecture. A portfolio of applications and programs to your name. Problem-solving skills and critical mindset. Great communication skills. The desire and ability to learn."
+scrum_file = read_file('scrum_master.pdf',path)
+overall_similarity(jd,scrum_file)
+resume_info = extract_all_info(scrum_file,skill_extractor)
+print(resume_info['skills'])
+jd_info = get_jd_info(jd,skill_extractor)
+print(jd_info['SKILLS'])
+print(jd_info['exact_niveau'])
+weights = {'skills':70,'niveau':30,'experience':0}
+print(f"similarity is {match_profile(jd_info,resume_info,weights)}")
