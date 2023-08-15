@@ -1,0 +1,19 @@
+[ 2023-08-15 11:12:04,586 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-15 11:12:04,586 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:12:04,651 ] 16 root - INFO - File rayen ben fathallah Traine.pdf loaded successfully
+[ 2023-08-15 11:12:04,651 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:12:04,713 ] 16 root - INFO - File react3.pdf loaded successfully
+[ 2023-08-15 11:12:04,713 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:12:04,774 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-15 11:12:04,774 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:12:04,823 ] 16 root - INFO - File react_native2.pdf loaded successfully
+[ 2023-08-15 11:12:04,823 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:12:04,879 ] 16 root - INFO - File react_native4.pdf loaded successfully
+[ 2023-08-15 11:12:04,879 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:12:04,908 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-08-15 11:12:04,908 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:12:15,814 ] 482 gensim.utils - INFO - loading Doc2Vec object from cv_job_maching.model
+[ 2023-08-15 11:12:15,825 ] 516 gensim.utils - INFO - loading dv recursively from cv_job_maching.model.dv.* with mmap=None
+[ 2023-08-15 11:12:15,825 ] 516 gensim.utils - INFO - loading wv recursively from cv_job_maching.model.wv.* with mmap=None
+[ 2023-08-15 11:12:15,825 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 11:12:15,978 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'cv_job_maching.model', 'datetime': '2023-08-15T11:12:15.969898', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}

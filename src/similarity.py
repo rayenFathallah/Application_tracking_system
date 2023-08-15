@@ -55,6 +55,9 @@ def niveau_similarity(job_description_niveau,resume_niveau) :
                 return 1 
         if 'licence' in resume_niveau : 
             return 0.3
+        else : 
+            # No education detected
+            return 0 
 def match_profile(job_description,resume,weights) : 
     niveau_sim = niveau_similarity(job_description['exact_niveau'],resume['education']['niveau_exacte']) 
     print(f"niveau in resume {resume['education']['niveau_exacte']}")
@@ -64,7 +67,7 @@ def match_profile(job_description,resume,weights) :
     skills_sim = skills_similarity(job_description['SKILLS'],resume['skills'])
     print(f'skills similarity {skills_sim}')
     sim = niveau_sim * weights['niveau'] + experience_sim * weights['experience'] + skills_sim * weights['skills']
-    return sim/100 
+    return sim
 def preprocess(text):
     stopword_set = set(stopwords.words('english'))
     stopword_set = list(stopword_set)
@@ -89,4 +92,9 @@ def overall_similarity(job_description,resume):
     v1 = model.infer_vector(job_description.split())
     v2 = model.infer_vector(resume.split())
     similarity = 100*(np.dot(np.array(v1), np.array(v2))) / (norm(np.array(v1)) * norm(np.array(v2)))
-    print(round(similarity, 2))
+    print(f'overall similarity:{round(similarity, 2)}')
+    return round(similarity, 2)
+def similarity_aggreg(overall_sim,info_sim,weights) : 
+    sim = (overall_sim * weights['overall'] + info_sim * weights['info'])
+    print(f'Overall similarity :{overall_sim} \n info similarity : {info_sim} ')
+    return sim 

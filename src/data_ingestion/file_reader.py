@@ -29,7 +29,7 @@ def read_file(file,path):
   try:
     parsed_pdf = parser.from_file(path+'/'+file)
     non_accent = remove_accents(parsed_pdf['content'].lower())
-    return remove_first_lines(non_accent) 
+    return {'content':remove_first_lines(non_accent),"name":file}
   except Exception as e:
     # Catch any other exceptions and log error message
     logging.error("Error while reading the file: " + str(e))

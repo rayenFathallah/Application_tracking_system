@@ -1,0 +1,50 @@
+[ 2023-08-15 11:18:34,971 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-15 11:18:34,971 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:18:35,015 ] 16 root - INFO - File rayen ben fathallah Traine.pdf loaded successfully
+[ 2023-08-15 11:18:35,015 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:18:35,057 ] 16 root - INFO - File react3.pdf loaded successfully
+[ 2023-08-15 11:18:35,058 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:18:35,105 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-15 11:18:35,105 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:18:35,142 ] 16 root - INFO - File react_native2.pdf loaded successfully
+[ 2023-08-15 11:18:35,142 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:18:35,173 ] 16 root - INFO - File react_native4.pdf loaded successfully
+[ 2023-08-15 11:18:35,173 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:18:35,199 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-08-15 11:18:35,199 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 11:18:46,199 ] 482 gensim.utils - INFO - loading Doc2Vec object from cv_job_maching.model
+[ 2023-08-15 11:18:46,208 ] 516 gensim.utils - INFO - loading dv recursively from cv_job_maching.model.dv.* with mmap=None
+[ 2023-08-15 11:18:46,208 ] 516 gensim.utils - INFO - loading wv recursively from cv_job_maching.model.wv.* with mmap=None
+[ 2023-08-15 11:18:46,208 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 11:18:46,364 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'cv_job_maching.model', 'datetime': '2023-08-15T11:18:46.356656', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-15 11:18:50,695 ] 482 gensim.utils - INFO - loading Doc2Vec object from cv_job_maching.model
+[ 2023-08-15 11:18:50,708 ] 516 gensim.utils - INFO - loading dv recursively from cv_job_maching.model.dv.* with mmap=None
+[ 2023-08-15 11:18:50,708 ] 516 gensim.utils - INFO - loading wv recursively from cv_job_maching.model.wv.* with mmap=None
+[ 2023-08-15 11:18:50,708 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 11:18:50,839 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'cv_job_maching.model', 'datetime': '2023-08-15T11:18:50.839307', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-15 11:19:32,694 ] 482 gensim.utils - INFO - loading Doc2Vec object from cv_job_maching.model
+[ 2023-08-15 11:19:32,705 ] 516 gensim.utils - INFO - loading dv recursively from cv_job_maching.model.dv.* with mmap=None
+[ 2023-08-15 11:19:32,705 ] 516 gensim.utils - INFO - loading wv recursively from cv_job_maching.model.wv.* with mmap=None
+[ 2023-08-15 11:19:32,705 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 11:19:32,834 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'cv_job_maching.model', 'datetime': '2023-08-15T11:19:32.834422', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-15 11:19:46,364 ] 482 gensim.utils - INFO - loading Doc2Vec object from cv_job_maching.model
+[ 2023-08-15 11:19:46,374 ] 516 gensim.utils - INFO - loading dv recursively from cv_job_maching.model.dv.* with mmap=None
+[ 2023-08-15 11:19:46,374 ] 516 gensim.utils - INFO - loading wv recursively from cv_job_maching.model.wv.* with mmap=None
+[ 2023-08-15 11:19:46,374 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 11:19:46,537 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'cv_job_maching.model', 'datetime': '2023-08-15T11:19:46.537723', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-15 11:19:49,355 ] 168 root - ERROR - Error while Extracting the skillls: 'id' is not in list
+[ 2023-08-15 11:19:49,358 ] 482 gensim.utils - INFO - loading Doc2Vec object from cv_job_maching.model
+[ 2023-08-15 11:19:49,368 ] 516 gensim.utils - INFO - loading dv recursively from cv_job_maching.model.dv.* with mmap=None
+[ 2023-08-15 11:19:49,369 ] 516 gensim.utils - INFO - loading wv recursively from cv_job_maching.model.wv.* with mmap=None
+[ 2023-08-15 11:19:49,369 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 11:19:49,496 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'cv_job_maching.model', 'datetime': '2023-08-15T11:19:49.496912', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-15 11:20:27,222 ] 482 gensim.utils - INFO - loading Doc2Vec object from cv_job_maching.model
+[ 2023-08-15 11:20:27,232 ] 516 gensim.utils - INFO - loading dv recursively from cv_job_maching.model.dv.* with mmap=None
+[ 2023-08-15 11:20:27,232 ] 516 gensim.utils - INFO - loading wv recursively from cv_job_maching.model.wv.* with mmap=None
+[ 2023-08-15 11:20:27,232 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 11:20:27,367 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'cv_job_maching.model', 'datetime': '2023-08-15T11:20:27.367023', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-15 11:20:30,007 ] 482 gensim.utils - INFO - loading Doc2Vec object from cv_job_maching.model
+[ 2023-08-15 11:20:30,018 ] 516 gensim.utils - INFO - loading dv recursively from cv_job_maching.model.dv.* with mmap=None
+[ 2023-08-15 11:20:30,018 ] 516 gensim.utils - INFO - loading wv recursively from cv_job_maching.model.wv.* with mmap=None
+[ 2023-08-15 11:20:30,018 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 11:20:30,194 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'cv_job_maching.model', 'datetime': '2023-08-15T11:20:30.194957', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
