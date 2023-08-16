@@ -12,6 +12,11 @@ from fuzzywuzzy import fuzz
 from skillNer.general_params import SKILL_DB
 # import skill extractor
 from skillNer.skill_extractor_class import SkillExtractor
+from nltk.corpus import stopwords
+from nltk.stem import PorterStemmer, WordNetLemmatizer
+from gensim.models.doc2vec import Doc2Vec, TaggedDocument
+from nltk.tokenize import word_tokenize
+from numpy.linalg import norm
 def remove_initial_newlines(text):
     sentence_found = False
     new_text = ''
@@ -31,12 +36,20 @@ def remove_first_lines(text):
     first_lines_removed= remove_initial_newlines(text)
     return '\n'.join(first_lines_removed.split('\n', 1)[1:])
 def detect_lang(resume_text) :
-  lang = detect(resume_text)
-  if lang == 'fr' :
-    translated_text = GoogleTranslator(source='auto', target='en').translate(resume_text)
-    return translated_text
-  else :
-    return resume_text
+    try :
+        lang = detect(resume_text)
+        if lang == 'fr' :
+            final_text=list()
+            for i in range(0, len(resume_text), 50000):
+                translation = GoogleTranslator(source='auto', target='en').translate(resume_text[i:i+50000], dest='en')
+                final_text.append(translation)
+            return ' '.join(final_text) 
+        else : 
+            return resume_text
+    except Exception as e:
+      # Catch any other exceptions and log error message
+        logging.error("Error while detecting the language: " + str(e))
+        return resume_text
 def extract_number(text)  :
     regex_formats = [
         r'\d{8}',
@@ -202,38 +215,52 @@ def remove_accents(input_string):
     
     return input_string
 def extract_years_of_experience(text):
-    text2=remove_accents(text)
-    # Regular expressions to match various formats of years of experience
-    patterns = [
-        r'(\d+)\s*(?:year|ann[ee]e|ans)\s*(?:of\s*experience|d[\'e]xperience)?',
-        r'(\+\d+)\s*(?:year|ans)\s*experience',
-        r'with\s*(\d+)\s*\+\s*years\s*(?:of\s*)?experience',
-        r'(\d+)\s*(?:year|ans)\s*(?:in|of)?\s*experience'
-        r'(\d+)\s*(?:year|ans)\s*(?:in|of)?\s*(?:experience)?\s*(?:in|of)?\s*',
-        r'years\s*of\s*experience\s*:\s*(\d+)',
-        r'experience\s*:\s*(\d+)',
-        r'annees\s*d\'experience\s*:\s*(\d+)',
-        r'ans\s*d\'experience\s*:\s*(\d+)'
-    ]
-    years_of_experience = 0
-
-    for pattern in patterns:
-        match = re.search(pattern, text2, re.IGNORECASE)
-        if match:
-            years_of_experience = int(match.group(1))
-            break
-    
-    return years_of_experience
-
-
-def extract_all_info(resume_text,jd_model) : 
-    infos = dict() 
+    years_of_experience = 0 
     try : 
+        text2=remove_accents(text)
+        print('going on years of experienec test')
+        # Regular expressions to match various formats of years of experience
+        patterns = [
+            r'(\d+)\s*(?:year|ann[ee]e|ans)\s*(?:of\s*experience|d[\'e]xperience)?',
+            r'(\+\d+)\s*(?:year|ans)\s*experience',
+            r'with\s*(\d+)\s*\+\s*years\s*(?:of\s*)?experience',
+            r'(\d+)\s*(?:year|ans)\s*(?:in|of)?\s*experience'
+            r'(\d+)\s*(?:year|ans)\s*(?:in|of)?\s*(?:experience)?\s*(?:in|of)?\s*',
+            r'years\s*of\s*experience\s*:\s*(\d+)',
+            r'experience\s*:\s*(\d+)',
+            r'annees\s*d\'experience\s*:\s*(\d+)',
+            r'ans\s*d\'experience\s*:\s*(\d+)'
+        ]
+
+        for pattern in patterns:
+            match = re.search(pattern, text2, re.IGNORECASE)
+            if match:
+                years_of_experience = int(match.group(1))
+                break
+        print(years_of_experience)
+        return years_of_experience
+    except Exception as e:
+        # Catch any other exceptions and log error message
+        logging.error("Error while Extracting the informations: " + str(e))
+        return years_of_experience
+
+def extract_all_info(resume_text,jd_model,model2) : 
+    infos = dict() 
+    infos['year_of_experience']= 0 
+    infos['email'] = '' 
+    infos['education'] = {} 
+    infos['skills']=[] 
+    infos['number']=set()
+    try : 
+        print('extracting informations ...')
         infos['number'] = extract_number(resume_text) 
         infos['email'] = extract_email(resume_text) 
         infos['education'] = extract_education(resume_text) 
-        infos['skills'] = extract_skills(resume_text,jd_model)
+        infos['skills'] = list(set(extract_skills(resume_text,jd_model) + extract_skills2(resume_text,model2)))
+        print(infos['skills'])
         infos['year_of_experience'] = extract_years_of_experience(resume_text)
+        print(infos['year_of_experience'])
+        print(f'infos are : {infos}')
         return infos 
     except Exception as e:
         # Catch any other exceptions and log error message
@@ -273,6 +300,37 @@ def detect_niveau_similarity(niveau) :
         if elem in assoc_dic.keys() : 
             matched_niveau.append(assoc_dic[elem]) 
     return matched_niveau 
+def cleanResume(resumeText):
+    resumeText = re.sub('http\S+\s*', ' ', resumeText)  # remove URLs
+    resumeText = re.sub('RT|cc', ' ', resumeText)  # remove RT and cc
+    resumeText = re.sub('#\S+', '', resumeText)  # remove hashtags
+    resumeText = re.sub('@\S+', '  ', resumeText)  # remove mentions
+    resumeText = re.sub('[%s]' % re.escape("""!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~"""), ' ', resumeText)  # remove punctuations
+    resumeText = re.sub(r'[^\x00-\x7f]',r' ', resumeText) 
+    resumeText = re.sub('\s+', ' ', resumeText)  # remove extra whitespace
+    return resumeText
+def preprocess_resume_text(text):
+    stop_words = set(stopwords.words('english'))
+    stemmer = PorterStemmer()
+    lemmatizer = WordNetLemmatizer()
+    text = cleanResume(text)
+    ''' 
+lemmetizing Example:
+
+Original: jumping, jumps, jumped
+Lemmatized: jump
+'''
+    filtered_text = ' '.join([word for word in word_tokenize(text) if word.lower() not in stop_words and not word.isdigit()])
+    tokens = word_tokenize(filtered_text)
+    lemmatized_tokens = [lemmatizer.lemmatize(token) for token in tokens]
+    #stemmed_tokens = [stemmer.stem(token) for token in lemmatized_tokens]
+    return ' '.join(lemmatized_tokens)
 
 
-   
+def resume_preprocessing_model(resume_text) : 
+    translated = detect_lang(resume_text) 
+# Call the preprocessor function
+    processed_resume = preprocess_resume_text(translated)
+    return processed_resume
+
+

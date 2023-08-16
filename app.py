@@ -34,16 +34,17 @@ end_time = time.time()
 print("Execution time: {} seconds".format(end_time - start_time))
 
 ''' 
-nlp = spacy.load("en_core_web_lg")
+model2 = spacy.load('models/model-best')
+nlp = spacy.load("en_cSore_web_lg")
     # init skill extractor
 skill_extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher)
 path = 'data/raw_data'
 jd="We are searching for a Laravel developer to build web applications for our company. In this role, you will design and create projects using Laravel framework and PHP, and assist the team in delivering high-quality web applications, services, and tools for our business. To ensure success as a Laravel developer you should be adept at utilizing Laravel's GUI and be able to design a PHP application from start to finish. A top-notch Laravel developer will be able to leverage their expertise and experience of the framework to independently produce complete solutions in a short turnaround time. Laravel Developer Responsibilities: Discussing project aims with the client and development team. Designing and building web applications using Laravel. Troubleshooting issues in the implementation and debug builds. Working with front-end and back-end developers on projects. Testing functionality for users and the backend. Ensuring that integrations run smoothly. Scaling projects based on client feedback. Recording and reporting on work done in Laravel. Maintaining web-based applications. Presenting work in meetings with clients and management. Laravel Developer Requirements: A degree in programming, computer science, or a related field. Experience working with PHP, performing unit testing, and managing APIs such as REST. A solid understanding of application design using Laravel. Knowledge of database design and querying using SQL. Proficiency in HTML and JavaScript. Practical experience using the MVC architecture. A portfolio of applications and programs to your name. Problem-solving skills and critical mindset. Great communication skills. The desire and ability to learn."
 scrum_file = read_file('scrum_master.pdf',path)
 overall = overall_similarity(jd,scrum_file)
-resume_info = extract_all_info(scrum_file,skill_extractor)
+resume_info = extract_all_info(scrum_file,skill_extractor,model2)
 print(resume_info['skills'])
-jd_info = get_jd_info(jd,skill_extractor)
+jd_info = get_jd_info(jd,skill_extractor,model2)
 print(jd_info['SKILLS'])
 print(jd_info['exact_niveau'])
 weights = {'skills':70,'niveau':30,'experience':0}

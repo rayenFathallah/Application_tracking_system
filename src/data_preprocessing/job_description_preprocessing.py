@@ -5,8 +5,8 @@ import re
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from nltk.tokenize import word_tokenize
 from numpy.linalg import norm
-from src.data_preprocessing.resume_preprocessing import detect_lang,extract_years_of_experience,remove_accents,detect_niveau_similarity,extract_skills
-def get_jd_info(jd_data_text,skills_model) :
+from src.data_preprocessing.resume_preprocessing import detect_lang,extract_years_of_experience,remove_accents,detect_niveau_similarity,extract_skills,extract_skills2
+def get_jd_info(jd_data_text,skills_model,model2) :
   dic_jd = {}
   dic_jd['after_bac']=[]
   dic_jd['SKILLS']=[]
@@ -24,7 +24,7 @@ def get_jd_info(jd_data_text,skills_model) :
   label_list_jd=list()
   text_list_jd = list()
   #doc_jd = jd_model(new_jd)
-  dic_jd['SKILLS'] = extract_skills(jd_data_text,skills_model)
+  dic_jd['SKILLS'] = list(set(extract_skills(jd_data_text,skills_model)+extract_skills2(jd_data_text,model2)))
   ''' 
   for ent in doc_jd.ents:
       label_list_jd.append(ent.label_)

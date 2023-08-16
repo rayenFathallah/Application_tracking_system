@@ -5,6 +5,7 @@ from nltk.tokenize import word_tokenize
 from numpy.linalg import norm
 from nltk.corpus import stopwords
 import string
+from src.data_preprocessing.resume_preprocessing import resume_preprocessing_model
 
 
 
@@ -87,14 +88,16 @@ def preprocess(text):
     text = [word for word in text if word not in stop_words]
     
     return text
-def overall_similarity(job_description,resume): 
-    model = Doc2Vec.load('cv_job_maching.model')
-    v1 = model.infer_vector(job_description.split())
-    v2 = model.infer_vector(resume.split())
-    similarity = 100*(np.dot(np.array(v1), np.array(v2))) / (norm(np.array(v1)) * norm(np.array(v2)))
+def overall_similarity(job_description,resume,resume_model,jd_model): 
+    #v1 = model.infer_vector(job_description.split())
+    preprocessed_resume = resume_preprocessing_model(resume)
+    job_description_vector = jd_model.infer_vector(job_description.split())  # Replace with actual job description tokens
+    inferred_vector = resume_model.infer_vector(preprocessed_resume.split())
+    #v2 = model.infer_vector(resume.split())
+    similarity = 100*(np.dot(np.array(job_description_vector), np.array(inferred_vector))) / (norm(np.array(job_description_vector)) * norm(np.array(inferred_vector)))
     print(f'overall similarity:{round(similarity, 2)}')
     return round(similarity, 2)
 def similarity_aggreg(overall_sim,info_sim,weights) : 
     sim = (overall_sim * weights['overall'] + info_sim * weights['info'])
-    print(f'Overall similarity :{overall_sim} \n info similarity : {info_sim} ')
+    print(f'aggregated_similarity is {sim} ')
     return sim 

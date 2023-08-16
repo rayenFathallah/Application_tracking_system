@@ -1,0 +1,38 @@
+[ 2023-08-15 15:20:41,121 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-15 15:20:46,546 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-15 15:20:46,546 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 15:20:46,717 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-15 15:20:46,717 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 15:20:46,779 ] 16 root - INFO - File rayen.pdf loaded successfully
+[ 2023-08-15 15:20:46,779 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 15:20:46,869 ] 16 root - INFO - File react3.pdf loaded successfully
+[ 2023-08-15 15:20:46,869 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 15:20:46,949 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-15 15:20:46,949 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 15:20:47,006 ] 16 root - INFO - File react_native2.pdf loaded successfully
+[ 2023-08-15 15:20:47,006 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 15:20:47,072 ] 16 root - INFO - File react_native4.pdf loaded successfully
+[ 2023-08-15 15:20:47,072 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 15:20:47,095 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-08-15 15:20:47,095 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-15 15:20:51,789 ] 482 gensim.utils - INFO - loading Doc2Vec object from doc2vec_model_epochs_80.model
+[ 2023-08-15 15:20:51,799 ] 516 gensim.utils - INFO - loading dv recursively from doc2vec_model_epochs_80.model.dv.* with mmap=None
+[ 2023-08-15 15:20:51,799 ] 516 gensim.utils - INFO - loading wv recursively from doc2vec_model_epochs_80.model.wv.* with mmap=None
+[ 2023-08-15 15:20:51,799 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 15:20:51,940 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'doc2vec_model_epochs_80.model', 'datetime': '2023-08-15T15:20:51.933099', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-15 15:20:51,940 ] 482 gensim.utils - INFO - loading Doc2Vec object from doc2vec_model_epochs_100.model
+[ 2023-08-15 15:20:51,954 ] 516 gensim.utils - INFO - loading dv recursively from doc2vec_model_epochs_100.model.dv.* with mmap=None
+[ 2023-08-15 15:20:51,954 ] 516 gensim.utils - INFO - loading wv recursively from doc2vec_model_epochs_100.model.wv.* with mmap=None
+[ 2023-08-15 15:20:51,954 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 15:20:52,135 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'doc2vec_model_epochs_100.model', 'datetime': '2023-08-15T15:20:52.135457', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-15 15:20:52,135 ] 482 gensim.utils - INFO - loading Doc2Vec object from doc2vec_model_epochs_150.model
+[ 2023-08-15 15:20:52,146 ] 516 gensim.utils - INFO - loading dv recursively from doc2vec_model_epochs_150.model.dv.* with mmap=None
+[ 2023-08-15 15:20:52,146 ] 516 gensim.utils - INFO - loading wv recursively from doc2vec_model_epochs_150.model.wv.* with mmap=None
+[ 2023-08-15 15:20:52,146 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-15 15:20:52,295 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'doc2vec_model_epochs_150.model', 'datetime': '2023-08-15T15:20:52.295270', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-15 15:22:13,685 ] 168 root - ERROR - Error while Extracting the skillls: 'id' is not in list
+[ 2023-08-15 15:24:19,617 ] 168 root - ERROR - Error while Extracting the skillls: 'id' is not in list
+[ 2023-08-15 15:26:27,241 ] 168 root - ERROR - Error while Extracting the skillls: 'id' is not in list
+[ 2023-08-15 15:28:33,806 ] 168 root - ERROR - Error while Extracting the skillls: 'id' is not in list
+[ 2023-08-15 15:30:40,336 ] 168 root - ERROR - Error while Extracting the skillls: 'id' is not in list
+[ 2023-08-15 15:32:51,231 ] 168 root - ERROR - Error while Extracting the skillls: 'id' is not in list

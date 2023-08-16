@@ -1,7 +1,7 @@
 tika
 skillNer
 langdetect
-deep_translator 
+deep_translator
 pandas
 spacy==3.5.0
 nltk 
