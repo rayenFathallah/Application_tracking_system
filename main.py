@@ -12,7 +12,7 @@ from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from src.data_preprocessing.resume_preprocessing import extract_all_info
 from src.data_ingestion.data_exporter import export_data_json
 from src.data_preprocessing.job_description_preprocessing import get_jd_info
-from src.similarity import match_profile,overall_similarity,similarity_aggreg
+from src.similarity import match_profile,overall_similarity,similarity_aggreg,tf_idf_vectorizing
 tika.initVM()
 file_names = os.listdir('./data/raw_data')
 path = 'data/raw_data'
@@ -30,12 +30,12 @@ laravel_jd2 = "We are seeking a Full Stack Laravel Angular Developer responsible
 jd_react1 = "Job Description We are looking for a React Native developer interested in building performant mobile apps on both the iOS and Android platforms. You will be responsible for architecting and building these applications, as well as coordinating with the teams responsible for other layers of the product infrastructure. Building a product is a highly collaborative effort, and as such, a strong team player with a commitment to perfection is required. Responsibilities Build pixel-perfect, buttery smooth UIs across both mobile platforms. Leverage native APIs for deep integrations with both platforms. Diagnose and fix bugs and performance bottlenecks for performance that feels native. Reach out to the open source community to encourage and help implement mission-critical software fixes—React Native moves fast and often breaks things. Maintain code and write automated tests to ensure the product is of the highest quality. Transition existing React web apps to React Native.Skills Firm grasp of the JavaScript and TypeScript or ClojureScript language and its nuances, including ES6+ syntax Knowledge of functional or object-oriented programming Ability to write well-documented, clean Javascript code Rock solid at working with third-party dependencies and debugging dependency conflicts Familiarity with native build tools, like XCode, Gradle Android Studio, IntelliJ Understanding of REST APIs, the document request model, and offline storage Experience with automated testing suites, like Jest or Mocha Make sure to mention any other frameworks, libraries, or other technologies relevant to your project List any education level or certification you may require"
 jd_react2 = "Your main responsibilities will include: Designing, deploying, and managing web and mobile applications that can run on multiple platforms Utilizing React Native to design and develop UI components for web and mobile apps based on JavaScript Writing effective, scalable, and reusable JavaScript code can help create interchangeable front-end modules Improving front-end performance by diagnosing and fixing all system errors and bugs Using other JavaScript libraries (like “Redux”) to make asynchronous API calls and enhance website/mobile app performance Creating plans to transition React-based web and mobile apps to React Native Planning the data and presentation layer for the front end of all applications Collaborating with design, development, and customer service teams to properly understand client requirements and build top-notch apps within the stipulated time and budget Key Requirements You hold a Bachelor’s degree in Computer Science, Computer/Management Information Systems, Information Technology, Software Engineering, or an associated field You possess at least 4 years of hands-on experience as a React Native Engineer or in a similar role You have a good working knowledge of HTML and CSS You are well-versed in all aspects of JavaScript You have in-depth knowledge of UI/UX designs and wireframes You possess an expert-level understanding of React.js and its fundamentals You are familiar with Gradle, XCode, and other native build tools You have experience working with automated testing suites like Mocha, Jest, etc You deeply understand REST APIs, offline storage, and the document request model You have strong problem-solving and critical-thinking abilities You possess excellent communication skills that facilitate interaction with multiple stakeholders You are confident, detail-oriented, and highly motivated to contribute to the organization's growth as part of a high-performing team You have the ability to work under pressure and adhere to tight deadlines"
 skill_extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher)
-weights = {'skills':70,'niveau':30,'experience':0}
-model_weights = {'overall' : 0.5,'info':0.5}
-models = [{'name': 'model80','model':Doc2Vec.load('doc2vec_model_epochs_80.model')},
-          {'name': 'model100','model':Doc2Vec.load('doc2vec_model_epochs_100.model')},
-          {'name': 'model150','model':Doc2Vec.load('doc2vec_model_epochs_150.model')},
-          {'name': 'model40','model':Doc2Vec.load('doc2vec_model_epochs_40.model')},
+weights = {'skills':100,'niveau':0,'experience':0}
+model_weights = {'overall' : 0.4,'info':0.4,'tf_idf':0.2}
+models = [{'name': 'model80jd','model':Doc2Vec.load('doc2vec_model_epochs_80.model')},
+          {'name': 'model100jd','model':Doc2Vec.load('doc2vec_model_epochs_100.model')},
+          {'name': 'model150jd','model':Doc2Vec.load('doc2vec_model_epochs_150.model')},
+          {'name': 'model40jd','model':Doc2Vec.load('doc2vec_model_epochs_40.model')},
           ]
 model_80 = Doc2Vec.load('resumes_model_epochs_lemmetized_80.model')
 model_100 = Doc2Vec.load('resumes_model_epochs_lemmetized_100.model')
@@ -43,9 +43,10 @@ model_150 = Doc2Vec.load('resumes_model_epochs_lemmetized_150.model')
 models_resume = [{'name': 'model80','model':model_80},
           {'name': 'model100','model':model_100},
           {'name': 'model150','model':model_150},
+
     ]
+all_models=models_resume+models
 jds= [{'name' : 'react','value' :jd_react1 }, 
-      {'name' : 'laravel','value' :laravel_jd1},
       {'name':'data','value':data_scientist_jd}]
 i=0
 results = list()
@@ -55,15 +56,16 @@ for elem in resumes_list :
     res=extract_all_info(elem['content'],skill_extractor,model2)
     for jd in jds : 
         jd_info = get_jd_info(jd['value'],skill_extractor,model2)
-        for jd_model in models : 
-            for resume_model in models_resume : 
+        tf_sim = tf_idf_vectorizing(jd['value'],elem['content'])
+        info = match_profile(jd_info,res,weights) 
+        for jd_model in all_models : 
+            for resume_model in all_models : 
                 overall = overall_similarity(jd['value'],elem['content'],resume_model['model'],jd_model['model'])
-                info = match_profile(jd_info,res,weights) 
-                final_result = similarity_aggreg(overall,info,model_weights)
+                final_result = similarity_aggreg(overall,info,tf_sim,model_weights)
                 results.append({'jd_model':jd_model['name'],'resume_model':resume_model['name'],'type':jd['name'],'name':elem['name'],'similarity':final_result})
 df = pd.DataFrame(results) 
 #df['ranking']=df.groupby(['type','jd_model','resume_model'])['similarity'].rank(ascending=False)
-df.to_csv("perdicted_results_final.csv")           
+df.to_csv("perdicted_results_final3.csv")           
 
 
 #print("Execution time: {} seconds".format(end_time - start_time))

@@ -1,0 +1,185 @@
+[ 2023-08-17 15:23:47,622 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-17 15:23:53,179 ] 16 root - INFO - File CV_Ahlem_Marzougui.pdf loaded successfully
+[ 2023-08-17 15:23:53,179 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:53,296 ] 16 root - INFO - File CV_Ahmed_Amamou.pdf loaded successfully
+[ 2023-08-17 15:23:53,296 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:53,381 ] 16 root - INFO - File CV_Ahmed_Dziri.pdf loaded successfully
+[ 2023-08-17 15:23:53,381 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:53,761 ] 16 root - INFO - File CV_Ahmed_Farhat.pdf loaded successfully
+[ 2023-08-17 15:23:53,761 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:53,845 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-17 15:23:53,845 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:53,903 ] 16 root - INFO - File CV_Amine_Ghedira.pdf loaded successfully
+[ 2023-08-17 15:23:53,903 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:53,939 ] 16 root - INFO - File CV_Anwer_Boubaker.pdf loaded successfully
+[ 2023-08-17 15:23:53,940 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:53,971 ] 16 root - INFO - File CV_Asma_Chakroun.pdf loaded successfully
+[ 2023-08-17 15:23:53,971 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,020 ] 16 root - INFO - File CV_Aya_Benjazia.pdf loaded successfully
+[ 2023-08-17 15:23:54,020 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,083 ] 16 root - INFO - File CV_Aymen_Ghnia.pdf loaded successfully
+[ 2023-08-17 15:23:54,083 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,117 ] 16 root - INFO - File CV_Ayoub_Ben_Latifa.pdf loaded successfully
+[ 2023-08-17 15:23:54,117 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,171 ] 16 root - INFO - File CV_Ben_Chaaben_Yassin.pdf loaded successfully
+[ 2023-08-17 15:23:54,171 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,477 ] 16 root - INFO - File CV_Chedy_Sakly.pdf loaded successfully
+[ 2023-08-17 15:23:54,478 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,533 ] 16 root - INFO - File CV_Donia_Chaouch.pdf loaded successfully
+[ 2023-08-17 15:23:54,533 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,587 ] 16 root - INFO - File CV_Eya_Rejeb.pdf loaded successfully
+[ 2023-08-17 15:23:54,587 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,626 ] 16 root - INFO - File CV_EYA_Sekma.pdf loaded successfully
+[ 2023-08-17 15:23:54,626 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,656 ] 16 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-17 15:23:54,656 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,691 ] 16 root - INFO - File CV_Fatma_Bouzgarrou.pdf loaded successfully
+[ 2023-08-17 15:23:54,691 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,730 ] 16 root - INFO - File CV_Hana_Zrafi.pdf loaded successfully
+[ 2023-08-17 15:23:54,730 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,758 ] 16 root - INFO - File CV_Houssem_Hassani.pdf loaded successfully
+[ 2023-08-17 15:23:54,758 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,809 ] 16 root - INFO - File CV_Houssem_Kraiem.pdf loaded successfully
+[ 2023-08-17 15:23:54,809 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,859 ] 16 root - INFO - File CV_Ibrahim_Youssef.pdf loaded successfully
+[ 2023-08-17 15:23:54,859 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,905 ] 16 root - INFO - File CV_Ibtihel_Khdhaouria.pdf loaded successfully
+[ 2023-08-17 15:23:54,905 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,939 ] 16 root - INFO - File CV_Iheb_Alouane.pdf loaded successfully
+[ 2023-08-17 15:23:54,940 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:54,968 ] 16 root - INFO - File CV_Isra_Dakhlaoui.pdf loaded successfully
+[ 2023-08-17 15:23:54,969 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,006 ] 16 root - INFO - File CV_Khaled_Chtioui.pdf loaded successfully
+[ 2023-08-17 15:23:55,006 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,039 ] 16 root - INFO - File CV_khawla_belkacem.pdf loaded successfully
+[ 2023-08-17 15:23:55,039 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,078 ] 16 root - INFO - File CV_Lina_Ounaies.pdf loaded successfully
+[ 2023-08-17 15:23:55,078 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,104 ] 35 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-17 15:23:55,104 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-17 15:23:55,104 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,153 ] 16 root - INFO - File CV_Med_Houssem_Beltifa.pdf loaded successfully
+[ 2023-08-17 15:23:55,153 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,195 ] 16 root - INFO - File CV_Med_Neji_Benzarti.pdf loaded successfully
+[ 2023-08-17 15:23:55,195 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,231 ] 16 root - INFO - File CV_Med_Nour_Chouchene.pdf loaded successfully
+[ 2023-08-17 15:23:55,232 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,291 ] 16 root - INFO - File CV_Med_Oussema_Zaier.pdf loaded successfully
+[ 2023-08-17 15:23:55,291 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,318 ] 16 root - INFO - File CV_Mejdi_Belhadj_Youssef.pdf loaded successfully
+[ 2023-08-17 15:23:55,318 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,344 ] 16 root - INFO - File CV_Mihed_Hassine.pdf loaded successfully
+[ 2023-08-17 15:23:55,344 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,369 ] 35 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-17 15:23:55,370 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-17 15:23:55,370 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,438 ] 16 root - INFO - File CV_Mohamed_Fawzi_Stambouli.pdf loaded successfully
+[ 2023-08-17 15:23:55,438 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,463 ] 35 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-17 15:23:55,463 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-17 15:23:55,463 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,502 ] 16 root - INFO - File CV_Nour_Mabrouk.pdf loaded successfully
+[ 2023-08-17 15:23:55,502 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,551 ] 16 root - INFO - File CV_Ons_Ben_Hadj_Sghaier.pdf loaded successfully
+[ 2023-08-17 15:23:55,552 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,581 ] 16 root - INFO - File CV_Oumaima_Ben_Saad.pdf loaded successfully
+[ 2023-08-17 15:23:55,581 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,592 ] 16 root - INFO - File CV_Oumeima_Zaddem.pdf loaded successfully
+[ 2023-08-17 15:23:55,592 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,644 ] 16 root - INFO - File CV_Oussema_Mili.pdf loaded successfully
+[ 2023-08-17 15:23:55,644 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,681 ] 16 root - INFO - File CV_Rahma_Hamrouni.pdf loaded successfully
+[ 2023-08-17 15:23:55,681 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,717 ] 16 root - INFO - File CV_Rania_Slimene.pdf loaded successfully
+[ 2023-08-17 15:23:55,717 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,764 ] 16 root - INFO - File CV_Rayen_Ben_Fathallah.pdf loaded successfully
+[ 2023-08-17 15:23:55,764 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,794 ] 16 root - INFO - File CV_Rima_Jerbi.pdf loaded successfully
+[ 2023-08-17 15:23:55,794 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,831 ] 16 root - INFO - File CV_Rim_Thabet.pdf loaded successfully
+[ 2023-08-17 15:23:55,831 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,845 ] 16 root - INFO - File CV_Saber_ben slama.pdf loaded successfully
+[ 2023-08-17 15:23:55,845 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,877 ] 16 root - INFO - File CV_Sanda_Dhouib.pdf loaded successfully
+[ 2023-08-17 15:23:55,877 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,910 ] 16 root - INFO - File CV_Sarra_Bannour.pdf loaded successfully
+[ 2023-08-17 15:23:55,910 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,940 ] 16 root - INFO - File CV_Sarra_Laribi.pdf loaded successfully
+[ 2023-08-17 15:23:55,940 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,954 ] 16 root - INFO - File CV_Souheyl_Gouadria.pdf loaded successfully
+[ 2023-08-17 15:23:55,954 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:55,980 ] 35 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-17 15:23:55,980 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-17 15:23:55,980 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,040 ] 16 root - INFO - File CV_Teyssir_Taieb.pdf loaded successfully
+[ 2023-08-17 15:23:56,040 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,088 ] 16 root - INFO - File CV_Wael_Antar.pdf loaded successfully
+[ 2023-08-17 15:23:56,088 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,104 ] 35 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-17 15:23:56,104 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-17 15:23:56,105 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,145 ] 16 root - INFO - File CV_Wajdi_Zayane.pdf loaded successfully
+[ 2023-08-17 15:23:56,146 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,176 ] 16 root - INFO - File CV_Wissem_Boujlida.pdf loaded successfully
+[ 2023-08-17 15:23:56,176 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,212 ] 16 root - INFO - File CV_Yasmine_Bizid.pdf loaded successfully
+[ 2023-08-17 15:23:56,212 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,233 ] 16 root - INFO - File CV_Yassine_Afsa.pdf loaded successfully
+[ 2023-08-17 15:23:56,233 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,273 ] 16 root - INFO - File CV_Yessine_Miled.pdf loaded successfully
+[ 2023-08-17 15:23:56,273 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,298 ] 16 root - INFO - File CV_Zaddem_Raslèn.pdf loaded successfully
+[ 2023-08-17 15:23:56,298 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,325 ] 16 root - INFO - File CV_Zeineb_Bachouch.pdf loaded successfully
+[ 2023-08-17 15:23:56,325 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,354 ] 16 root - INFO - File Dziri Ahmed - Resume (1).pdf loaded successfully
+[ 2023-08-17 15:23:56,354 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,382 ] 16 root - INFO - File experience.pdf loaded successfully
+[ 2023-08-17 15:23:56,382 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,396 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-17 15:23:56,396 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,435 ] 16 root - INFO - File rayen_data.pdf loaded successfully
+[ 2023-08-17 15:23:56,436 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:56,491 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-17 15:23:56,491 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:58,216 ] 16 root - INFO - File resumes.csv loaded successfully
+[ 2023-08-17 15:23:58,216 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:58,243 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-08-17 15:23:58,243 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:23:58,291 ] 16 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-08-17 15:23:58,291 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-17 15:24:05,871 ] 482 gensim.utils - INFO - loading Doc2Vec object from doc2vec_model_epochs_80.model
+[ 2023-08-17 15:24:05,884 ] 516 gensim.utils - INFO - loading dv recursively from doc2vec_model_epochs_80.model.dv.* with mmap=None
+[ 2023-08-17 15:24:05,884 ] 516 gensim.utils - INFO - loading wv recursively from doc2vec_model_epochs_80.model.wv.* with mmap=None
+[ 2023-08-17 15:24:05,884 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-17 15:24:06,030 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'doc2vec_model_epochs_80.model', 'datetime': '2023-08-17T15:24:06.022873', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-17 15:24:06,030 ] 482 gensim.utils - INFO - loading Doc2Vec object from doc2vec_model_epochs_100.model
+[ 2023-08-17 15:24:06,041 ] 516 gensim.utils - INFO - loading dv recursively from doc2vec_model_epochs_100.model.dv.* with mmap=None
+[ 2023-08-17 15:24:06,042 ] 516 gensim.utils - INFO - loading wv recursively from doc2vec_model_epochs_100.model.wv.* with mmap=None
+[ 2023-08-17 15:24:06,042 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-17 15:24:06,193 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'doc2vec_model_epochs_100.model', 'datetime': '2023-08-17T15:24:06.193896', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-17 15:24:06,193 ] 482 gensim.utils - INFO - loading Doc2Vec object from doc2vec_model_epochs_150.model
+[ 2023-08-17 15:24:06,206 ] 516 gensim.utils - INFO - loading dv recursively from doc2vec_model_epochs_150.model.dv.* with mmap=None
+[ 2023-08-17 15:24:06,206 ] 516 gensim.utils - INFO - loading wv recursively from doc2vec_model_epochs_150.model.wv.* with mmap=None
+[ 2023-08-17 15:24:06,206 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-17 15:24:06,368 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'doc2vec_model_epochs_150.model', 'datetime': '2023-08-17T15:24:06.368617', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-17 15:24:06,369 ] 482 gensim.utils - INFO - loading Doc2Vec object from doc2vec_model_epochs_40.model
+[ 2023-08-17 15:24:06,383 ] 516 gensim.utils - INFO - loading dv recursively from doc2vec_model_epochs_40.model.dv.* with mmap=None
+[ 2023-08-17 15:24:06,383 ] 516 gensim.utils - INFO - loading wv recursively from doc2vec_model_epochs_40.model.wv.* with mmap=None
+[ 2023-08-17 15:24:06,383 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-17 15:24:06,521 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'doc2vec_model_epochs_40.model', 'datetime': '2023-08-17T15:24:06.521073', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-17 15:24:06,521 ] 482 gensim.utils - INFO - loading Doc2Vec object from resumes_model_epochs_lemmetized_80.model
+[ 2023-08-17 15:24:06,524 ] 516 gensim.utils - INFO - loading dv recursively from resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-17 15:24:06,525 ] 516 gensim.utils - INFO - loading wv recursively from resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-17 15:24:06,525 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-17 15:24:06,565 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-17T15:24:06.565068', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-17 15:24:06,565 ] 482 gensim.utils - INFO - loading Doc2Vec object from resumes_model_epochs_lemmetized_100.model
+[ 2023-08-17 15:24:06,572 ] 516 gensim.utils - INFO - loading dv recursively from resumes_model_epochs_lemmetized_100.model.dv.* with mmap=None
+[ 2023-08-17 15:24:06,572 ] 516 gensim.utils - INFO - loading wv recursively from resumes_model_epochs_lemmetized_100.model.wv.* with mmap=None
+[ 2023-08-17 15:24:06,572 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-17 15:24:06,614 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'resumes_model_epochs_lemmetized_100.model', 'datetime': '2023-08-17T15:24:06.614845', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-17 15:24:06,614 ] 482 gensim.utils - INFO - loading Doc2Vec object from resumes_model_epochs_lemmetized_150.model
+[ 2023-08-17 15:24:06,618 ] 516 gensim.utils - INFO - loading dv recursively from resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-17 15:24:06,618 ] 516 gensim.utils - INFO - loading wv recursively from resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-17 15:24:06,618 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-17 15:24:06,660 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-17T15:24:06.660912', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}

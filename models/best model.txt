@@ -1,0 +1,5 @@
+{'jd_model': 'model150',
+  'resume_model': 'model80',
+  'precision1': 0.5,
+  'precision2': 0.7,
+  'average_precision': 0.6} 

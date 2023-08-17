@@ -3,6 +3,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from nltk.tokenize import word_tokenize
 from numpy.linalg import norm
+from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.corpus import stopwords
 import string
 from src.data_preprocessing.resume_preprocessing import resume_preprocessing_model
@@ -31,7 +32,6 @@ def skills_similarity(job_description,resume) :
     print(f'intersection : {profile_union_jd}')             
           
     print(f"Cosine Similarity: {cosine_sim}")
-    return cosine_sim
     return cosine_sim
 def get_similarity(vector1,vector2): 
     return cosine_similarity(vector1,vector2)[0][0]
@@ -97,7 +97,23 @@ def overall_similarity(job_description,resume,resume_model,jd_model):
     similarity = 100*(np.dot(np.array(job_description_vector), np.array(inferred_vector))) / (norm(np.array(job_description_vector)) * norm(np.array(inferred_vector)))
     print(f'overall similarity:{round(similarity, 2)}')
     return round(similarity, 2)
-def similarity_aggreg(overall_sim,info_sim,weights) : 
-    sim = (overall_sim * weights['overall'] + info_sim * weights['info'])
+def similarity_aggreg(overall_sim,info_sim,tf_idf,weights) : 
+    sim = (overall_sim * weights['overall'] + info_sim * weights['info']+tf_idf*weights['tf_idf'])
     print(f'aggregated_similarity is {sim} ')
     return sim 
+def tf_idf_vectorizing(job_text,resume_text) : 
+    ''' 
+    tf idf vectorizer returns the counts of the words in a text document, this function returns the similarity between the two vectors 
+
+    ''' 
+    job_text_preprocessed = resume_preprocessing_model(job_text)
+    resume_preprocessed = resume_preprocessing_model(resume_text)
+    vectorizer = TfidfVectorizer()
+    tfidf_matrix=vectorizer.fit_transform([resume_preprocessed, job_text_preprocessed])
+    cosine_sim = cosine_similarity(tfidf_matrix[0], tfidf_matrix[1])
+    similarity = cosine_sim[0][0]  # Extract the similarity value
+
+    return round(similarity, 2)
+
+
+
