@@ -9,7 +9,10 @@ To setup the environment, run these commands:
 - python -m spacy download en_core_web_sm
 - python -m spacy download en_core_web_lg
 - python -m nltk.downloader words
-- python -m nltk.downloader punkt 
+- python -m nltk.downloader punkt
+<br>
+ Download this folder and past it in /models : https://drive.google.com/drive/folders/15HlJT2osIgF3j_rPGzl67uN-MSVMLdMf?usp=drive_link
+
 ## Project architecture 
 ### Data 
 #### raw_data : resumes before preprocessing 
@@ -19,4 +22,7 @@ To setup the environment, run these commands:
 ### src 
 #### data_ingestion : Contains script for importing and exporting data 
 #### data_preprocessing : Script for data preprocessing 
-#### main.py  To run the application, run this file 
+#### test  To run the application, run this file 
+## Referneces : 
+- https://aclanthology.org/2021.icnlsp-1.15.pdf
+- https://ijcrt.org/papers/IJCRT_197410.pdf
