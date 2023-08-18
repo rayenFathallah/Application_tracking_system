@@ -9,7 +9,9 @@ To setup the environment, run these commands:
 - python -m spacy download en_core_web_sm
 - python -m spacy download en_core_web_lg
 - python -m nltk.downloader words
-- python -m nltk.downloader punkt 
+- python -m nltk.downloader punkt
+Download this folder and past it in /models : https://drive.google.com/drive/folders/15HlJT2osIgF3j_rPGzl67uN-MSVMLdMf?usp=drive_link
+
 ## Project architecture 
 ### Data 
 #### raw_data : resumes before preprocessing 
