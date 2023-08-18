@@ -1,0 +1,14 @@
+[ 2023-08-18 13:00:34,775 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-08-18 13:00:34,775 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-18 13:00:34,835 ] 16 root - INFO - File data_cv_test1.pdf loaded successfully
+[ 2023-08-18 13:00:34,835 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-18 13:00:43,590 ] 482 gensim.utils - INFO - loading Doc2Vec object from resumes_model_epochs_lemmetized_150.model
+[ 2023-08-18 13:00:43,594 ] 516 gensim.utils - INFO - loading dv recursively from resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-18 13:00:43,594 ] 516 gensim.utils - INFO - loading wv recursively from resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-18 13:00:43,594 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-18 13:00:43,651 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-18T13:00:43.643859', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-18 13:00:43,651 ] 482 gensim.utils - INFO - loading Doc2Vec object from resumes_model_epochs_lemmetized_80.model
+[ 2023-08-18 13:00:43,654 ] 516 gensim.utils - INFO - loading dv recursively from resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-18 13:00:43,655 ] 516 gensim.utils - INFO - loading wv recursively from resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-18 13:00:43,655 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-18 13:00:43,701 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-18T13:00:43.701651', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
