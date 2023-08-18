@@ -86,6 +86,7 @@ def extract_email(resume_text) :
       logging.error("Error while Extracting the email: " + str(e))
       return ''
 def find_closest_faculty(input_text, faculty_list):
+  '''If the name of the faculty is falsely written, this functions detects it and returns the closest detected name '''
   closest_similarity = 0
   closest_faculty = None
 

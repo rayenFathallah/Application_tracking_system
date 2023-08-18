@@ -14,6 +14,9 @@ from src.data_ingestion.data_exporter import export_data_json
 from src.data_preprocessing.job_description_preprocessing import get_jd_info
 from src.similarity import match_profile,overall_similarity,similarity_aggreg,tf_idf_vectorizing
 tika.initVM()
+''' 
+this file runs processes sequentially, to run the program in parallel, run test_par.py
+'''
 file_names = os.listdir('./data/test_data/final_test')
 path = 'data/test_data/final_test'
 start_time = time.time()

@@ -60,6 +60,9 @@ def niveau_similarity(job_description_niveau,resume_niveau) :
             # No education detected
             return 0 
 def match_profile(job_description,resume,weights) : 
+    '''
+    Gets information from the job description and the skills, returns the similarity based on defined weights for each section ( skills,education,years of experience)
+    '''
     niveau_sim = niveau_similarity(job_description['exact_niveau'],resume['education']['niveau_exacte']) 
     print(f"niveau in resume {resume['education']['niveau_exacte']}")
     print(f'niveau similarity {niveau_sim}')
@@ -89,6 +92,7 @@ def preprocess(text):
     
     return text
 def overall_similarity(job_description,resume,resume_model,jd_model): 
+    ## To get an overall similarity of the two documents ( based on semantic similarity not syntax)
     #v1 = model.infer_vector(job_description.split())
     preprocessed_resume = resume_preprocessing_model(resume)
     job_description_vector = jd_model.infer_vector(job_description.split())  # Replace with actual job description tokens
@@ -98,6 +102,7 @@ def overall_similarity(job_description,resume,resume_model,jd_model):
     print(f'overall similarity:{round(similarity, 2)}')
     return round(similarity, 2)
 def similarity_aggreg(overall_sim,info_sim,tf_idf,weights) : 
+    '''Given weights for each layer of similarity, this function returns the final result '''
     sim = (overall_sim * weights['overall'] + info_sim * weights['info']+tf_idf*weights['tf_idf'])
     print(f'aggregated_similarity is {sim} ')
     return sim 
