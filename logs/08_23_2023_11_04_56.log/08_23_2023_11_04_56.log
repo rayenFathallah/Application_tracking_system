@@ -1,0 +1,4 @@
+[ 2023-08-23 11:05:12,486 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-23 11:05:17,773 ] 37 root - ERROR - Error while reading the file: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+[ 2023-08-23 11:05:17,774 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-23 11:05:17,774 ] 24 root - INFO - Files transformed succesfully

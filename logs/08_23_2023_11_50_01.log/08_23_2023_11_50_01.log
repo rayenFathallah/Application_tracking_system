@@ -1,0 +1,16 @@
+[ 2023-08-23 11:50:14,365 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-23 11:50:19,874 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-08-23 11:50:19,875 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 11:50:19,982 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-23 11:50:19,982 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 11:50:20,050 ] 16 root - INFO - File data_cv_test1.pdf loaded successfully
+[ 2023-08-23 11:50:20,050 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 11:50:20,251 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-23 11:50:20,251 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 11:50:20,358 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-23 11:50:20,358 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 11:50:20,430 ] 16 root - INFO - File react_native2.pdf loaded successfully
+[ 2023-08-23 11:50:20,430 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 11:50:20,508 ] 16 root - INFO - File react_native4.pdf loaded successfully
+[ 2023-08-23 11:50:20,508 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 11:52:55,902 ] 676 kombu.connection - WARNING - No hostname was supplied. Reverting to default 'localhost'

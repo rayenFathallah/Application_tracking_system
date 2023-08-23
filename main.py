@@ -20,7 +20,6 @@ start_time = time.time()
 resumes_list = read_files(file_names,path)
 infos_results_final = list()
 #print(len(resumes_list))
-#resumes_list = read_files(['CV_Fadi_Zaafrane.pdf',"experience.pdf"],path)
 nlp = spacy.load("en_core_web_lg")
 model2 = spacy.load('models/model-best')
     # init skill extractor

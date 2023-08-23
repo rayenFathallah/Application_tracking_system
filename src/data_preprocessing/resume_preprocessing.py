@@ -219,7 +219,6 @@ def extract_years_of_experience(text):
     years_of_experience = 0 
     try : 
         text2=remove_accents(text)
-        print('going on years of experienec test')
         # Regular expressions to match various formats of years of experience
         patterns = [
             r'(\d+)\s*(?:year|ann[ee]e|ans)\s*(?:of\s*experience|d[\'e]xperience)?',
@@ -238,7 +237,6 @@ def extract_years_of_experience(text):
             if match:
                 years_of_experience = int(match.group(1))
                 break
-        print(years_of_experience)
         return years_of_experience
     except Exception as e:
         # Catch any other exceptions and log error message
@@ -246,22 +244,19 @@ def extract_years_of_experience(text):
         return years_of_experience
 
 def extract_all_info(resume_text,jd_model,model2) : 
-    infos = dict() 
+    infos = dict()
+    infos['text'] = resume_text
     infos['year_of_experience']= 0 
     infos['email'] = '' 
     infos['education'] = {} 
     infos['skills']=[] 
     infos['number']=set()
     try : 
-        print('extracting informations ...')
         infos['number'] = extract_number(resume_text) 
         infos['email'] = extract_email(resume_text) 
         infos['education'] = extract_education(resume_text) 
         infos['skills'] = list(set(extract_skills(resume_text,jd_model) + extract_skills2(resume_text,model2)))
-        print(infos['skills'])
         infos['year_of_experience'] = extract_years_of_experience(resume_text)
-        print(infos['year_of_experience'])
-        print(f'infos are : {infos}')
         return infos 
     except Exception as e:
         # Catch any other exceptions and log error message

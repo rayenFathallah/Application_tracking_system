@@ -11,3 +11,9 @@ python-Levenshtein==0.21.1
 numpy
 scikit-learn
 gensim==4.3.1
+pymongo==3.11.3
+uvicorn==0.23.2
+fastapi==0.101.1
+pydantic==4.7.1
+celery==5.3.1
+redis==5.0.0

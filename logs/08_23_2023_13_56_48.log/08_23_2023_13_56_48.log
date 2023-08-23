@@ -1,0 +1,15 @@
+[ 2023-08-23 13:57:03,410 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-08-23 13:57:03,411 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:57:03,496 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-23 13:57:03,496 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:57:03,565 ] 16 root - INFO - File data_cv_test1.pdf loaded successfully
+[ 2023-08-23 13:57:03,565 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:57:03,635 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-23 13:57:03,636 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:57:03,710 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-23 13:57:03,710 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:57:03,760 ] 16 root - INFO - File react_native2.pdf loaded successfully
+[ 2023-08-23 13:57:03,760 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:57:03,836 ] 16 root - INFO - File react_native4.pdf loaded successfully
+[ 2023-08-23 13:57:03,836 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:57:32,032 ] 676 kombu.connection - WARNING - No hostname was supplied. Reverting to default 'localhost'

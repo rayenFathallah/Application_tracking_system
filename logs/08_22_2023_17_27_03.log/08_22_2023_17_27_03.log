@@ -1,0 +1,15 @@
+[ 2023-08-22 17:27:08,075 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-22 17:27:13,643 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-08-22 17:27:13,643 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:27:13,776 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-22 17:27:13,776 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:27:13,844 ] 16 root - INFO - File data_cv_test1.pdf loaded successfully
+[ 2023-08-22 17:27:13,844 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:27:14,067 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-22 17:27:14,067 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:27:14,202 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-22 17:27:14,202 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:27:14,273 ] 16 root - INFO - File react_native2.pdf loaded successfully
+[ 2023-08-22 17:27:14,273 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:27:14,350 ] 16 root - INFO - File react_native4.pdf loaded successfully
+[ 2023-08-22 17:27:14,351 ] 24 root - INFO - Files transformed succesfully

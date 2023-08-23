@@ -1,0 +1,29 @@
+[ 2023-08-22 17:10:19,106 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-22 17:10:24,677 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-08-22 17:10:24,677 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:24,803 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-22 17:10:24,803 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:24,898 ] 16 root - INFO - File data_cv_test1.pdf loaded successfully
+[ 2023-08-22 17:10:24,898 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:25,127 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-22 17:10:25,128 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:25,255 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-22 17:10:25,255 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:25,348 ] 16 root - INFO - File react_native2.pdf loaded successfully
+[ 2023-08-22 17:10:25,348 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:25,417 ] 16 root - INFO - File react_native4.pdf loaded successfully
+[ 2023-08-22 17:10:25,417 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:31,335 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-08-22 17:10:31,335 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:31,404 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-22 17:10:31,404 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:31,439 ] 16 root - INFO - File data_cv_test1.pdf loaded successfully
+[ 2023-08-22 17:10:31,439 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:31,478 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-22 17:10:31,478 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:31,533 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-22 17:10:31,533 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:31,572 ] 16 root - INFO - File react_native2.pdf loaded successfully
+[ 2023-08-22 17:10:31,572 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-22 17:10:31,618 ] 16 root - INFO - File react_native4.pdf loaded successfully
+[ 2023-08-22 17:10:31,618 ] 24 root - INFO - Files transformed succesfully
