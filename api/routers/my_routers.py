@@ -59,4 +59,6 @@ async def get_job_resumes(job_id):
 
 @router.get('/get_similarities')
 async def get_similarities(resumes,job_text) : 
-    
+    '''
+    just do smth here
+    '''
