@@ -1,0 +1,3 @@
+[ 2023-08-24 10:17:59,109 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-24 10:18:04,572 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-08-24 10:18:04,573 ] 24 root - INFO - Files transformed succesfully

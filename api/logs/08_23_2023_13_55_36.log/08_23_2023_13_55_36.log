@@ -1,0 +1,21 @@
+[ 2023-08-23 13:55:53,145 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-23 13:55:58,147 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-23 13:56:03,150 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-23 13:56:08,152 ] 700 tika.tika - ERROR - Tika startup log message not received after 3 tries.
+[ 2023-08-23 13:56:08,154 ] 601 tika.tika - ERROR - Failed to receive startup confirmation from startServer.
+[ 2023-08-23 13:56:08,155 ] 38 root - ERROR - Error while reading the file: Unable to start Tika server.
+[ 2023-08-23 13:56:08,157 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-23 13:56:08,158 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:56:10,331 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-23 13:56:16,115 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-23 13:56:16,115 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:56:16,262 ] 16 root - INFO - File data_cv_test1.pdf loaded successfully
+[ 2023-08-23 13:56:16,262 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:56:16,563 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-23 13:56:16,564 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:56:16,751 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-23 13:56:16,751 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:56:16,862 ] 16 root - INFO - File react_native2.pdf loaded successfully
+[ 2023-08-23 13:56:16,863 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-23 13:56:16,933 ] 16 root - INFO - File react_native4.pdf loaded successfully
+[ 2023-08-23 13:56:16,933 ] 24 root - INFO - Files transformed succesfully
