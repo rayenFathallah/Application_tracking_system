@@ -1,0 +1,261 @@
+.job-card {
+    border-radius: 15px;
+  }
+  .job_status {
+    padding : 0.5em 1em; 
+    border-radius: 20px;
+    width : 5.4em;
+    color : white;
+    text-align: center;
+    float : right;
+    font-weight: 600;
+    font-size:0.8em;
+  }
+  .job_title {
+    font-weight: 600;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+  .job-description {
+    color : #676666;
+  }
+.arrow-button {
+    display: flex;
+    color: #C2FFE9;
+    background-color: #00E692;
+    padding: 10px 16px;
+    border-radius: 20px;
+    transition: all .3s ease;
+    font-weight: bold;
+    border-color: transparent;
+    cursor: pointer;
+    align-items: center;
+    font-size: 14px;
+}
+
+.arrow-button > .arrow {
+    width: 6px;
+    height: 6px;
+    border-right: 2px solid #C2FFE9;
+    border-bottom: 2px solid #C2FFE9;
+    position: relative;
+    transform: rotate(-45deg);
+    margin: 0 6px;
+    transition: all .3s ease;
+}
+
+.arrow-button > .arrow::before {
+    display: block;
+    background-color: currentColor;
+    width: 3px;
+    transform-origin: bottom right;
+    height: 2px;
+    position: absolute;
+    opacity: 0;
+    bottom: calc(-2px / 2);
+    transform: rotate(45deg);
+    transition: all .3s ease;
+    content: "";
+    right: 0;
+}
+
+.arrow-button:hover > .arrow {
+    transform: rotate(-45deg) translate(4px, 4px);
+    border-color: text-hover-color;
+}
+
+.arrow-button:hover > .arrow::before {
+    opacity: 1;
+    width: 8px;
+}
+
+.arrow-button:hover {
+    background-color: #017A4F;
+    color: #fff;
+}
+.wrapper {
+    background:#e6e6fa83 !important  ;
+
+}
+.status {
+    margin-left: 20px;
+    padding: 1em 2em ;
+    width : auto !important;
+
+
+
+}
+.trigger-item {
+    margin-top : 20px !important;
+}
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+.job_description {
+    display : flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin : 40px;
+    background-color: #454555;
+    padding : 2rem 2.5rem;
+    color : white;
+    border-radius: 40px;
+}
+.job_description h4 {
+    font-weight: 700;
+    font-size : 2rem;
+    color : #F2F2FC !important;
+
+}
+
+.button-48 {
+  appearance: none;
+  background-color: #FFFFFF;
+  border-width: 0;
+  border-radius: 16px;
+  border : 2px solid black;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Clarkson,Helvetica,sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1em;
+  opacity: 1;
+  outline: 0;
+  padding: 1em 2em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  text-rendering: geometricprecision;
+  text-transform: uppercase;
+  transition: opacity 300ms cubic-bezier(.694, 0, 0.335, 1),background-color 100ms cubic-bezier(.694, 0, 0.335, 1),color 100ms cubic-bezier(.694, 0, 0.335, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-48:before {
+  animation: opacityFallbackOut .5s step-end forwards;
+  backface-visibility: hidden;
+  background-color: #00ff91a6;
+  clip-path: polygon(-1% 0, 0 0, -25% 100%, -1% 100%);
+  content: "";
+  height: 100%;
+  border-radius: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: translateZ(0);
+  transition: clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1), -webkit-clip-path .5s cubic-bezier(.165, 0.84, 0.44, 1);
+  width: 100%;
+}
+
+.button-48:hover:before {
+  animation: opacityFallbackIn 0s step-start forwards;
+  clip-path: polygon(0 0, 101% 0, 101% 101%, 0 101%);
+  border-radius: 16px;
+}
+
+.button-48:after {
+  background-color: #7e393965;
+}
+
+.button-48 span {
+  z-index: 1;
+  position: relative;
+}
+.card {
+box-shadow: 0 20px 27px 0 rgb(0 0 0 / 5%);
+}
+
+.avatar-md {
+height: 5rem;
+width: 5rem;
+}
+
+.fs-19 {
+font-size: 19px;
+}
+
+.primary-link {
+color: #314047;
+-webkit-transition: all .5s ease;
+transition: all .5s ease;
+}
+
+a {
+color: #02af74;
+text-decoration: none;
+}
+
+.bookmark-post .favorite-icon a, .job-box.bookmark-post .favorite-icon a {
+background-color: #da3746;
+color: #fff;
+border-color: danger;
+}
+.favorite-icon a {
+display: inline-block;
+width: 30px;
+height: 30px;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+border: 1px solid #eff0f2;
+border-radius: 6px;
+color: rgba(173,181,189,.55);
+-webkit-transition: all .5s ease;
+transition: all .5s ease;
+}
+
+
+.candidate-list-box .favorite-icon {
+position: absolute;
+right: 22px;
+top: 22px;
+}
+.fs-14 {
+font-size: 14px;
+}
+.bg-soft-secondary {
+background-color: rgba(116,120,141,.15)!important;
+color: #74788d!important;
+}
+
+
+.click_events {
+  display : flex; 
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom : 20px;
+}
+.lds-dual-ring {
+  width: 40px;
+  height: 40px;
+  margin-left: 8px;
+  margin-top: 12px !important;
+
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 6px solid rgb(6, 200, 64);
+  border-color: #cef transparent rgb(105, 237, 103) transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

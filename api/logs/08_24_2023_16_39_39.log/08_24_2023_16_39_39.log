@@ -1,0 +1,52 @@
+[ 2023-08-24 16:39:42,595 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-24 16:39:42,598 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-24 16:39:42,599 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-24 16:39:42,599 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:42,647 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-24T16:39:42.639377', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:39:42,647 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-24 16:39:42,650 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-24 16:39:42,651 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-24 16:39:42,651 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:42,690 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-24T16:39:42.690380', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:39:42,741 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-08-24 16:39:42,741 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:42,788 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-24 16:39:42,788 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:42,847 ] 16 root - INFO - File rayen_data.pdf loaded successfully
+[ 2023-08-24 16:39:42,848 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:42,896 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-24 16:39:42,896 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:42,942 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-08-24 16:39:42,942 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:43,007 ] 16 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-08-24 16:39:43,007 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:45,858 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-24 16:39:45,862 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-24 16:39:45,862 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-24 16:39:45,862 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:45,913 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-24T16:39:45.904812', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:39:45,913 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-24 16:39:45,917 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-24 16:39:45,917 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-24 16:39:45,917 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:45,958 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-24T16:39:45.958742', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:39:45,960 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-24 16:39:45,965 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-24 16:39:45,965 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-24 16:39:45,965 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:46,005 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-24T16:39:46.005257', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:39:46,005 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-24 16:39:46,009 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-24 16:39:46,009 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-24 16:39:46,009 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:46,059 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-24T16:39:46.059183', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:39:46,736 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-24 16:39:46,739 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-24 16:39:46,739 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-24 16:39:46,739 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:46,785 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-24T16:39:46.785316', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:39:46,785 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-24 16:39:46,788 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-24 16:39:46,788 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-24 16:39:46,789 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:46,829 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-24T16:39:46.829325', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}

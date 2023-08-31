@@ -1,0 +1,378 @@
+[ 2023-08-31 12:23:53,579 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-31 12:23:53,582 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-31 12:23:53,582 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-31 12:23:53,583 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-31 12:23:53,635 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-31T12:23:53.628403', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-31 12:23:53,638 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-31 12:23:53,642 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-31 12:23:53,642 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-31 12:23:53,642 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-31 12:23:53,685 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-31T12:23:53.685928', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-31 12:26:03,976 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:03,979 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:10,468 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:10,470 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:16,607 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:16,609 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:19,098 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:19,100 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:26,247 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:26,249 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-31 12:26:27,872 ] 51 root - ERROR - Error while detecting the language: 
+
+python
+
+php
+
+algorithmique
+
+projets realises
+
+en tant qu'etudiante passionnee en developpement web et mobile, je
+suis a la recherche d'un stage qui me permettra d'acquerir une
+experience professionnelle pratique dans ce domaine. forte de mes
+connaissances theoriques en developpement web et mobile, j'ai deja eu
+l'occasion de travailler sur differents projets personnels qui m'ont permis
+de maitriser des competences techniques telles que la programmation
+en html, css, javascript, php, et la conception d'applications mobiles.
+aussi d'autre langage tel que c++,python ,java .
+j'ai egalement developpe des competences en travail d'equipe, en
+communication et en gestion de projet a travers mes etudes et mon
+engagement dans des activites parascolaires. mon objectif est de mettre
+en pratique ces competences et d'en apprendre davantage en travaillant
+aux cotes de professionnels du domaine.
+je suis enthousiaste a l'idee de travailler sur des projets innovants dans
+une entreprise qui valorise la creativite, l'innovation et le travail d'equipe.
+je suis motivee, dynamique et prete a m'investir pleinement dans les
+projets qui me seront confies lors de mon stage.
+cette description de profil met en evidence la passion de l'etudiante pour
+le developpement web et mobile, ses competences techniques et ses
+qualites personnelles. elle est adaptee au poste de stage qu'elle vise et
+donne une idee claire a l'employeur de ce qu'elle peut apporter a
+l'entreprise.
+
+52114870
+
+teyssirteyeb@gmail.com
+
+profil
+
+contacts
+
+html
+
+css
+
+c++
+
+java script
+
+institut superieur d'informatique et
+des mathematiques de monastir
+
+isimm
+
+competences
+
+education
+
+t e y s s i r  t a i e b
+a p p r e n t i  d e v e l o p p e u r  m o b i l e
+p r e t  a  a p p r e n d r e  e t  a  r e l e v e r  d e s
+d e f i s
+
+teyeb teyssir
+
+19/04/2002
+
+femme
+
+hay el yassamine , 5020
+jemme monastir 
+
+informations  personnels
+
+en cours ...
+
+java
+
+ projets universitaires(pfa) : pendant mes etudes universitaires, j'ai travaille sur un projet de
+creation d'un site de commerce electronique .dans le cadre de ce projet, j'ai travaille en
+equipe pour concevoir le site web, le developpement de la plateforme . cette experience
+m'a permis de developper mes competences en conception web, en developpement de
+sites de commerce electronique et en travail d'equipe. je suis convaincu que ces
+competences peuvent etre mises a profit dans un environnement professionnel et
+contribuer au succes dans votre entreprise . 
+en dehors de mes etudes universitaires je suis en train de faire aussi un projet sur une
+interface youtube pour developpe mes competences en html , css  ,js et php . ces projets
+m'ont permis de mettre en pratique mes competences en developpement web et de
+travailler sur des problematiques concretes. ils ont egalement renforce ma capacite a trav
+ailler en autonomie et a resoudre des problemes de maniere efficace.
+
+
+
+ le certificat en graphic design :  
+le club vfx qui offre une formation intensive dans les differents aspects du design
+graphique.
+elle apprenne a utiliser des logiciels de creation tels que photoshop et illustrator pour
+creer des designs graphiques professionnels pour des projets tels que des publicites,
+des cartes de visite, des sites web et des applications mobiles.
+le programme de certificat en graphic design couvre les principes fondamentaux du
+design graphique, la mise en page, la couleur, la theorie de la composition, la gestion
+de projet et la creation de logos. comprendre les besoins des clients, a interpreter les
+briefs creatifs et a creer des designs qui repondent aux exigences et aux objectifs de
+l'entreprise.
+le certificat en graphic design est une option interessante pour les personnes qui
+cherchent a acquerir des competences dans un domaine creatif . cette formation aide
+a poursuivre le carriere en tant que graphistes , designers web, designers d'interfaces
+utilisateur ou devenir des membres d'une equipe de design dans une entreprise.
+collaboration en equipe, creation de diagrammes de gantt et de calendriers.
+
+october 2021
+
+certificats, formations
+
+parcours professionnel
+
+francais
+
+langues 
+
+je suis une personne organisee
+et methodique.
+
+centre d'interet
+
+anglais 
+
+sport  
+
+technologie   
+
+certificat en gestion de projet avec quire:
+formation axee sur la planification, le suivi et la gestion de projets avec l'outil de
+gestion de projet en ligne quire. competences acquises : creation et organisation
+de projets, affectation de taches, gestion des echeances, gestion de temps . 
+
+mars  2022
+
+qualites 
+
+je suis passionnee
+
+je suis capable de travailler avec
+differents langages de
+programmation tels que html, css,
+javascript, php, et bien d'autres
+encore. j'ai egalement une bonne
+comprehension des concepts de
+base de la programmation orientee
+objet et des methodes de
+developpement agiles.
+
+je suis une personne creative
+et innovante.
+
+je suis une personne
+responsable et fiable, qui
+respecte les delais et les
+budgets impartis pour chaque
+projet.
+
+member en club vfx .
+
+j'ai ete membre d'un club de design universitaire pendant mes etudes et cela
+a ete une experience extremement enrichissante pour moi. le club etait
+ouvert a tous les etudiants interesses par le design, qu'ils soient en design
+graphique , les jeux videos, etc .. .
+l'un des aspects les plus gratifiants du club etait la possibilite de travailler en
+equipe sur des projets de design. nous avons eu l'occasion de concevoir des
+affiches, des logos.
+enfin, le club etait egalement un excellent moyen de rencontrer d'autres
+etudiants partageant les memes idees et passionnes de design. nous avons
+travaille ensemble sur des projets, partage des connaissances et echange des
+idees .
+
+je suis une personne sociable .
+
+
+ --> Text length need to be between 0 and 5000 characters
+[ 2023-08-31 12:26:27,891 ] 51 root - ERROR - Error while detecting the language: 
+
+python
+
+php
+
+algorithmique
+
+projets realises
+
+en tant qu'etudiante passionnee en developpement web et mobile, je
+suis a la recherche d'un stage qui me permettra d'acquerir une
+experience professionnelle pratique dans ce domaine. forte de mes
+connaissances theoriques en developpement web et mobile, j'ai deja eu
+l'occasion de travailler sur differents projets personnels qui m'ont permis
+de maitriser des competences techniques telles que la programmation
+en html, css, javascript, php, et la conception d'applications mobiles.
+aussi d'autre langage tel que c++,python ,java .
+j'ai egalement developpe des competences en travail d'equipe, en
+communication et en gestion de projet a travers mes etudes et mon
+engagement dans des activites parascolaires. mon objectif est de mettre
+en pratique ces competences et d'en apprendre davantage en travaillant
+aux cotes de professionnels du domaine.
+je suis enthousiaste a l'idee de travailler sur des projets innovants dans
+une entreprise qui valorise la creativite, l'innovation et le travail d'equipe.
+je suis motivee, dynamique et prete a m'investir pleinement dans les
+projets qui me seront confies lors de mon stage.
+cette description de profil met en evidence la passion de l'etudiante pour
+le developpement web et mobile, ses competences techniques et ses
+qualites personnelles. elle est adaptee au poste de stage qu'elle vise et
+donne une idee claire a l'employeur de ce qu'elle peut apporter a
+l'entreprise.
+
+52114870
+
+teyssirteyeb@gmail.com
+
+profil
+
+contacts
+
+html
+
+css
+
+c++
+
+java script
+
+institut superieur d'informatique et
+des mathematiques de monastir
+
+isimm
+
+competences
+
+education
+
+t e y s s i r  t a i e b
+a p p r e n t i  d e v e l o p p e u r  m o b i l e
+p r e t  a  a p p r e n d r e  e t  a  r e l e v e r  d e s
+d e f i s
+
+teyeb teyssir
+
+19/04/2002
+
+femme
+
+hay el yassamine , 5020
+jemme monastir 
+
+informations  personnels
+
+en cours ...
+
+java
+
+ projets universitaires(pfa) : pendant mes etudes universitaires, j'ai travaille sur un projet de
+creation d'un site de commerce electronique .dans le cadre de ce projet, j'ai travaille en
+equipe pour concevoir le site web, le developpement de la plateforme . cette experience
+m'a permis de developper mes competences en conception web, en developpement de
+sites de commerce electronique et en travail d'equipe. je suis convaincu que ces
+competences peuvent etre mises a profit dans un environnement professionnel et
+contribuer au succes dans votre entreprise . 
+en dehors de mes etudes universitaires je suis en train de faire aussi un projet sur une
+interface youtube pour developpe mes competences en html , css  ,js et php . ces projets
+m'ont permis de mettre en pratique mes competences en developpement web et de
+travailler sur des problematiques concretes. ils ont egalement renforce ma capacite a trav
+ailler en autonomie et a resoudre des problemes de maniere efficace.
+
+
+
+ le certificat en graphic design :  
+le club vfx qui offre une formation intensive dans les differents aspects du design
+graphique.
+elle apprenne a utiliser des logiciels de creation tels que photoshop et illustrator pour
+creer des designs graphiques professionnels pour des projets tels que des publicites,
+des cartes de visite, des sites web et des applications mobiles.
+le programme de certificat en graphic design couvre les principes fondamentaux du
+design graphique, la mise en page, la couleur, la theorie de la composition, la gestion
+de projet et la creation de logos. comprendre les besoins des clients, a interpreter les
+briefs creatifs et a creer des designs qui repondent aux exigences et aux objectifs de
+l'entreprise.
+le certificat en graphic design est une option interessante pour les personnes qui
+cherchent a acquerir des competences dans un domaine creatif . cette formation aide
+a poursuivre le carriere en tant que graphistes , designers web, designers d'interfaces
+utilisateur ou devenir des membres d'une equipe de design dans une entreprise.
+collaboration en equipe, creation de diagrammes de gantt et de calendriers.
+
+october 2021
+
+certificats, formations
+
+parcours professionnel
+
+francais
+
+langues 
+
+je suis une personne organisee
+et methodique.
+
+centre d'interet
+
+anglais 
+
+sport  
+
+technologie   
+
+certificat en gestion de projet avec quire:
+formation axee sur la planification, le suivi et la gestion de projets avec l'outil de
+gestion de projet en ligne quire. competences acquises : creation et organisation
+de projets, affectation de taches, gestion des echeances, gestion de temps . 
+
+mars  2022
+
+qualites 
+
+je suis passionnee
+
+je suis capable de travailler avec
+differents langages de
+programmation tels que html, css,
+javascript, php, et bien d'autres
+encore. j'ai egalement une bonne
+comprehension des concepts de
+base de la programmation orientee
+objet et des methodes de
+developpement agiles.
+
+je suis une personne creative
+et innovante.
+
+je suis une personne
+responsable et fiable, qui
+respecte les delais et les
+budgets impartis pour chaque
+projet.
+
+member en club vfx .
+
+j'ai ete membre d'un club de design universitaire pendant mes etudes et cela
+a ete une experience extremement enrichissante pour moi. le club etait
+ouvert a tous les etudiants interesses par le design, qu'ils soient en design
+graphique , les jeux videos, etc .. .
+l'un des aspects les plus gratifiants du club etait la possibilite de travailler en
+equipe sur des projets de design. nous avons eu l'occasion de concevoir des
+affiches, des logos.
+enfin, le club etait egalement un excellent moyen de rencontrer d'autres
+etudiants partageant les memes idees et passionnes de design. nous avons
+travaille ensemble sur des projets, partage des connaissances et echange des
+idees .
+
+je suis une personne sociable .
+
+
+ --> Text length need to be between 0 and 5000 characters

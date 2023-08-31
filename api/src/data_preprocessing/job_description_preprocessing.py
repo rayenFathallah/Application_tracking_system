@@ -2,12 +2,18 @@ import pandas as pd
 import spacy 
 import tika 
 import re
+import os
 from gensim.models.doc2vec import Doc2Vec, TaggedDocument
 from nltk.tokenize import word_tokenize
 from numpy.linalg import norm
 from src.data_preprocessing.resume_preprocessing import detect_lang,extract_years_of_experience,remove_accents,detect_niveau_similarity,extract_skills,extract_skills2
-def get_jd_info(jd_data_text,model2) :
+def get_jd_info(jd_data_text) :
   dic_jd = {}
+  current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Calculate the path to the models directory
+  models_dir = os.path.join(current_dir, '../../models/model-best')
+  model2 = spacy.load(models_dir)
   dic_jd['after_bac']=[]
   dic_jd['SKILLS']=[]
   jd_data_text=remove_accents(jd_data_text.lower())

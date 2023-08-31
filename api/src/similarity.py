@@ -7,7 +7,10 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.corpus import stopwords
 import string
 from src.data_preprocessing.resume_preprocessing import resume_preprocessing_model
-
+weights = {'skills':100,'niveau':0,'experience':0}
+model_weights = {'overall' : 0.4,'info':0.4,'tf_idf':0.2}
+model_150_jd = Doc2Vec.load('models/resume_models/resumes_model_epochs_lemmetized_150.model')
+model_80_resume = Doc2Vec.load('models/resume_models/resumes_model_epochs_lemmetized_80.model')
 
 
 # Convert job description and resume to binary vectors
@@ -64,12 +67,16 @@ def match_profile(job_description,resume,weights) :
     Gets information from the job description and the skills, returns the similarity based on defined weights for each section ( skills,education,years of experience)
     '''
     niveau_sim = niveau_similarity(job_description['exact_niveau'],resume['education']['niveau_exacte']) 
-    print(f"niveau in resume {resume['education']['niveau_exacte']}")
-    print(f'niveau similarity {niveau_sim}')
+    #print(f"niveau in resume {resume['education']['niveau_exacte']}")
+    #print(f'niveau similarity {niveau_sim}')
     experience_sim = years_similarity(job_description['Year_experience'],resume['year_of_experience']) 
-    print(f'Experience similarity {experience_sim}')
-    skills_sim = skills_similarity(job_description['SKILLS'],resume['skills'])
-    print(f'skills similarity {skills_sim}')
+    #print(f'Experience similarity {experience_sim}')
+    if(len(job_description["SKILLS"]) >0) : 
+
+        skills_sim = skills_similarity(job_description['SKILLS'],resume['skills'])
+    else : 
+        skills_sim = 0
+    #print(f'skills similarity {skills_sim}')
     sim = niveau_sim * weights['niveau'] + experience_sim * weights['experience'] + skills_sim * weights['skills']
     return sim
 def preprocess(text):
@@ -104,7 +111,6 @@ def overall_similarity(job_description,resume,resume_model,jd_model):
 def similarity_aggreg(overall_sim,info_sim,tf_idf,weights) : 
     '''Given weights for each layer of similarity, this function returns the final result '''
     sim = (overall_sim * weights['overall'] + info_sim * weights['info']+tf_idf*weights['tf_idf'])
-    print(f'aggregated_similarity is {sim} ')
     return sim 
 def tf_idf_vectorizing(job_text,resume_text) : 
     ''' 
@@ -118,7 +124,11 @@ def tf_idf_vectorizing(job_text,resume_text) :
     cosine_sim = cosine_similarity(tfidf_matrix[0], tfidf_matrix[1])
     similarity = cosine_sim[0][0]  # Extract the similarity value
 
-    return round(similarity, 2)
+    return 100*round(similarity, 2)
 
-
-
+def get_final_similarity(job,resume) : 
+        tf_sim = tf_idf_vectorizing(job['text'],resume['text'])
+        overall = overall_similarity(job['text'],resume['text'],model_80_resume,model_150_jd)
+        info = match_profile(job,resume['infos'],weights) 
+        final_result = similarity_aggreg(overall,info,tf_sim,model_weights)
+        return final_result

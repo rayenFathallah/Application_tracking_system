@@ -30,4 +30,7 @@ def trigger_task() :
 @fast_app.get("/") 
 def home():
     return "Hello, World!"
+@fast_app.get("/test") 
+def test() : 
+    return "test validated"
 fast_app.include_router(my_routers.router)

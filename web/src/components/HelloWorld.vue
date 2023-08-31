@@ -11,14 +11,15 @@ export default {
   name: 'component_one',
   data() {
     return {
-      msg: '',
+      jobs: [],
     };
   },
   methods: {
     getMessage() {
-      axios.get('/')
+      axios.get('/get_jobs')
         .then((res) => {
-          this.msg = res.data;
+          this.jobs = res.data;
+          console.log(res.data)
         })
         .catch((error) => {
           console.error(error);
@@ -26,7 +27,7 @@ export default {
     },
   },
   created() {
-    this.getMessage();
+    console.log("heyyy");
   },
 };
 </script>

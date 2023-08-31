@@ -1,0 +1,24 @@
+[ 2023-08-24 16:39:03,836 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-24 16:39:03,840 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-24 16:39:03,840 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-24 16:39:03,840 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:03,887 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-24T16:39:03.880334', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:39:03,891 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-24 16:39:03,894 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-24 16:39:03,894 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-24 16:39:03,894 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:39:03,934 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-24T16:39:03.934334', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:39:06,095 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-08-24 16:39:11,520 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-08-24 16:39:11,520 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:11,702 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-24 16:39:11,702 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:11,769 ] 16 root - INFO - File rayen_data.pdf loaded successfully
+[ 2023-08-24 16:39:11,769 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:11,894 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-24 16:39:11,894 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:11,943 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-08-24 16:39:11,943 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:12,009 ] 16 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-08-24 16:39:12,010 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:39:16,128 ] 482 gensim.utils - INFO - loading Doc2Vec object from resumes_model_epochs_lemmetized_150.model

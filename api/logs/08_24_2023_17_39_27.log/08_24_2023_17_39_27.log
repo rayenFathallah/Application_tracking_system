@@ -1,0 +1,615 @@
+[ 2023-08-24 17:39:30,606 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-24 17:39:30,609 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-24 17:39:30,609 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-24 17:39:30,609 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:30,658 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-24T17:39:30.651345', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:30,659 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-24 17:39:30,662 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-24 17:39:30,662 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-24 17:39:30,662 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:30,701 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-24T17:39:30.701335', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:30,728 ] 16 root - INFO - File CV_Ahlem_Marzougui.pdf loaded successfully
+[ 2023-08-24 17:39:30,728 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:30,757 ] 16 root - INFO - File CV_Ahmed_Amamou.pdf loaded successfully
+[ 2023-08-24 17:39:30,757 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:30,790 ] 16 root - INFO - File CV_Ahmed_Dziri.pdf loaded successfully
+[ 2023-08-24 17:39:30,790 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:30,886 ] 16 root - INFO - File CV_Ahmed_Farhat.pdf loaded successfully
+[ 2023-08-24 17:39:30,886 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:30,918 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-24 17:39:30,918 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:30,949 ] 16 root - INFO - File CV_Amine_Ghedira.pdf loaded successfully
+[ 2023-08-24 17:39:30,949 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:30,985 ] 16 root - INFO - File CV_Anwer_Boubaker.pdf loaded successfully
+[ 2023-08-24 17:39:30,985 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,029 ] 16 root - INFO - File CV_Asma_Chakroun.pdf loaded successfully
+[ 2023-08-24 17:39:31,029 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,074 ] 16 root - INFO - File CV_Aya_Benjazia.pdf loaded successfully
+[ 2023-08-24 17:39:31,074 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,126 ] 16 root - INFO - File CV_Aymen_Ghnia.pdf loaded successfully
+[ 2023-08-24 17:39:31,126 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,158 ] 16 root - INFO - File CV_Ayoub_Ben_Latifa.pdf loaded successfully
+[ 2023-08-24 17:39:31,158 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,222 ] 16 root - INFO - File CV_Ben_Chaaben_Yassin.pdf loaded successfully
+[ 2023-08-24 17:39:31,222 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,267 ] 16 root - INFO - File CV_Chedy_Sakly.pdf loaded successfully
+[ 2023-08-24 17:39:31,267 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,317 ] 16 root - INFO - File CV_Donia_Chaouch.pdf loaded successfully
+[ 2023-08-24 17:39:31,317 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,360 ] 16 root - INFO - File CV_Eya_Rejeb.pdf loaded successfully
+[ 2023-08-24 17:39:31,360 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,401 ] 16 root - INFO - File CV_EYA_Sekma.pdf loaded successfully
+[ 2023-08-24 17:39:31,401 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,444 ] 16 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-24 17:39:31,444 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,478 ] 16 root - INFO - File CV_Fatma_Bouzgarrou.pdf loaded successfully
+[ 2023-08-24 17:39:31,478 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,509 ] 16 root - INFO - File CV_Hana_Zrafi.pdf loaded successfully
+[ 2023-08-24 17:39:31,509 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,532 ] 16 root - INFO - File CV_Houssem_Hassani.pdf loaded successfully
+[ 2023-08-24 17:39:31,532 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,576 ] 16 root - INFO - File CV_Houssem_Kraiem.pdf loaded successfully
+[ 2023-08-24 17:39:31,576 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,618 ] 16 root - INFO - File CV_Ibrahim_Youssef.pdf loaded successfully
+[ 2023-08-24 17:39:31,618 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,671 ] 16 root - INFO - File CV_Ibtihel_Khdhaouria.pdf loaded successfully
+[ 2023-08-24 17:39:31,671 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,723 ] 16 root - INFO - File CV_Iheb_Alouane.pdf loaded successfully
+[ 2023-08-24 17:39:31,724 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,760 ] 16 root - INFO - File CV_Isra_Dakhlaoui.pdf loaded successfully
+[ 2023-08-24 17:39:31,761 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,791 ] 16 root - INFO - File CV_Khaled_Chtioui.pdf loaded successfully
+[ 2023-08-24 17:39:31,791 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,819 ] 16 root - INFO - File CV_khawla_belkacem.pdf loaded successfully
+[ 2023-08-24 17:39:31,819 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,843 ] 16 root - INFO - File CV_Lina_Ounaies.pdf loaded successfully
+[ 2023-08-24 17:39:31,843 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,876 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 17:39:31,876 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 17:39:31,876 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,929 ] 16 root - INFO - File CV_Med_Houssem_Beltifa.pdf loaded successfully
+[ 2023-08-24 17:39:31,929 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,964 ] 16 root - INFO - File CV_Med_Neji_Benzarti.pdf loaded successfully
+[ 2023-08-24 17:39:31,964 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:31,985 ] 16 root - INFO - File CV_Med_Nour_Chouchene.pdf loaded successfully
+[ 2023-08-24 17:39:31,985 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,034 ] 16 root - INFO - File CV_Med_Oussema_Zaier.pdf loaded successfully
+[ 2023-08-24 17:39:32,034 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,069 ] 16 root - INFO - File CV_Mejdi_Belhadj_Youssef.pdf loaded successfully
+[ 2023-08-24 17:39:32,069 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,100 ] 16 root - INFO - File CV_Mihed_Hassine.pdf loaded successfully
+[ 2023-08-24 17:39:32,100 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,126 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 17:39:32,126 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 17:39:32,126 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,174 ] 16 root - INFO - File CV_Mohamed_Fawzi_Stambouli.pdf loaded successfully
+[ 2023-08-24 17:39:32,174 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,206 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 17:39:32,206 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 17:39:32,206 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,252 ] 16 root - INFO - File CV_Nour_Mabrouk.pdf loaded successfully
+[ 2023-08-24 17:39:32,253 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,297 ] 16 root - INFO - File CV_Ons_Ben_Hadj_Sghaier.pdf loaded successfully
+[ 2023-08-24 17:39:32,297 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,348 ] 16 root - INFO - File CV_Oumaima_Ben_Saad.pdf loaded successfully
+[ 2023-08-24 17:39:32,348 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,385 ] 16 root - INFO - File CV_Oumeima_Zaddem.pdf loaded successfully
+[ 2023-08-24 17:39:32,385 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,432 ] 16 root - INFO - File CV_Oussema_Mili.pdf loaded successfully
+[ 2023-08-24 17:39:32,432 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,470 ] 16 root - INFO - File CV_Rahma_Hamrouni.pdf loaded successfully
+[ 2023-08-24 17:39:32,470 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,513 ] 16 root - INFO - File CV_Rania_Slimene.pdf loaded successfully
+[ 2023-08-24 17:39:32,513 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,560 ] 16 root - INFO - File CV_Rayen_Ben_Fathallah.pdf loaded successfully
+[ 2023-08-24 17:39:32,560 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,604 ] 16 root - INFO - File CV_Rima_Jerbi.pdf loaded successfully
+[ 2023-08-24 17:39:32,604 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,635 ] 16 root - INFO - File CV_Rim_Thabet.pdf loaded successfully
+[ 2023-08-24 17:39:32,635 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,659 ] 16 root - INFO - File CV_Saber_ben slama.pdf loaded successfully
+[ 2023-08-24 17:39:32,659 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,696 ] 16 root - INFO - File CV_Sanda_Dhouib.pdf loaded successfully
+[ 2023-08-24 17:39:32,696 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,722 ] 16 root - INFO - File CV_Sarra_Bannour.pdf loaded successfully
+[ 2023-08-24 17:39:32,722 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,754 ] 16 root - INFO - File CV_Sarra_Laribi.pdf loaded successfully
+[ 2023-08-24 17:39:32,754 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,795 ] 16 root - INFO - File CV_Souheyl_Gouadria.pdf loaded successfully
+[ 2023-08-24 17:39:32,795 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,803 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 17:39:32,803 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 17:39:32,803 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,849 ] 16 root - INFO - File CV_Teyssir_Taieb.pdf loaded successfully
+[ 2023-08-24 17:39:32,849 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,904 ] 16 root - INFO - File CV_Wael_Antar.pdf loaded successfully
+[ 2023-08-24 17:39:32,904 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,926 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 17:39:32,927 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 17:39:32,927 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:32,969 ] 16 root - INFO - File CV_Wajdi_Zayane.pdf loaded successfully
+[ 2023-08-24 17:39:32,969 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,017 ] 16 root - INFO - File CV_Wissem_Boujlida.pdf loaded successfully
+[ 2023-08-24 17:39:33,017 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,033 ] 16 root - INFO - File CV_Yasmine_Bizid.pdf loaded successfully
+[ 2023-08-24 17:39:33,033 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,076 ] 16 root - INFO - File CV_Yassine_Afsa.pdf loaded successfully
+[ 2023-08-24 17:39:33,076 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,128 ] 16 root - INFO - File CV_Yessine_Miled.pdf loaded successfully
+[ 2023-08-24 17:39:33,128 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,174 ] 16 root - INFO - File CV_Zaddem_Raslèn.pdf loaded successfully
+[ 2023-08-24 17:39:33,175 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,217 ] 16 root - INFO - File CV_Zeineb_Bachouch.pdf loaded successfully
+[ 2023-08-24 17:39:33,217 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,268 ] 16 root - INFO - File Dziri Ahmed - Resume (1).pdf loaded successfully
+[ 2023-08-24 17:39:33,268 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,315 ] 16 root - INFO - File experience.pdf loaded successfully
+[ 2023-08-24 17:39:33,315 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,342 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-24 17:39:33,343 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,385 ] 16 root - INFO - File rayen_data.pdf loaded successfully
+[ 2023-08-24 17:39:33,385 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,421 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-24 17:39:33,422 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,451 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-08-24 17:39:33,451 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:33,498 ] 16 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-08-24 17:39:33,498 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 17:39:37,124 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/doc2vec_model_epochs_100.model
+[ 2023-08-24 17:39:37,139 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/doc2vec_model_epochs_100.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,139 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/doc2vec_model_epochs_100.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,139 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,292 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/doc2vec_model_epochs_100.model', 'datetime': '2023-08-24T17:39:37.292401', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:37,292 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/doc2vec_model_epochs_150.model
+[ 2023-08-24 17:39:37,303 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/doc2vec_model_epochs_150.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,303 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/doc2vec_model_epochs_150.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,303 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,469 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/doc2vec_model_epochs_150.model', 'datetime': '2023-08-24T17:39:37.469181', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:37,469 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/doc2vec_model_epochs_40.model
+[ 2023-08-24 17:39:37,479 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/doc2vec_model_epochs_40.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,479 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/doc2vec_model_epochs_40.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,479 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,605 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/doc2vec_model_epochs_40.model', 'datetime': '2023-08-24T17:39:37.605181', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:37,605 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/doc2vec_model_epochs_80.model
+[ 2023-08-24 17:39:37,615 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/doc2vec_model_epochs_80.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,615 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/doc2vec_model_epochs_80.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,615 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,753 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/doc2vec_model_epochs_80.model', 'datetime': '2023-08-24T17:39:37.753259', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:37,753 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/resumes_model_epochs_100.model
+[ 2023-08-24 17:39:37,756 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/resumes_model_epochs_100.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,756 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/resumes_model_epochs_100.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,756 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,780 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/resumes_model_epochs_100.model', 'datetime': '2023-08-24T17:39:37.780259', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:37,780 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/resumes_model_epochs_150.model
+[ 2023-08-24 17:39:37,782 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/resumes_model_epochs_150.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,782 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/resumes_model_epochs_150.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,782 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,809 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/resumes_model_epochs_150.model', 'datetime': '2023-08-24T17:39:37.809270', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:37,809 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/resumes_model_epochs_80.model
+[ 2023-08-24 17:39:37,812 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/resumes_model_epochs_80.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,812 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/resumes_model_epochs_80.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,812 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,836 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/resumes_model_epochs_80.model', 'datetime': '2023-08-24T17:39:37.836268', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:37,836 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/resumes_model_epochs_lemmetized_100.model
+[ 2023-08-24 17:39:37,839 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/resumes_model_epochs_lemmetized_100.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,839 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/resumes_model_epochs_lemmetized_100.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,839 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,896 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/resumes_model_epochs_lemmetized_100.model', 'datetime': '2023-08-24T17:39:37.896850', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:37,896 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-24 17:39:37,899 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,899 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,899 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,939 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-24T17:39:37.939849', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:39:37,939 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/jd_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-24 17:39:37,942 ] 516 gensim.utils - INFO - loading dv recursively from models/jd_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-24 17:39:37,942 ] 516 gensim.utils - INFO - loading wv recursively from models/jd_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-24 17:39:37,942 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 17:39:37,981 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/jd_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-24T17:39:37.981849', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 17:47:57,821 ] 263 root - ERROR - Error while Extracting the informations: 'SKILLS'
+[ 2023-08-24 17:47:59,748 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,752 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,771 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,796 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,813 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,834 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,850 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,869 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,888 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,905 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,920 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,934 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,952 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:47:59,985 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,014 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,044 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,075 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,107 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,134 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,153 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,179 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,197 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,208 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,216 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,221 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,227 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,233 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,247 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,254 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,260 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,266 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,272 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,283 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,298 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,314 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,325 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,337 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,351 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,365 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,381 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,392 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,402 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,414 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,422 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,429 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,436 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,442 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,450 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,457 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,464 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,472 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,479 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,489 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,500 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,509 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,518 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,528 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,538 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,560 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,571 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,583 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,593 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,601 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,609 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,614 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,620 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,631 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,638 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,646 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,654 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,661 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,666 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,679 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,690 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,701 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,712 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,723 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,735 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,746 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,757 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,769 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,783 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,801 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,819 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,852 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,868 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,885 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,901 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,917 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,955 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,974 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:00,999 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:01,026 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:01,037 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:01,054 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:01,064 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:01,083 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:01,093 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:01,103 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:01,112 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:48:01,124 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:53,295 ] 263 root - ERROR - Error while Extracting the informations: 'SKILLS'
+[ 2023-08-24 17:53:57,459 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,463 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,481 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,502 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,515 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,534 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,554 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,573 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,594 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,610 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,630 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,644 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,671 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,692 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,711 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,736 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,756 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,776 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,800 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,819 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,838 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,858 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,866 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,873 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,880 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,889 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,897 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,904 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,910 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,917 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,923 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,930 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,941 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,952 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,968 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,978 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,988 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:57,999 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,010 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,020 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,039 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,049 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,060 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,067 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,074 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,080 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,088 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,103 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,110 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,118 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,125 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,131 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,141 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,151 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,160 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,170 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,179 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,190 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,199 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,209 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,220 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,229 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,235 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,242 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,247 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,253 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,259 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,266 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,273 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,279 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,285 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,292 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,303 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,318 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,328 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,340 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,351 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,362 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,374 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,385 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,397 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,410 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,427 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,444 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,459 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,475 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,509 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,526 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,542 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,558 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,576 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,605 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,615 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,625 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,634 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,643 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,652 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,662 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,674 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,684 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:53:58,694 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:24,649 ] 263 root - ERROR - Error while Extracting the informations: 'SKILLS'
+[ 2023-08-24 17:59:26,613 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,617 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,631 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,648 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,660 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,676 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,692 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,711 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,725 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,742 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,762 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,781 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,804 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,824 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,844 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,864 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,884 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,906 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,926 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,947 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,967 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,987 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:26,995 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,003 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,009 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,019 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,026 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,034 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,040 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,047 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,055 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,062 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,077 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,089 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,100 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,112 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,124 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,137 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,150 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,162 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,174 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,185 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,193 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,202 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,209 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,216 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,224 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,232 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,240 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,247 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,255 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,263 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,275 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,286 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,296 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,305 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,315 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,336 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,347 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,359 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,378 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,389 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,399 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,408 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,413 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,420 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,429 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,437 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,443 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,449 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,455 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,461 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,474 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,486 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,498 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,510 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,522 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,533 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,545 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,556 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,569 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,580 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,596 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,612 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,627 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,656 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,673 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,699 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,724 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,745 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,776 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,794 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,805 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,836 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,851 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,866 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,877 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,889 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,901 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,912 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 17:59:27,923 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:46,030 ] 263 root - ERROR - Error while Extracting the informations: 'SKILLS'
+[ 2023-08-24 18:01:49,452 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,458 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,480 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,506 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,527 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,546 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,566 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,584 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,601 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,625 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,643 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,658 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,683 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,704 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,724 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,745 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,765 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,787 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,807 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,829 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,852 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,873 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,880 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,889 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,895 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,905 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,912 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,920 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,930 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,939 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,947 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,955 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,967 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,980 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:49,991 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,008 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,029 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,046 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,060 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,072 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,085 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,098 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,106 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,115 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,122 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,130 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,138 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,146 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,155 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,164 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,172 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,180 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,191 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,202 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,213 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,224 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,235 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,247 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,257 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,268 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,280 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,294 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,301 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,308 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,314 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,321 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,327 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,335 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,342 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,349 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,357 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,364 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,377 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,390 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,403 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,415 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,428 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,440 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,451 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,463 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,475 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,486 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,505 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,524 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,541 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,557 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,573 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,597 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,613 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,630 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,647 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,663 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,672 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,683 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,693 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,703 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,713 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,724 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,738 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,748 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 18:01:50,760 ] 51 root - ERROR - Error while detecting the language: No features in text.

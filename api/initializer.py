@@ -29,6 +29,10 @@ class resume :
         res['infos'] = self.infos 
         res['binary'] = self.binary 
         res['name'] = self.name
+        res['status'] = 'waiting' 
+        res['open']= True
+        res['job_id'] = []
+        res['job_scores']=[]
         return res 
     def insert_resume(self) : 
         result = self.prepare_results()

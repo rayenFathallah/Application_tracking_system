@@ -1,0 +1,351 @@
+[ 2023-08-24 16:42:16,712 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-24 16:42:16,715 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-24 16:42:16,715 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-24 16:42:16,715 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:42:16,761 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-24T16:42:16.755879', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:42:16,765 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-24 16:42:16,768 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-24 16:42:16,768 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-24 16:42:16,769 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:42:16,809 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-24T16:42:16.809879', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:42:16,859 ] 16 root - INFO - File CV_Ahlem_Marzougui.pdf loaded successfully
+[ 2023-08-24 16:42:16,860 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:16,920 ] 16 root - INFO - File CV_Ahmed_Amamou.pdf loaded successfully
+[ 2023-08-24 16:42:16,921 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:16,998 ] 16 root - INFO - File CV_Ahmed_Dziri.pdf loaded successfully
+[ 2023-08-24 16:42:16,998 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,310 ] 16 root - INFO - File CV_Ahmed_Farhat.pdf loaded successfully
+[ 2023-08-24 16:42:17,310 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,388 ] 16 root - INFO - File CV_Amine_Gafsi.pdf loaded successfully
+[ 2023-08-24 16:42:17,388 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,438 ] 16 root - INFO - File CV_Amine_Ghedira.pdf loaded successfully
+[ 2023-08-24 16:42:17,438 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,492 ] 16 root - INFO - File CV_Anwer_Boubaker.pdf loaded successfully
+[ 2023-08-24 16:42:17,492 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,539 ] 16 root - INFO - File CV_Asma_Chakroun.pdf loaded successfully
+[ 2023-08-24 16:42:17,539 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,587 ] 16 root - INFO - File CV_Aya_Benjazia.pdf loaded successfully
+[ 2023-08-24 16:42:17,587 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,643 ] 16 root - INFO - File CV_Aymen_Ghnia.pdf loaded successfully
+[ 2023-08-24 16:42:17,643 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,679 ] 16 root - INFO - File CV_Ayoub_Ben_Latifa.pdf loaded successfully
+[ 2023-08-24 16:42:17,679 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,730 ] 16 root - INFO - File CV_Ben_Chaaben_Yassin.pdf loaded successfully
+[ 2023-08-24 16:42:17,730 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,840 ] 16 root - INFO - File CV_Chedy_Sakly.pdf loaded successfully
+[ 2023-08-24 16:42:17,840 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,906 ] 16 root - INFO - File CV_Donia_Chaouch.pdf loaded successfully
+[ 2023-08-24 16:42:17,907 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:17,997 ] 16 root - INFO - File CV_Eya_Rejeb.pdf loaded successfully
+[ 2023-08-24 16:42:17,997 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,039 ] 16 root - INFO - File CV_EYA_Sekma.pdf loaded successfully
+[ 2023-08-24 16:42:18,039 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,086 ] 16 root - INFO - File CV_Fadi_Zaafrane.pdf loaded successfully
+[ 2023-08-24 16:42:18,087 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,127 ] 16 root - INFO - File CV_Fatma_Bouzgarrou.pdf loaded successfully
+[ 2023-08-24 16:42:18,127 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,184 ] 16 root - INFO - File CV_Hana_Zrafi.pdf loaded successfully
+[ 2023-08-24 16:42:18,184 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,220 ] 16 root - INFO - File CV_Houssem_Hassani.pdf loaded successfully
+[ 2023-08-24 16:42:18,220 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,274 ] 16 root - INFO - File CV_Houssem_Kraiem.pdf loaded successfully
+[ 2023-08-24 16:42:18,274 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,345 ] 16 root - INFO - File CV_Ibrahim_Youssef.pdf loaded successfully
+[ 2023-08-24 16:42:18,345 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,387 ] 16 root - INFO - File CV_Ibtihel_Khdhaouria.pdf loaded successfully
+[ 2023-08-24 16:42:18,387 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,428 ] 16 root - INFO - File CV_Iheb_Alouane.pdf loaded successfully
+[ 2023-08-24 16:42:18,428 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,477 ] 16 root - INFO - File CV_Isra_Dakhlaoui.pdf loaded successfully
+[ 2023-08-24 16:42:18,477 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,534 ] 16 root - INFO - File CV_Khaled_Chtioui.pdf loaded successfully
+[ 2023-08-24 16:42:18,534 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,600 ] 16 root - INFO - File CV_khawla_belkacem.pdf loaded successfully
+[ 2023-08-24 16:42:18,601 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,648 ] 16 root - INFO - File CV_Lina_Ounaies.pdf loaded successfully
+[ 2023-08-24 16:42:18,649 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,671 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 16:42:18,672 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 16:42:18,672 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,726 ] 16 root - INFO - File CV_Med_Houssem_Beltifa.pdf loaded successfully
+[ 2023-08-24 16:42:18,726 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,777 ] 16 root - INFO - File CV_Med_Neji_Benzarti.pdf loaded successfully
+[ 2023-08-24 16:42:18,777 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,819 ] 16 root - INFO - File CV_Med_Nour_Chouchene.pdf loaded successfully
+[ 2023-08-24 16:42:18,820 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,880 ] 16 root - INFO - File CV_Med_Oussema_Zaier.pdf loaded successfully
+[ 2023-08-24 16:42:18,880 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,929 ] 16 root - INFO - File CV_Mejdi_Belhadj_Youssef.pdf loaded successfully
+[ 2023-08-24 16:42:18,929 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,965 ] 16 root - INFO - File CV_Mihed_Hassine.pdf loaded successfully
+[ 2023-08-24 16:42:18,965 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:18,991 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 16:42:18,991 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 16:42:18,991 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,059 ] 16 root - INFO - File CV_Mohamed_Fawzi_Stambouli.pdf loaded successfully
+[ 2023-08-24 16:42:19,059 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,087 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 16:42:19,087 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 16:42:19,087 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,127 ] 16 root - INFO - File CV_Nour_Mabrouk.pdf loaded successfully
+[ 2023-08-24 16:42:19,127 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,192 ] 16 root - INFO - File CV_Ons_Ben_Hadj_Sghaier.pdf loaded successfully
+[ 2023-08-24 16:42:19,192 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,236 ] 16 root - INFO - File CV_Oumaima_Ben_Saad.pdf loaded successfully
+[ 2023-08-24 16:42:19,236 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,279 ] 16 root - INFO - File CV_Oumeima_Zaddem.pdf loaded successfully
+[ 2023-08-24 16:42:19,279 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,326 ] 16 root - INFO - File CV_Oussema_Mili.pdf loaded successfully
+[ 2023-08-24 16:42:19,326 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,360 ] 16 root - INFO - File CV_Rahma_Hamrouni.pdf loaded successfully
+[ 2023-08-24 16:42:19,360 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,404 ] 16 root - INFO - File CV_Rania_Slimene.pdf loaded successfully
+[ 2023-08-24 16:42:19,404 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,443 ] 16 root - INFO - File CV_Rayen_Ben_Fathallah.pdf loaded successfully
+[ 2023-08-24 16:42:19,444 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,499 ] 16 root - INFO - File CV_Rima_Jerbi.pdf loaded successfully
+[ 2023-08-24 16:42:19,499 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,540 ] 16 root - INFO - File CV_Rim_Thabet.pdf loaded successfully
+[ 2023-08-24 16:42:19,540 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,563 ] 16 root - INFO - File CV_Saber_ben slama.pdf loaded successfully
+[ 2023-08-24 16:42:19,563 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,598 ] 16 root - INFO - File CV_Sanda_Dhouib.pdf loaded successfully
+[ 2023-08-24 16:42:19,598 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,644 ] 16 root - INFO - File CV_Sarra_Bannour.pdf loaded successfully
+[ 2023-08-24 16:42:19,644 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,673 ] 16 root - INFO - File CV_Sarra_Laribi.pdf loaded successfully
+[ 2023-08-24 16:42:19,673 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,722 ] 16 root - INFO - File CV_Souheyl_Gouadria.pdf loaded successfully
+[ 2023-08-24 16:42:19,722 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,767 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 16:42:19,767 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 16:42:19,767 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,812 ] 16 root - INFO - File CV_Teyssir_Taieb.pdf loaded successfully
+[ 2023-08-24 16:42:19,812 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,857 ] 16 root - INFO - File CV_Wael_Antar.pdf loaded successfully
+[ 2023-08-24 16:42:19,857 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,887 ] 38 root - ERROR - Error while reading the file: 'NoneType' object has no attribute 'lower'
+[ 2023-08-24 16:42:19,887 ] 23 root - ERROR - Error while reading the file: cannot access local variable 'e' where it is not associated with a value
+[ 2023-08-24 16:42:19,887 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,930 ] 16 root - INFO - File CV_Wajdi_Zayane.pdf loaded successfully
+[ 2023-08-24 16:42:19,930 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:19,979 ] 16 root - INFO - File CV_Wissem_Boujlida.pdf loaded successfully
+[ 2023-08-24 16:42:19,980 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,023 ] 16 root - INFO - File CV_Yasmine_Bizid.pdf loaded successfully
+[ 2023-08-24 16:42:20,023 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,076 ] 16 root - INFO - File CV_Yassine_Afsa.pdf loaded successfully
+[ 2023-08-24 16:42:20,076 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,154 ] 16 root - INFO - File CV_Yessine_Miled.pdf loaded successfully
+[ 2023-08-24 16:42:20,155 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,204 ] 16 root - INFO - File CV_Zaddem_Raslèn.pdf loaded successfully
+[ 2023-08-24 16:42:20,204 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,248 ] 16 root - INFO - File CV_Zeineb_Bachouch.pdf loaded successfully
+[ 2023-08-24 16:42:20,248 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,311 ] 16 root - INFO - File Dziri Ahmed - Resume (1).pdf loaded successfully
+[ 2023-08-24 16:42:20,311 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,353 ] 16 root - INFO - File experience.pdf loaded successfully
+[ 2023-08-24 16:42:20,353 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,393 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-08-24 16:42:20,394 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,439 ] 16 root - INFO - File rayen_data.pdf loaded successfully
+[ 2023-08-24 16:42:20,440 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,533 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-08-24 16:42:20,533 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,570 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-08-24 16:42:20,570 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:20,625 ] 16 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-08-24 16:42:20,625 ] 24 root - INFO - Files transformed succesfully
+[ 2023-08-24 16:42:24,428 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-08-24 16:42:24,433 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-08-24 16:42:24,433 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-08-24 16:42:24,433 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:42:24,496 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-08-24T16:42:24.496136', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:42:24,496 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-08-24 16:42:24,500 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-08-24 16:42:24,500 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-08-24 16:42:24,500 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-08-24 16:42:24,555 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-08-24T16:42:24.555137', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-08-24 16:42:31,860 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 16:42:35,428 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 16:42:39,137 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 16:42:40,708 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 16:42:44,234 ] 51 root - ERROR - Error while detecting the language: No features in text.
+[ 2023-08-24 16:42:45,161 ] 51 root - ERROR - Error while detecting the language: 
+
+python
+
+php
+
+algorithmique
+
+projets realises
+
+en tant qu'etudiante passionnee en developpement web et mobile, je
+suis a la recherche d'un stage qui me permettra d'acquerir une
+experience professionnelle pratique dans ce domaine. forte de mes
+connaissances theoriques en developpement web et mobile, j'ai deja eu
+l'occasion de travailler sur differents projets personnels qui m'ont permis
+de maitriser des competences techniques telles que la programmation
+en html, css, javascript, php, et la conception d'applications mobiles.
+aussi d'autre langage tel que c++,python ,java .
+j'ai egalement developpe des competences en travail d'equipe, en
+communication et en gestion de projet a travers mes etudes et mon
+engagement dans des activites parascolaires. mon objectif est de mettre
+en pratique ces competences et d'en apprendre davantage en travaillant
+aux cotes de professionnels du domaine.
+je suis enthousiaste a l'idee de travailler sur des projets innovants dans
+une entreprise qui valorise la creativite, l'innovation et le travail d'equipe.
+je suis motivee, dynamique et prete a m'investir pleinement dans les
+projets qui me seront confies lors de mon stage.
+cette description de profil met en evidence la passion de l'etudiante pour
+le developpement web et mobile, ses competences techniques et ses
+qualites personnelles. elle est adaptee au poste de stage qu'elle vise et
+donne une idee claire a l'employeur de ce qu'elle peut apporter a
+l'entreprise.
+
+52114870
+
+teyssirteyeb@gmail.com
+
+profil
+
+contacts
+
+html
+
+css
+
+c++
+
+java script
+
+institut superieur d'informatique et
+des mathematiques de monastir
+
+isimm
+
+competences
+
+education
+
+t e y s s i r  t a i e b
+a p p r e n t i  d e v e l o p p e u r  m o b i l e
+p r e t  a  a p p r e n d r e  e t  a  r e l e v e r  d e s
+d e f i s
+
+teyeb teyssir
+
+19/04/2002
+
+femme
+
+hay el yassamine , 5020
+jemme monastir 
+
+informations  personnels
+
+en cours ...
+
+java
+
+ projets universitaires(pfa) : pendant mes etudes universitaires, j'ai travaille sur un projet de
+creation d'un site de commerce electronique .dans le cadre de ce projet, j'ai travaille en
+equipe pour concevoir le site web, le developpement de la plateforme . cette experience
+m'a permis de developper mes competences en conception web, en developpement de
+sites de commerce electronique et en travail d'equipe. je suis convaincu que ces
+competences peuvent etre mises a profit dans un environnement professionnel et
+contribuer au succes dans votre entreprise . 
+en dehors de mes etudes universitaires je suis en train de faire aussi un projet sur une
+interface youtube pour developpe mes competences en html , css  ,js et php . ces projets
+m'ont permis de mettre en pratique mes competences en developpement web et de
+travailler sur des problematiques concretes. ils ont egalement renforce ma capacite a trav
+ailler en autonomie et a resoudre des problemes de maniere efficace.
+
+
+
+ le certificat en graphic design :  
+le club vfx qui offre une formation intensive dans les differents aspects du design
+graphique.
+elle apprenne a utiliser des logiciels de creation tels que photoshop et illustrator pour
+creer des designs graphiques professionnels pour des projets tels que des publicites,
+des cartes de visite, des sites web et des applications mobiles.
+le programme de certificat en graphic design couvre les principes fondamentaux du
+design graphique, la mise en page, la couleur, la theorie de la composition, la gestion
+de projet et la creation de logos. comprendre les besoins des clients, a interpreter les
+briefs creatifs et a creer des designs qui repondent aux exigences et aux objectifs de
+l'entreprise.
+le certificat en graphic design est une option interessante pour les personnes qui
+cherchent a acquerir des competences dans un domaine creatif . cette formation aide
+a poursuivre le carriere en tant que graphistes , designers web, designers d'interfaces
+utilisateur ou devenir des membres d'une equipe de design dans une entreprise.
+collaboration en equipe, creation de diagrammes de gantt et de calendriers.
+
+october 2021
+
+certificats, formations
+
+parcours professionnel
+
+francais
+
+langues 
+
+je suis une personne organisee
+et methodique.
+
+centre d'interet
+
+anglais 
+
+sport  
+
+technologie   
+
+certificat en gestion de projet avec quire:
+formation axee sur la planification, le suivi et la gestion de projets avec l'outil de
+gestion de projet en ligne quire. competences acquises : creation et organisation
+de projets, affectation de taches, gestion des echeances, gestion de temps . 
+
+mars  2022
+
+qualites 
+
+je suis passionnee
+
+je suis capable de travailler avec
+differents langages de
+programmation tels que html, css,
+javascript, php, et bien d'autres
+encore. j'ai egalement une bonne
+comprehension des concepts de
+base de la programmation orientee
+objet et des methodes de
+developpement agiles.
+
+je suis une personne creative
+et innovante.
+
+je suis une personne
+responsable et fiable, qui
+respecte les delais et les
+budgets impartis pour chaque
+projet.
+
+member en club vfx .
+
+j'ai ete membre d'un club de design universitaire pendant mes etudes et cela
+a ete une experience extremement enrichissante pour moi. le club etait
+ouvert a tous les etudiants interesses par le design, qu'ils soient en design
+graphique , les jeux videos, etc .. .
+l'un des aspects les plus gratifiants du club etait la possibilite de travailler en
+equipe sur des projets de design. nous avons eu l'occasion de concevoir des
+affiches, des logos.
+enfin, le club etait egalement un excellent moyen de rencontrer d'autres
+etudiants partageant les memes idees et passionnes de design. nous avons
+travaille ensemble sur des projets, partage des connaissances et echange des
+idees .
+
+je suis une personne sociable .
+
+
+ --> Text length need to be between 0 and 5000 characters

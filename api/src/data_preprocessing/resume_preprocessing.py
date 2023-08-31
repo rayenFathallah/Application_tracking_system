@@ -185,7 +185,7 @@ def extract_skills2(resume_text,jd_model):
     label_list_jd=list()
     text_list_jd = list()
     dic_jd = {}
-
+    dic_jd['SKILLS'] = list()
     doc_jd = jd_model(resume_text)
     for ent in doc_jd.ents:
         label_list_jd.append(ent.label_)
@@ -270,16 +270,16 @@ def detect_niveau_similarity(niveau) :
     '''
     # possible associations  : licence, ingenieurie, preparatoire, mastere, doctorat
     assoc_dic ={ 'licence' : 'licence',
-                'cycle ingenieur' : 'ingernieurie', 
-                'ingenieurie en' : 'ingernieurie',
-                'ingernieurie' : 'ingernieurie',
-                'engineering' :'ingernieurie', 
-                'engineer' : 'ingernieurie', 
+                'cycle ingenieur' : 'ingenieurie', 
+                'ingenieurie en' : 'ingenieurie',
+                'ingenieurie' : 'ingenieurie',
+                'engineering' :'ingenieurie', 
+                'engineer' : 'ingenieurie', 
                 'bachelor' : 'licence', 
                 'B.E' : 'licence', 
                 'B.S': 'licence',
                 'preparatoire' : 'preparatoire', 
-                'prepa' : 'prepa',
+                'prepa' : 'preparatoire',
                 'mastere': 'mastere',
                 'master' : 'mastere',
                 'doctorat' : 'doctorat',
@@ -295,7 +295,7 @@ def detect_niveau_similarity(niveau) :
         elem = elem.strip() 
         if elem in assoc_dic.keys() : 
             matched_niveau.append(assoc_dic[elem]) 
-    return matched_niveau 
+    return list(set(matched_niveau))
 def cleanResume(resumeText):
     resumeText = re.sub('http\S+\s*', ' ', resumeText)  # remove URLs
     resumeText = re.sub('RT|cc', ' ', resumeText)  # remove RT and cc
