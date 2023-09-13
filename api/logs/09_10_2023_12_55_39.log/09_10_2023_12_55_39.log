@@ -1,0 +1,33 @@
+[ 2023-09-10 12:55:50,045 ] 802 tika.tika - INFO - Retrieving http://search.maven.org/remotecontent?filepath=org/apache/tika/tika-server-standard/2.6.0/tika-server-standard-2.6.0.jar to C:\Users\rayen\AppData\Local\Temp\tika-server.jar.
+[ 2023-09-10 12:56:52,916 ] 802 tika.tika - INFO - Retrieving http://search.maven.org/remotecontent?filepath=org/apache/tika/tika-server-standard/2.6.0/tika-server-standard-2.6.0.jar.md5 to C:\Users\rayen\AppData\Local\Temp\tika-server.jar.md5.
+[ 2023-09-10 12:56:53,647 ] 695 tika.tika - WARNING - Failed to see startup log message; retrying...
+[ 2023-09-10 12:56:59,475 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-09-10 12:56:59,475 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:56:59,762 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-09-10 12:56:59,762 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:56:59,878 ] 16 root - INFO - File rayen_data.pdf loaded successfully
+[ 2023-09-10 12:56:59,878 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:00,127 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-09-10 12:57:00,127 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:00,203 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-09-10 12:57:00,203 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:00,281 ] 16 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-09-10 12:57:00,281 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:00,298 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:00,299 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,299 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,301 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:00,302 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,302 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,303 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:00,305 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,305 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,306 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:00,308 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,308 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,309 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:00,310 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,310 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,311 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:00,311 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:00,311 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'

@@ -40,7 +40,18 @@ const actions = {
   async updateJob({}, id,new_job) {
     await axios.put(`/update_job/${id}`, new_job);
   },
-  // eslint-disable-next-line no-empty-pattern
+  async update_skills(context,update){
+    try {
+      await axios.put('/update_job_skills', {'new_skills':update['new_skills'],'job_id':update['job_id']});
+      const {data} = await axios.put('/update_job_scores', {'job_id':update['job_id']});
+      const parsedData = JSON.parse(data);
+      return parsedData;
+    }
+    catch {
+      console.error('a problem accured while updating the scores');
+    }
+  },
+ // eslint-disable-next-line no-empty-pattern
 
 };
 

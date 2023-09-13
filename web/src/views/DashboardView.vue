@@ -14,7 +14,7 @@
             <textarea
               name="content"
               v-model="form.content"
-              class="form-control"
+              class="form-control description"
             ></textarea>
           </div>
           <button type="submit" class="btn btn-primary">Submit</button>
@@ -74,6 +74,7 @@
     },
     created: function() {
       return this.$store.dispatch('get_all_jobs');
+
     },
     computed: {
       ...mapGetters({ jobs: 'stateJobs'}),

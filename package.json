@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@johmun/vue-tags-input": "^2.1.0",
+    "@voerro/vue-tagsinput": "^2.7.1",
+    "vue-input-tag": "^2.0.7"
+  }
+}

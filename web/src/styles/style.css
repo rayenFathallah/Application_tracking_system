@@ -259,3 +259,8 @@ color: #74788d!important;
     transform: rotate(360deg);
   }
 }
+.description{ 
+  height: auto !important;
+  overflow-y: auto !important;
+  min-height: 100px !important;
+}

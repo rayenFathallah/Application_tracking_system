@@ -1,0 +1,154 @@
+[{
+  "_id": {
+    "$oid": "64ec6f14af425da79dd4d4aa"
+  },
+  "after_bac": [
+    "0"
+  ],
+  "SKILLS": [
+    "ggplot",
+    "matplotlib",
+    "scala",
+    "java",
+    "hive",
+    "svm",
+    "sql",
+    "r",
+    "c++",
+    "machine learning",
+    "python"
+  ],
+  "program_details": [
+    "engineering "
+  ],
+  "Year_experience": 0,
+  "exact_niveau": [
+    "ingernieurie"
+  ],
+  "title": "Data engineer",
+  "text": "Programming Skills – knowledgeeeeee of statistical programming languages like R, \n Python, and database query languages like SQL, Hive, Pig is desirable. Familiarity with Scala, Java, or C++ is an added advantage. Statistics – Good applied statistical skills, including knowledge of statistical tests, distributions, regression, maximum likelihood estimators, etc. Proficiency in statistics is essential for data-driven companies. Machine Learning – good knowledge of machine learning methods like k-Nearest Neighbors, Naive Bayes, SVM, Decision Forests. Strong Math Skills (Multivariable Calculus and Linear Algebra) - understanding the fundamentals of Multivariable Calculus and Linear Algebra is important as they form the basis of a lot of predictive performance or algorithm optimization techniques. Data Wrangling – proficiency in handling imperfections in data is an important aspect of a data scientist job description. Experience with Data Visualization Tools like matplotlib, ggplot, d3.js., Tableau that help to visually encode data Excellent Communication Skills – it is incredibly important to describe findings to a technical and non-technical audience. Strong Software Engineering Background Hands-on experience with data science tools Problem-solving aptitude Analytical mind and great business sense Degree in Computer Science, Engineering or relevant field is preferred Proven Experience as Data Analyst or Data Scientist\n",
+  "open": false
+},
+{
+  "_id": {
+    "$oid": "64ef203812bb22f519c93f40"
+  },
+  "after_bac": [
+    "0"
+  ],
+  "SKILLS": [],
+  "program_details": [
+    "engineering "
+  ],
+  "Year_experience": 0,
+  "exact_niveau": [
+    "ingernieurie"
+  ],
+  "title": "data analyst ",
+  "text": "Develops and manages information to support corporate decision making. Manages and improves existing reporting systems. Performs complex analyses. Conducts and facilitates (and educates and trains on) analyses, issues identification, organizational risk assessment, and decision-making processes. Provides consulting and analytic services to leadership. Provides technical support and mentoring and training to less-senior analysts. Develops methodology and processes for prioritization and scheduling of projects. Analyzes problems and determines root causes. Defines company data assets (data models), spark, sparkSQL, and hiveSQL jobs to populate data models. Works closely with all business units and engineering teams to develop strategy for long term data platform architecture.",
+  "open": true
+},
+{
+  "_id": {
+    "$oid": "64ef211112bb22f519c93f41"
+  },
+  "after_bac": [
+    "0"
+  ],
+  "SKILLS": [
+    "react.js",
+    "css",
+    "troubleshooting",
+    "mocha",
+    "jest",
+    "browser-based debugging",
+    "html",
+    "javascript"
+  ],
+  "program_details": [],
+  "Year_experience": 0,
+  "exact_niveau": [],
+  "title": "front end developer",
+  "text": "We are looking for a skilled react.js developer to join our front-end development team. In this role, you will be responsible for developing and implementing user interface components using React.js concepts and workflows such as Redux, Flux, and Webpack. You will also be responsible for profiling and improving front-end performance and documenting our front-end codebase. To ensure success as a react.js developer, you should have in-depth knowledge of JavaScript and React concepts, excellent front-end coding skills, and a good understanding of progressive web applications. Ultimately, a top-class react.js developer should be able to design and build modern user interface components to enhance application performance. React.js Developer Responsibilities: Meeting with the development team to discuss user interface ideas and applications. Reviewing application requirements and interface designs. Identifying web-based user interactions. Developing and implementing highly responsive user interface components using react concepts. Writing application interface codes using JavaScript following react.js workflows. Troubleshooting interface software and debugging application codes. Developing and implementing front-end architecture to support user interface concepts. Monitoring and improving front-end performance. Documenting application changes and developing updates. React.js Developer Requirements: Bachelor’s degree in computer science, information technology, or a similar field. Previous experience working as a react.js developer. In-depth knowledge of JavaScript, CSS, HTML, and front-end languages. Knowledge of REACT tools including React.js, Webpack, Enzyme, Redux, and Flux. Experience with user interface design. Knowledge of performance testing frameworks including Mocha and Jest. Experience with browser-based debugging and performance testing software. Excellent troubleshooting skills. Good project management skills.",
+  "open": true
+},
+{
+  "_id": {
+    "$oid": "64ef21bd12bb22f519c93f42"
+  },
+  "after_bac": [
+    "0"
+  ],
+  "SKILLS": [
+    "git",
+    "mongodb",
+    "github",
+    "nodejs",
+    "express",
+    "aws",
+    "react",
+    "javascript"
+  ],
+  "program_details": [],
+  "Year_experience": 4,
+  "exact_niveau": [],
+  "title": "backend developer",
+  "text": "Our Startup #Konnect is excited to announce that we are currently seeking a talented #Backend #Developer to join our team in #Tunis. We are looking for someone with experience in #NodeJS, #Express, and #MongoDB to help us build robust and scalable #RESTful APIs for cross-border solutions. You will work closely with our #product and #design teams to develop and implement new features and functionality for our platform. You will also be responsible for #maintaining and #optimizing the existing codebase, ensuring that it is performant and efficient. The ideal candidate for this position should have: ✅ 4 years of experience working with NodeJS, Express, and MongoDB ✅ Strong proficiency in JavaScript and TypeScript ✅ Familiarity with front-end technologies such as React ✅ Experience working with AWS or other cloud services is a plus ✅ A passion for writing clean, well-documented code ✅ Experience working in Production environments ✅ Experience in Teamwork and collaboration with Git and GitHub ✅ Excellent problem-solving skills and attention to detail If you are a Backend Developer who is passionate about building scalable and robust web applications, then we want to hear from you! This is a full-time position, and we offer a competitive salary, as well as opportunities for professional growth and development",
+  "open": true
+},
+{
+  "_id": {
+    "$oid": "64ef223b12bb22f519c93f43"
+  },
+  "after_bac": [
+    "0"
+  ],
+  "SKILLS": [
+    "nexus",
+    "microservice architecture",
+    "spring-boot",
+    "openshift",
+    "docker",
+    "zuul",
+    "kafka",
+    "zookeeper",
+    "ribbon",
+    "sonar",
+    "jenkins",
+    "hystrix",
+    "eureka"
+  ],
+  "program_details": [
+    "ingenieur"
+  ],
+  "Year_experience": 2,
+  "exact_niveau": [],
+  "title": "Devops engineer",
+  "text": "Keyrus recrute un DevOps Engineer! Et vous offre l’opportunité de rejoindre une équipe travaillant sur des projets destinés à des clients grands comptes. A ce titre, vous ferez face à de grands défis qui vous aideront à progresser chaque jour. Vous serez amenés à travailler en collaboration avec nos équipes dans la mise en œuvre des activités de développement tout en veillant au bon déroulement des projets. • Mise en place d’une plateform CI/CD • Réaliser le packaging de nos produits • Assurer le suivi de Monitoring des plateformes de productions • Evangéliser la culture Devops auprès des équipes • Utiliser des outils d'orchestration pour déployer et tester une architecture de microservices. • Rédiger les scripts d’automatisations en utilisant Groovy / Java / Bash • Participer au développement et aux choix de l’architecture. • Continuer d’automatiser au maximum l’infrastructure (Jenkins, Kubernetes, ..) • Travailler en tandem avec les équipes de développement notamment dans le cadrage des projets pour identifier les enjeux d’infrastructure au plus tôt • Mettre en place des solutions d’infrastructure innovantes pour accompagner la croissance technique • L'administration, le maintien, la supervision et la configuration des plateformes et services Cloud Qualifications : Vous êtes Issu(e) d’une formation supérieure dans le domaine informatique et vous justifié d’une expérience de 2 ans et plus en tant qu’ingénieur Devops. • Vous maitrisez les environnements suivants : Jenkins, Docker, Nexus, Sonar, Build tools ZSH. • Et les technologies suivantes: Docker, Openshift., microservice architecture (Spring-boot, Eureka, Ribbon, Zuul, Hystrix, Kafka, Zookeeper, MongoDB) • Vous avez des connaissances en kubernetes, Python • Vous êtes innovant et apprécié le challenge de nouvelles technologies et méthodes de travail. • Vous avez une expertise technique autour des applications et des déploiements continus • Vous avez un bon relationnel et de bonnes capacités de communication en Français comme en Anglais. Nous offrons: • Un environnement dynamique et international entouré de collègues enthousiastes et professionnels. • Des Avantages sociaux. • Nous investissons beaucoup de temps et de ressources dans la formation de notre personnel (cours techniques et non techniques). • Un package salarial attractif, un système de bonus, une assurance maladie, etc. • Des missions à l'étranger et un programme de détachement à l'international",
+  "open": true
+},
+{
+  "_id": {
+    "$oid": "64f0b240b83eb15035e475ef"
+  },
+  "after_bac": [
+    "0"
+  ],
+  "SKILLS": [
+    "react",
+    "redis",
+    "postgresql",
+    "ruby",
+    "elasticsearch"
+  ],
+  "program_details": [
+    "engineering "
+  ],
+  "Year_experience": 5,
+  "exact_niveau": [
+    "ingenieurie"
+  ],
+  "title": "Machine learning engineer",
+  "text": "This offer from \"Amplemarket\" has been enriched by Jobgether and got a 75.75% flex score.\nWhat is Amplemarket all about?\nAmplemarket's premise is that a lot of the playbooks used by B2B sales teams that worked 5 years ago don't cut it anymore.\nIn today's environment, sales teams need to have a tremendous amount of information about their prospects to decide when is the best moment and channel to reach out in the most relevant way. You can't do this with 5 different data/sales enablement point solutions that don't share the same data schema and barely communicate with each other. Amplemarket is the all-in-one compound solution that enables this.\nOur AI-powered sales platform helps B2B companies generate more opportunities thanks to our advanced lead generation engine, hyper-personalized sequencing, omnichannel outreach, and AI-powered smart actions. We are backed by Y Combinator, and we are powering the sales teams at some of the fastest-growing companies in the world like Deel, Moveworks, H1 and Vanta.\n\nAbout the Engineering Team\n\nThe three co-founders have an engineering background (João, Luís and Mica studied Physics & Computer Science in university) and deeply value the work that engineers are responsible for.\n\nOur main goal is to build a sales platform that helps companies grow. Our product requires us to solve a myriad of difficult engineering problems very diverse in nature: from working on NLP models that can extract information from a thread of emails to scaling an elasticsearch cluster holding terabytes of data.\n\nWe are deeply aware of the importance of our tool to our customers and look for people that share that vision.\n\nAmong other things, our stack includes:\n\nRuby on Rails, React, PostgresQL, Elasticsearch, Redis\n\nWe don't require you to have experience in our stack to apply.\n\nYou will:\n• Work directly with the co-founders\n• Have lots of autonomy and impact\n• Build large-scale cutting-edge Machine Learning systems that have outsized business impact\n• Design, train, improve & launch models\n• Work on cross-functional projects, directly collaborating with other engineers\n• Ensure that the systems your team operates continue running well and can scale to meet the needs of our users\n\nSome more about Amplemarket:\n• We are profitable and we just raised $12M in back-to-back seed and Series A funding\n• Backed by YCombinator\n• Strong technical founding team from MIT and IST (also founders of https://fermatslibrary.com/)\n• Fast growing startup with product market fit\n• Great team spirit\n\nWe offer:\n• Nice work environment\n• Competitive Salary\n• Health Insurance\n• Stock Options\n• Annual Company Trip in a secret location\n• and more\n\nAmplemarket is committed to creating an inclusive employee experience for all.\nRegardless of race, gender, religion, sexual orientation, age, disability, or if you’re parenting the next generation of innovators, we firmly believe that what truly matters is how your skills, knowledge and personality fit our company. So bring your best professional version of yourself, and apply - we'd like to hear from you",
+  "open": true
+}]

@@ -104,6 +104,29 @@ async def update_job(job_id:str,new_job:dict):
 class Resume_get(BaseModel) : 
     str_id : str
 
+
+
+
+
+class job_update(BaseModel) : 
+    new_skills : list
+    job_id : str 
+@router.put('/update_job_skills') 
+async def update_job_skills(update : job_update):
+    db=conn.ATS_db 
+    jobs_db = db['jobs']
+    id = ObjectId(update.job_id)
+    query = {"_id":id}
+
+    update_query = {"$set": {"SKILLS":update.new_skills}}
+    try :
+        result = jobs_db.update_one(query, update_query)
+        return "success"
+    except : 
+        return 'Problem accured'
+
+
+
 @router.get("/get_institutes")  
 async def get_inst() : 
     db=conn.ATS_db 
@@ -284,3 +307,44 @@ async def update_candidate_status(update : Resume_update):
     else:
         return Response(content="Candidate not found", status_code=404) 
         '''
+class job_resumes_update(BaseModel) : 
+    job_id : str
+@router.put("/update_job_scores")
+async def update_job_scores(update : job_resumes_update): 
+    try  : 
+        
+        query = {
+            "job_id": {
+                "$in": [update.job_id]
+            }
+            }
+        db=conn.ATS_db 
+        job = db["jobs"].find_one({"_id": ObjectId(update.job_id)})
+        resumes_db = db["resumes"] 
+        resumes = resumes_db.find(query) 
+        list_cur = list(resumes)  
+        results = []
+    except : 
+        return Response(content="Problem while connecting to the database", status_code=404)
+    try : 
+        for elem in list_cur : 
+            update_query = {"_id":elem['_id']}
+            dumped = dumps(elem)
+            #score = get_final_similarity(json_form,job)
+            score=get_final_similarity(job,elem)
+            job_index = elem['job_id'].index(update.job_id)
+            elem['job_scores'][job_index] = score
+            update_query2 = {"$set": {"job_scores": elem['job_scores']}}
+            result = resumes_db.update_one(update_query,update_query2)
+            elem['score'] = int(score)
+            results.append(elem)
+        #return Response(content="Updated sucessfully", status_code=200)
+        return dumps(results)
+    except : 
+        return Response(content="Problem accured ", status_code=404)
+
+
+
+
+
+

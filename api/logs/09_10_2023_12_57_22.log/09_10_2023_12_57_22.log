@@ -1,0 +1,30 @@
+[ 2023-09-10 12:57:27,806 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-09-10 12:57:27,806 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:27,855 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-09-10 12:57:27,855 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:27,940 ] 16 root - INFO - File rayen_data.pdf loaded successfully
+[ 2023-09-10 12:57:27,940 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:28,063 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-09-10 12:57:28,064 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:28,134 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-09-10 12:57:28,134 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:28,204 ] 16 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-09-10 12:57:28,204 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-10 12:57:28,292 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:28,293 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,293 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,328 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:28,328 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,328 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,395 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:28,396 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,396 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,451 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:28,451 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,452 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,466 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:28,467 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,467 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,551 ] 143 root - ERROR - Error while Extracting the education: 'dict' object has no attribute 'lower'
+[ 2023-09-10 12:57:28,552 ] 86 root - ERROR - Error while Extracting the email: expected string or bytes-like object, got 'dict'
+[ 2023-09-10 12:57:28,552 ] 69 root - ERROR - Error while Extracting the phone number: expected string or bytes-like object, got 'dict'

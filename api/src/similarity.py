@@ -6,6 +6,7 @@ from numpy.linalg import norm
 from sklearn.feature_extraction.text import TfidfVectorizer
 from nltk.corpus import stopwords
 import string
+import re
 from src.data_preprocessing.resume_preprocessing import resume_preprocessing_model
 weights = {'skills':100,'niveau':0,'experience':0}
 model_weights = {'overall' : 0.4,'info':0.4,'tf_idf':0.2}
@@ -18,23 +19,40 @@ model_80_resume = Doc2Vec.load('models/resume_models/resumes_model_epochs_lemmet
 def vectorize_features(features, feature_list):
     vector = [1 if feature in features else 0 for feature in feature_list]
     return vector
+def find_all_elements(text, list):
+  """
+  Finds all the elements that exists in the text and the list.
+
+  Args:
+    text: The text to search.
+    list: The list of elements to search for.
+
+  Returns:
+    A list of all the elements that exists in the text and the list.
+  """
+  results = []
+  patterns = [re.compile(element) for element in list]
+
+  for word in text.split():
+    for pattern in patterns:
+      if pattern.match(word):
+        results.append(word)
+  return results
 def skills_similarity(job_description,resume) : 
 # Combine all features from job description and resume
     #all_features = list(set(job_description['skills'] + job_description['education'] + job_description['experience'] + resume['skills'] + resume['education'] + resume['experience']))
 
     #job_vector = vectorize_features(job_description['skills'] + job_description['education'] + job_description['experience'], all_features)
     #resume_vector = vectorize_features(resume['skills'] + resume['education'] + resume['experience'], all_features)
-    profile_union_jd = list(set(job_description) & set(resume))
+    added_skills = find_all_elements(resume['text'],job_description)
+    all_resume_skills = set(resume['skills']+ added_skills)
+    profile_union_jd = list(set(job_description) & set(all_resume_skills))
     all_skills = list(set(job_description))  
     job_vector = vectorize_features(job_description, all_skills)
     resume_vector = vectorize_features(profile_union_jd , all_skills)
     # Calculate cosine similarity
     cosine_sim = cosine_similarity([job_vector], [resume_vector])[0][0]
-    print(f'jd skills : {job_description}')   
-    print(f'profile skills : {resume}')   
-    print(f'intersection : {profile_union_jd}')             
-          
-    print(f"Cosine Similarity: {cosine_sim}")
+
     return cosine_sim
 def get_similarity(vector1,vector2): 
     return cosine_similarity(vector1,vector2)[0][0]
@@ -73,7 +91,7 @@ def match_profile(job_description,resume,weights) :
     #print(f'Experience similarity {experience_sim}')
     if(len(job_description["SKILLS"]) >0) : 
 
-        skills_sim = skills_similarity(job_description['SKILLS'],resume['skills'])
+        skills_sim = skills_similarity(job_description['SKILLS'],resume)
     else : 
         skills_sim = 0
     #print(f'skills similarity {skills_sim}')
@@ -131,4 +149,5 @@ def get_final_similarity(job,resume) :
         overall = overall_similarity(job['text'],resume['text'],model_80_resume,model_150_jd)
         info = match_profile(job,resume['infos'],weights) 
         final_result = similarity_aggreg(overall,info,tf_sim,model_weights)
+    
         return final_result

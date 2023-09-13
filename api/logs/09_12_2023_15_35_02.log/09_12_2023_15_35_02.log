@@ -1,0 +1,32 @@
+[ 2023-09-12 15:35:07,209 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-09-12 15:35:07,213 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-09-12 15:35:07,213 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-09-12 15:35:07,213 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-09-12 15:35:07,264 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-09-12T15:35:07.256900', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-09-12 15:35:07,268 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-09-12 15:35:07,270 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-09-12 15:35:07,270 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-09-12 15:35:07,272 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-09-12 15:35:07,312 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-09-12T15:35:07.312662', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-09-12 15:35:10,155 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_150.model
+[ 2023-09-12 15:35:10,163 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.dv.* with mmap=None
+[ 2023-09-12 15:35:10,163 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_150.model.wv.* with mmap=None
+[ 2023-09-12 15:35:10,163 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-09-12 15:35:10,252 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_150.model', 'datetime': '2023-09-12T15:35:10.234566', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-09-12 15:35:10,252 ] 482 gensim.utils - INFO - loading Doc2Vec object from models/resume_models/resumes_model_epochs_lemmetized_80.model
+[ 2023-09-12 15:35:10,267 ] 516 gensim.utils - INFO - loading dv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.dv.* with mmap=None
+[ 2023-09-12 15:35:10,267 ] 516 gensim.utils - INFO - loading wv recursively from models/resume_models/resumes_model_epochs_lemmetized_80.model.wv.* with mmap=None
+[ 2023-09-12 15:35:10,267 ] 554 gensim.utils - INFO - setting ignored attribute cum_table to None
+[ 2023-09-12 15:35:10,318 ] 448 gensim.utils - INFO - Doc2Vec lifecycle event {'fname': 'models/resume_models/resumes_model_epochs_lemmetized_80.model', 'datetime': '2023-09-12T15:35:10.318619', 'gensim': '4.3.1', 'python': '3.11.4 | packaged by Anaconda, Inc. | (main, Jul  5 2023, 13:47:18) [MSC v.1916 64 bit (AMD64)]', 'platform': 'Windows-10-10.0.22621-SP0', 'event': 'loaded'}
+[ 2023-09-12 15:35:11,624 ] 16 root - INFO - File computer_vision.pdf loaded successfully
+[ 2023-09-12 15:35:11,624 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-12 15:35:11,649 ] 16 root - INFO - File laravel.pdf loaded successfully
+[ 2023-09-12 15:35:11,650 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-12 15:35:11,685 ] 16 root - INFO - File rayen_data.pdf loaded successfully
+[ 2023-09-12 15:35:11,685 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-12 15:35:11,748 ] 16 root - INFO - File react_native.pdf loaded successfully
+[ 2023-09-12 15:35:11,749 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-12 15:35:11,800 ] 16 root - INFO - File scrum_master.pdf loaded successfully
+[ 2023-09-12 15:35:11,800 ] 24 root - INFO - Files transformed succesfully
+[ 2023-09-12 15:35:11,843 ] 16 root - INFO - File yessine Meddeb_cv.pdf loaded successfully
+[ 2023-09-12 15:35:11,843 ] 24 root - INFO - Files transformed succesfully
