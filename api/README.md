@@ -22,7 +22,7 @@ To setup the environment, run these commands:
 ### src 
 #### data_ingestion : Contains script for importing and exporting data 
 #### data_preprocessing : Script for data preprocessing 
-#### test  To run the application, run this file 
+#### test  To run the resumes extraction script run this file : main.py
 ## Referneces : 
 - https://aclanthology.org/2021.icnlsp-1.15.pdf
 - https://ijcrt.org/papers/IJCRT_197410.pdf
