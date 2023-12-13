@@ -270,11 +270,11 @@ def detect_niveau_similarity(niveau) :
     '''
     # possible associations  : licence, ingenieurie, preparatoire, mastere, doctorat
     assoc_dic ={ 'licence' : 'licence',
-                'cycle ingenieur' : 'ingenieurie', 
-                'ingenieurie en' : 'ingenieurie',
-                'ingenieurie' : 'ingenieurie',
-                'engineering' :'ingenieurie', 
-                'engineer' : 'ingenieurie', 
+                'cycle ingenieur' : 'ingenierie', 
+                'ingenieurie en' : 'ingenierie',
+                'ingenieurie' : 'ingenierie',
+                'engineering' :'ingenierie', 
+                'engineer' : 'ingenierie', 
                 'bachelor' : 'licence', 
                 'B.E' : 'licence', 
                 'B.S': 'licence',
@@ -287,8 +287,8 @@ def detect_niveau_similarity(niveau) :
                 'graduate' : 'mastere',
                 'post-graduate' :'mastere',
                 'bac +3' : 'licence', 
-                'bac +5' : 'ingenieurie',
-                'baccalaureat +5' : 'ingenieurie'
+                'bac +5' : 'ingenierie',
+                'baccalaureat +5' : 'ingenierie'
     }
     matched_niveau = []
     for elem in niveau :

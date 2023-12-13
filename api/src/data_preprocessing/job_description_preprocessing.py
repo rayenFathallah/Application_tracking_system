@@ -17,7 +17,7 @@ def get_jd_info(jd_data_text) :
   dic_jd['after_bac']=[]
   dic_jd['SKILLS']=[]
   jd_data_text=remove_accents(jd_data_text.lower())
-  programs = ['licence ', 'cycle ingenieur ','ingenieurie','ingenieur', 'ingenieurie en ', 'master ', 'mastere ','phd','doctorat ','engineering ','engineer ','bachelor ','B.E ','graduate ', 'post-graduate ','pre-engineering ','préparatoire ']
+  programs = ['licence ', 'cycle ingenieur ','ingenierie','ingenieur', 'ingenierie en ', 'master ', 'mastere ','phd','doctorat ','engineering ','engineer ','bachelor ','B.E ','graduate ', 'post-graduate ','pre-engineering ','préparatoire ']
   nlp = spacy.load("en_core_web_lg")
   after_bac_pattern = r'\b(?:bac|baccalaureat)\s*\+\s*(\d+)\b'
   matches_bac = re.findall(after_bac_pattern, jd_data_text, re.IGNORECASE)
@@ -53,7 +53,7 @@ def get_jd_info(jd_data_text) :
   return dic_jd
 def get_niveau(resume_text) : 
 
-    niveau = ['licence ', 'cycle ingenieur ', 'ingenieurie en ', 'master ', 'mastère ','phd','doctorat ','engineering ','engineer ','bachelor ','B.E ', 'post-graduate ','pre-engineering ','preparatoire ','prepa']
+    niveau = ['licence ', 'cycle ingenieur ', 'ingenierie en ', 'master ', 'mastère ','phd','doctorat ','engineering ','engineer ','bachelor ','B.E ', 'post-graduate ','pre-engineering ','preparatoire ','prepa']
     pattern_niveau = r'\b(?:' + '|'.join(re.escape(word) for word in niveau) + r')\b'
     # Use the regular expression to find all matching words in the text
     matching_niveau = set(re.findall(pattern_niveau, resume_text, re.IGNORECASE))
@@ -65,8 +65,8 @@ def get_niveau(resume_text) :
 def detect_niveau(years_after_bac,niveau) : 
     matching_dic = { 
         '3' : ['licence'], 
-        '5' : ['ingernieurie','mastere'],
-        '6' : ['ingenieurie','mastere'],
+        '5' : ['ingernierie','mastere'],
+        '6' : ['ingenierie','mastere'],
         '9' : ['doctorat']
     }
     if str(years_after_bac) in matching_dic.keys() : 
