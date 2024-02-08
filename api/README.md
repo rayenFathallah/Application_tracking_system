@@ -11,7 +11,7 @@ To setup the environment, run these commands:
 - python -m nltk.downloader words
 - python -m nltk.downloader punkt
 <br>
- Download this folder and past it in /models : https://drive.google.com/drive/folders/15HlJT2osIgF3j_rPGzl67uN-MSVMLdMf?usp=drive_link
+
 
 ## Project architecture 
 ### Data 
